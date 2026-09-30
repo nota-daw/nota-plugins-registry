@@ -1,0 +1,47 @@
+{
+  "id": "js80p",
+  "name": "js80p",
+  "developer": "Attila Magyar",
+  "description": "MIDI-driven, performance-oriented synthesizer with deep modulation.",
+  "homepage": "https://attilammagyar.github.io/js80p/",
+  "repo": "https://github.com/attilammagyar/js80p",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "gpl",
+    "gplv3",
+    "midi",
+    "sound",
+    "synth",
+    "synthesis"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JS80P"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.1.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-macos-universal-vst3_bundle-signed.pkg",
+          "sha256": "4606bf0844fb4e63fcb2e1ebe0791255954c83b261704643a8f5a6b3a5e8bb54",
+          "size": 5847995,
+          "bundles": [
+            "js80p-4_1_1-macos-universal-vst3_bundle-component.pkg/Payload/js80p.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-windows-x86_64-avx-vst3_single.zip",
+          "sha256": "ec70ac33ac7cb53a803776f0bb1c577e0730744bdcbfb8ce9590475233637053",
+          "size": 5213335,
+          "bundles": [
+            "js80p-4_1_1-windows-x86_64-avx-vst3_single/js80p.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

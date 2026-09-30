@@ -1,0 +1,38 @@
+{
+  "id": "image-in",
+  "name": "Image-In",
+  "developer": "Olivier Doaré",
+  "description": "Wave terrain synthesis that reads its sound from an image.",
+  "homepage": "https://fx-mechanics.com",
+  "repo": "https://github.com/odoare/Image-In",
+  "license": "LGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "electronic-music",
+    "juce-plugins",
+    "oscillator",
+    "synthesizer",
+    "waveterrain-synthesis"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Image-In"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/odoare/Image-In/releases/download/0.2/Image-In.0.2.WIN.x64.VST3.zip",
+          "sha256": "437f3fb083b66341ff5d957d5370f021f65c7eeeedd0913d8eea8203bd52ecd7",
+          "size": 8739495,
+          "bundles": [
+            "Image-In.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

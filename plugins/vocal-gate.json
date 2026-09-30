@@ -1,0 +1,46 @@
+{
+  "id": "vocal-gate",
+  "name": "Vocal Gate",
+  "developer": "Dan King",
+  "description": "AI noise gate that removes coughs, sneezes and other sounds between spoken words.",
+  "repo": "https://github.com/dan-k-k/vocal-gate",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "ai-audio",
+    "au-plugin",
+    "content-creation",
+    "machine-learning",
+    "noise-reduction",
+    "noise-suppression"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Vocal Gate"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Linux.zip",
+          "sha256": "e94225e3f047af9a31151273922fde273094c030f2c59513fc852c88d712df45",
+          "size": 10131783,
+          "bundles": [
+            "Vocal Gate.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
+          "sha256": "999158108d567b928a0021ce58d37e04867daf58d722576586679c3779c8b374",
+          "size": 22596370,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/Vocal Gate.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

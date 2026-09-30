@@ -1,0 +1,60 @@
+{
+  "id": "freeeq8",
+  "name": "FreeEQ8",
+  "developer": "Neo-VECTR",
+  "description": "Eight-band parametric EQ with a spectrum analyzer.",
+  "homepage": "https://github.com/GareBear99/FreeEQ8/releases",
+  "repo": "https://github.com/GareBear99/FreeEQ8",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "eq-eight",
+    "eq8",
+    "equalizer",
+    "free-plugin",
+    "mixing"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "FreeEQ8"
+    },
+    {
+      "format": "VST3",
+      "name": "ProEQ8"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.3.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-Linux.tar.gz",
+          "sha256": "6227531d1c96db4d9e6037de74f0701ed480126788683f92989d4e5a8d354b2b",
+          "size": 8203236,
+          "bundles": [
+            "FreeEQ8-v2.3.1-Linux/FreeEQ8.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-macOS.dmg",
+          "sha256": "906716bafbcdf81a1a88ff846f8f9639b47ac4fb0cc838881acc350fdcacb246",
+          "size": 35512356,
+          "bundles": [
+            "FreeEQ8/FreeEQ8.vst3",
+            "ProEQ8/ProEQ8.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-Windows.zip",
+          "sha256": "6d2c1668eeb3950a8b5d731503bec7395d64ba63a7e1f21c0b406cbe3ca20d56",
+          "size": 2674540,
+          "bundles": [
+            "FreeEQ8.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

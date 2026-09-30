@@ -1,0 +1,39 @@
+{
+  "id": "neuralresonatorvst",
+  "name": "NeuralResonator",
+  "developer": "Rodrigo Diaz",
+  "description": "Builds resonant filters from arbitrary 2D shapes and materials, predicted by a neural network.",
+  "repo": "https://github.com/rodrigodzf/NeuralResonatorVST",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "NeuralResonator"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_linux_x86_64.tar.gz",
+          "sha256": "c15f9e1455944fe8c98e66c83098ca15fc0f801eb6283e0c29a23b453ebab193",
+          "size": 178619517,
+          "bundles": [
+            "NeuralResonator/NeuralResonator.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_arm64_stapled.zip",
+          "sha256": "bfa6baf1c9c8d5a3934042eadbee99a6f2bc414d940b3726ea0178b943c44600",
+          "size": 169357843,
+          "bundles": [
+            "NeuralResonator.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "chow",
+  "name": "CHOW",
+  "developer": "Chowdhury DSP",
+  "description": "A small, aggressive distortion effect.",
+  "repo": "https://github.com/Chowdhury-DSP/CHOW",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "CHOW"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Chowdhury-DSP/CHOW/releases/download/1.0.0/CHOW-win.zip",
+          "sha256": "ffc3a8fad2e6044467cc413ec2929d6f8ff4c29dc3a12ab5828c14ec09a55f80",
+          "size": 5443871,
+          "bundles": [
+            "Win/CHOW.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "vstsid",
+  "name": "VSTSID",
+  "developer": "Igor Zinken",
+  "description": "Commodore 64 SID chip synthesizer, from the WebSID emulator.",
+  "homepage": "https://www.igorski.nl/download/vstsid",
+  "repo": "https://github.com/igorski/VSTSID",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "chiptune",
+    "commodore-64",
+    "cplusplus",
+    "sid",
+    "steinberg",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VSTSID"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_macos.zip",
+          "sha256": "9d5d8500cd4ed302e2ea53dccbd77ee438841820dddff66a1f706daa66cf69db",
+          "size": 9020840,
+          "bundles": [
+            "AU/VSTSID AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/vstsid.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip",
+          "sha256": "9d2e767da874952e255226dcf538c6fde9165f3c74d8a219f8273c0eb0cad151",
+          "size": 2607280,
+          "bundles": [
+            "Windows 64-Bit/VST3/vstsid.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

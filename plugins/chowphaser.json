@@ -1,0 +1,49 @@
+{
+  "id": "chowphaser",
+  "name": "ChowPhaser",
+  "developer": "Chowdhury DSP",
+  "description": "Phaser loosely based on the Schulte Compact Phasing 'A'.",
+  "repo": "https://github.com/jatinchowdhury18/ChowPhaser",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "phaser"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ChowPhaserMono"
+    },
+    {
+      "format": "VST3",
+      "name": "ChowPhaserStereo"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jatinchowdhury18/ChowPhaser/releases/download/v1.1.1/ChowPhaser-Linux-x64-1.1.1.deb",
+          "sha256": "554ef220e96ea2c355e8ed8aa0c94c8bbcc281b5ce8069a12865a75ef6737889",
+          "size": 11990512,
+          "bundles": [
+            "usr/lib/vst3/ChowPhaserMono.vst3",
+            "usr/lib/vst3/ChowPhaserStereo.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/jatinchowdhury18/ChowPhaser/releases/download/v1.1.1/ChowPhaser-Mac-1.1.1.dmg",
+          "sha256": "ca3ffcacd9265da601e9005df83c3e70ba7bcfae2a94a2e78d68afbb3f728126",
+          "size": 48223350,
+          "inner": "ChowPhaser-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ChowPhaserMono.vst3",
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ChowPhaserStereo.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

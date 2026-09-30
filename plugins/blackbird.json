@@ -1,0 +1,34 @@
+{
+  "id": "blackbird",
+  "name": "BlackBird",
+  "developer": "Dmitry Khrykin",
+  "description": "Synthesizer.",
+  "repo": "https://github.com/khrykin/BlackBird",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "audioplugin",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BlackBird"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+          "sha256": "219d28db830d7019c20d1f9533f29515053d0f2f983e8fb9275e6a2fbbb9ef06",
+          "size": 3578245,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/BlackBird.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

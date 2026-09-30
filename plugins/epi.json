@@ -1,0 +1,50 @@
+{
+  "id": "epi",
+  "name": "Epi",
+  "developer": "Sylwester",
+  "description": "Physically modelled pianos: tine, reed, electric grand and concert grand, no samples.",
+  "repo": "https://github.com/DatanoiseTV/epi",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "electric-piano",
+    "physical-modeling"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Epi"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DatanoiseTV/epi/releases/download/v0.9.0/epi-linux.zip",
+          "sha256": "17e42d76f93a8cf3e80c267bb841c056533ba04934ddbb09ec708305c8fc3a71",
+          "size": 9550475,
+          "bundles": [
+            "stage/Epi/Epi.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/DatanoiseTV/epi/releases/download/v0.9.0/epi-macos.zip",
+          "sha256": "be879f8220803a4c4500c0772642b23f7fc74fdbb174b956e16b775cc29fe7ed",
+          "size": 22682020,
+          "bundles": [
+            "Epi/Epi.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/DatanoiseTV/epi/releases/download/v0.9.0/epi-windows.zip",
+          "sha256": "a86348439bca0a32d219ad01d694c9fa8522b1b007c8f04644f8968e71709fdc",
+          "size": 7796858,
+          "bundles": [
+            "stage/Epi/Epi.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

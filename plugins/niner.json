@@ -1,0 +1,61 @@
+{
+  "id": "niner",
+  "name": "niner",
+  "developer": "Hyperfocus DSP",
+  "description": "Monophonic analog-style kick drum synthesizer with compression, distortion and EQ.",
+  "repo": "https://github.com/hyperfocusdsp/niner",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "analog",
+    "bass-drum",
+    "kick-drum",
+    "music-production",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Niner"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-linux-x86_64.tar.gz",
+          "sha256": "75f15ba37ad99bf35322c63b831a208f07c1946290e86e9f0c2b424d4c48b0fb",
+          "size": 27891413,
+          "bundles": [
+            "niner-linux-x86_64/niner.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-macos-arm64.tar.gz",
+          "sha256": "689715d3ef2737f95aad1d4285d56dba2970145387d359ef8a67b006ac214e60",
+          "size": 23276528,
+          "bundles": [
+            "niner-macos-arm64/niner.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-macos-x86_64.tar.gz",
+          "sha256": "ebb7993da7a23fce126dab796bb577ea37e679400001cd3071ebede1a1c97df1",
+          "size": 24025465,
+          "bundles": [
+            "niner-macos-x86_64/niner.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+          "sha256": "b2a9b9ee2dd91e740b590d20d1b6d4094b9fd118fd88c546b420c7db0714a11e",
+          "size": 22861704,
+          "bundles": [
+            "niner-windows-x86_64/niner.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

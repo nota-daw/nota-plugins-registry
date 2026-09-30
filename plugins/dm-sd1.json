@@ -1,0 +1,47 @@
+{
+  "id": "dm-sd1",
+  "name": "dm-SD1",
+  "developer": "Dave Mollen",
+  "description": "Emulation of the Boss SD-1 overdrive pedal.",
+  "repo": "https://github.com/davemollen/dm-SD1",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SD1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-ubuntu.zip",
+          "sha256": "995b34c4cf72ba8ffb2c61e5e75d4023ea0a2ca12bc389048c899ba74fe0dd6c",
+          "size": 8016898,
+          "bundles": [
+            "dm-SD1-ubuntu/dm-SD1.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-macos.zip",
+          "sha256": "63c122ee7db12501c6e06452077fecb5b41a0f5cd462241bb4721c724477aa61",
+          "size": 21248378,
+          "bundles": [
+            "dm-SD1-macos/dm-SD1.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-windows.zip",
+          "sha256": "c8588a545e24b3e3f21094c21bbee2a285a197760b40b56ff07c8a40b6f13d45",
+          "size": 7205898,
+          "bundles": [
+            "dm-SD1-windows/dm-SD1.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

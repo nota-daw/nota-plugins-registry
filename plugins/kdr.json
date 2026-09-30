@@ -1,0 +1,59 @@
+{
+  "id": "kdr",
+  "name": "kdr",
+  "developer": "klknn",
+  "description": "Collection of small effects and synths built with Dplug.",
+  "repo": "https://github.com/klknn/kdr",
+  "license": "BSL-1.0",
+  "kind": "bundle",
+  "tags": [
+    "audio-units",
+    "dlang",
+    "dplug"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "kdr kdr-envtool"
+    },
+    {
+      "format": "VST3",
+      "name": "kdr kdr-envtool-64"
+    },
+    {
+      "format": "VST3",
+      "name": "kdr kdr-epiano2"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.5.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/klknn/kdr/releases/download/v1.5.1/ubuntu-latest-epiano2.zip",
+          "sha256": "1aeeddffc43851ebf7dbc9f1711903d15efd1894f94fc810dfa9dc71e8b3f27f",
+          "size": 4588653,
+          "bundles": [
+            "builds/Linux-64b-VST3/kdr kdr-epiano2.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/klknn/kdr/releases/download/v1.5.1/macOS-latest-envtool.zip",
+          "sha256": "4d97b2d0d6972a11f1cb54fec6cc9b55576492ca5b145dae1b097f7cf14c217a",
+          "size": 4118479,
+          "bundles": [
+            "builds/macOS-64b-VST3/kdr kdr-envtool.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/klknn/kdr/releases/download/v1.5.1/windows-latest-envtool.zip",
+          "sha256": "de8dbfee34000fdd52ca6b2037f3faedbf33ce9278148c00cefd2ee30efb310f",
+          "size": 2833868,
+          "bundles": [
+            "builds/Windows-64b-VST3/kdr kdr-envtool-64.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

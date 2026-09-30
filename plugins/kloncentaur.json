@@ -1,0 +1,45 @@
+{
+  "id": "kloncentaur",
+  "name": "ChowCentaur",
+  "developer": "Chowdhury DSP",
+  "description": "Emulation of the Klon Centaur overdrive using neural networks and wave digital filters.",
+  "repo": "https://github.com/jatinchowdhury18/KlonCentaur",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "embedded-systems",
+    "guitar-pedal",
+    "machine-learning",
+    "virtual-analog"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ChowCentaur"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Linux-x64-1.4.0.deb",
+          "sha256": "abd0fda32e5b45f0b144ac3d4559009e3b837a9be0b859d99a82c4bba9c52303",
+          "size": 2523664,
+          "bundles": [
+            "usr/lib/vst3/ChowCentaur.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Mac-1.4.0.dmg",
+          "sha256": "8b8c876cc9429d1c9d51d25a08fa3513398370b6b527067cb5d3982ca988bf3e",
+          "size": 12346745,
+          "inner": "ChowCentaur-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ChowCentaur.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

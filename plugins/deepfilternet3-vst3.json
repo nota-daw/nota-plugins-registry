@@ -1,0 +1,34 @@
+{
+  "id": "deepfilternet3-vst3",
+  "name": "DeepFilter Noise Reduction",
+  "developer": "Shuichi",
+  "description": "High-quality noise suppression using the DeepFilterNet3 neural network.",
+  "repo": "https://github.com/Shuichi346/DeepFilterNet3-VST3",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "deepfilternet",
+    "noise-reduction"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DeepFilter Noise Reduction"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.7.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Shuichi346/DeepFilterNet3-VST3/releases/download/v0.7.0/DeepFilterNR-v0.7.0-macos-arm64.zip",
+          "sha256": "0589d9e42dd6532c45adfe6d519ec36229a80c1315f40aa847ea4b37958969a4",
+          "size": 88209537,
+          "bundles": [
+            "DeepFilterNR-v0.7.0-macos-arm64/Plugins/deepfilter-vst.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

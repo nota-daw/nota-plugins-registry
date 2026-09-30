@@ -1,0 +1,43 @@
+{
+  "id": "delirion",
+  "name": "Delirion",
+  "developer": "Igor Zinken",
+  "description": "Multiband Doppler chorus and detune.",
+  "homepage": "https://www.igorski.nl/plugins/delirion",
+  "repo": "https://github.com/igorski/delirion",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "cplusplus",
+    "doppler-shifter"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Delirion"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_macos.zip",
+          "sha256": "3b9f4aa3b01d3b5e55577325bf7c7b7eb30bc5709537d838dfcf659a81a93022",
+          "size": 6617231,
+          "bundles": [
+            "VST3/Delirion.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_windows.zip",
+          "sha256": "1ac4b1c916d6cdcf9ef4c37b36740eefa1ef5abf1957731f6912ed76c8dda63a",
+          "size": 2642225,
+          "bundles": [
+            "VST3/Delirion.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "toneshifteq",
+  "name": "Toneshifteq",
+  "developer": "Hermann",
+  "description": "Twelve-band equalizer for precise spectral shaping.",
+  "repo": "https://github.com/brummer10/ToneShiftEQ",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Toneshifteq"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.1.0/ToneShiftEQ-v1.1.0-vst3-linux-x86_64.tar.xz",
+          "sha256": "f87234b57fb9c1201f26301265f1d38e9a3bd030525df8cb8438b9e64b41554c",
+          "size": 2711696,
+          "bundles": [
+            "ToneShiftEQ-v1.1.0-vst3/Toneshifteq.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.1.0/ToneShiftEQ-v1.1.0-vst3-win64.zip",
+          "sha256": "f49f47d1b4f15d22bf117479cf940343272ae6d1b5d801895088db9c44caa6b5",
+          "size": 3866575,
+          "bundles": [
+            "ToneShiftEQ-v1.1.0-vst3/Toneshifteq.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

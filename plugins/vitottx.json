@@ -1,0 +1,39 @@
+{
+  "id": "vitottx",
+  "name": "vitOTTx",
+  "developer": "Alexandr Sakhnov",
+  "description": "Vital's multiband OTT compressor as a standalone effect.",
+  "repo": "https://github.com/Sakhnovkrg/vitOTTx",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "vitOTTx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx-v0.1.0-linux.zip",
+          "sha256": "e6a63bf6b4ff00c51bf3bdaf3682600e7905d6b2fdf5bc6d2fbb6cf0f7cfe98a",
+          "size": 4315462,
+          "bundles": [
+            "VST3/vitOTTx.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx-v0.1.0-macos.zip",
+          "sha256": "08654bba28d0755f52f5c845ae31b8107c84d57cc31cc17b951a9b0bd13982af",
+          "size": 6657606,
+          "bundles": [
+            "VST3/vitOTTx.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

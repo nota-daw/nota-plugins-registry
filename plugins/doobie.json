@@ -1,0 +1,45 @@
+{
+  "id": "doobie",
+  "name": "Doobie",
+  "developer": "Sylwester",
+  "description": "Analog-style dub delay: multi-head tape echo with spring and plate reverb.",
+  "repo": "https://github.com/DatanoiseTV/doobie",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "dub",
+    "reverb",
+    "spring-reverb",
+    "tape-echo"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Doobie"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.25.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DatanoiseTV/doobie/releases/download/v0.25.0/Doobie-0.25.0-Linux-x86_64.tar.gz",
+          "sha256": "d53f591574f2d6c96bb9617a92375b158aeb5ec833a9501d7edeac616bf4836c",
+          "size": 59742312,
+          "bundles": [
+            "Doobie-0.25.0/Doobie.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/DatanoiseTV/doobie/releases/download/v0.25.0/Doobie-0.25.0-macOS-unsigned.zip",
+          "sha256": "9e667175d883a7fab9ca1c832d219261b36b1be1d7615de2bb818c2cbcd0ed4e",
+          "size": 155460140,
+          "bundles": [
+            "Doobie-0.25.0-macOS-unsigned/Doobie.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

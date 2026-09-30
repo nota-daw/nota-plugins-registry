@@ -1,0 +1,39 @@
+{
+  "id": "dtblkfx-osx-recompiled",
+  "name": "DtBlkFx",
+  "developer": "Abhay Shukla",
+  "description": "The classic DtBlkFx spectral effect, rebuilt for current macOS.",
+  "homepage": "https://github.com/shuklabhay/dtblkfx-osx-recompiled/releases/latest",
+  "repo": "https://github.com/shuklabhay/dtblkfx-osx-recompiled",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "apple-silicon",
+    "auv2",
+    "dtblkfx",
+    "fft",
+    "free-vst",
+    "frequency-shifter"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DtBlkFx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/shuklabhay/dtblkfx-osx-recompiled/releases/download/v1.0/DtBlkFx-v1.0-macOS-universal-VST3.zip",
+          "sha256": "f4859f91f81376f1142382d4ab35b53415b91c6807b7ba3d56da9f71f6be1c39",
+          "size": 3344345,
+          "bundles": [
+            "DtBlkFx.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

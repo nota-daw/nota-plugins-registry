@@ -1,0 +1,41 @@
+{
+  "id": "reverbzen",
+  "name": "ReverbZen",
+  "developer": "Zeno Lösch",
+  "description": "Reverb written in Faust.",
+  "repo": "https://github.com/zeloe/ReverbZen",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "faust"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ReverbZen"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.4",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/zeloe/ReverbZen/releases/download/v.0.0.4/ReverbZenMac.zip",
+          "sha256": "407e67e2f5af6bea0c5bbb9d53fa4601f019dbd92174d9f38a900e0d9386eea6",
+          "size": 1669488,
+          "bundles": [
+            "ReverbZen.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/zeloe/ReverbZen/releases/download/v.0.0.4/ReverbZenWin.zip",
+          "sha256": "ca27649144234b747fa89fd5101d27a4b492a5276d1a398addea1b6f9afb948a",
+          "size": 1557511,
+          "bundles": [
+            "ReverbZen.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

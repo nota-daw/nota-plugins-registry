@@ -1,0 +1,46 @@
+{
+  "id": "phlegetron",
+  "name": "Phlegetron",
+  "developer": "Igor Zinken",
+  "description": "Multiband distortion with different algorithms on each band.",
+  "homepage": "https://www.igorski.nl/plugins/phlegetron",
+  "repo": "https://github.com/igorski/phlegetron",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "bit-crusher",
+    "distortion",
+    "fuzz",
+    "wavefolder",
+    "waveshaper"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Phlegetron"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_macos.zip",
+          "sha256": "e3a4459c1ca862b3e7171a4240807d4410ae7c8106dd53fe53735bd0f6fe2575",
+          "size": 6891129,
+          "bundles": [
+            "VST3/Phlegetron.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_windows.zip",
+          "sha256": "a187d6f38dfb566022832047faf3c4b29e0821806a873e1337adde3b2ac2ef23",
+          "size": 2830943,
+          "bundles": [
+            "VST3/Phlegetron.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

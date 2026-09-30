@@ -1,0 +1,62 @@
+{
+  "id": "retroplug",
+  "name": "RetroPlug",
+  "developer": "Tom Yaxley",
+  "description": "Runs Game Boy and NES emulators (SameBoy, Mesen) as instruments, synced to your DAW.",
+  "repo": "https://github.com/tommitytom/RetroPlug",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "arduinoboy",
+    "chiptune",
+    "gameboy",
+    "lsdj",
+    "mesen",
+    "mgb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RetroPlug"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.7.4",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-linux-aarch64-vst3.zip",
+          "sha256": "0d49eace023ac3b2a4dcbcb310987071f5fc7ce617779858e27cf2217c4307d0",
+          "size": 10439932,
+          "bundles": [
+            "retroplug-v0.7.4-linux-aarch64-vst3/retroplug.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-linux-x86_64-vst3.zip",
+          "sha256": "842c0e8e2d92dc7fcd718589aa0661a39c63e2782eb94a43f55f4b433fe3e2fd",
+          "size": 10790685,
+          "bundles": [
+            "retroplug-v0.7.4-linux-x86_64-vst3/retroplug.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-macos-universal-vst3.zip",
+          "sha256": "50b0f72677982ae556d95ebebaf6cd56f2dd786f22c4eec92b07ceae21bf09d1",
+          "size": 17864752,
+          "bundles": [
+            "retroplug-v0.7.4-macos-universal-vst3/RetroPlug.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-windows-x86_64-vst3.zip",
+          "sha256": "f4b01e42ec54c75eed8403a8de07dcbc003821547ee9e4c7700649b48bd796e5",
+          "size": 8551620,
+          "bundles": [
+            "retroplug-v0.7.4-windows-x86_64-vst3/RetroPlug.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

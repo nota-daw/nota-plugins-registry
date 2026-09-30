@@ -1,0 +1,39 @@
+{
+  "id": "openvoxtuner",
+  "name": "OpenVoxTuner",
+  "developer": "EiffelBS",
+  "description": "Vocal tuner with harmonies, a curve editor and MIDI output.",
+  "homepage": "https://openvoxtuner.eiffelbs.ovh",
+  "repo": "https://github.com/EiffelBS/OpenVoxTuner",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "ara2",
+    "au-plugin",
+    "autotune-plugin",
+    "harmonies",
+    "karaoke",
+    "standalone-app"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "OpenVoxTuner"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.71",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/EiffelBS/OpenVoxTuner/releases/download/v0.1.71/OpenVoxTuner-macOS.zip",
+          "sha256": "1ad2fde5fe3e5fa32ada8383e13c4154bb17d89444511e608bd41009c3ba9cf5",
+          "size": 25725369,
+          "bundles": [
+            "OpenVoxTuner-macOS/OpenVoxTuner.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "dm-vibrato",
+  "name": "dm-Vibrato",
+  "developer": "Dave Mollen",
+  "description": "Vibrato.",
+  "repo": "https://github.com/davemollen/dm-Vibrato",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Vibrato"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.9",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-ubuntu.zip",
+          "sha256": "ca4c50070ae37312e6daa4d00da8a0ecbe544bf02abbb7004f219c1a69eaeace",
+          "size": 8091482,
+          "bundles": [
+            "dm-Vibrato-ubuntu/dm-Vibrato.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-macos.zip",
+          "sha256": "8c68a05039c60a57030db65b167b61ee277d6566139afb055cdd3c1c7a421030",
+          "size": 21416013,
+          "bundles": [
+            "dm-Vibrato-macos/dm-Vibrato.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-windows.zip",
+          "sha256": "caf6f5dbafbce355670aa6e079abbe6df923a693f7c47e1ea5bbd68452a328bf",
+          "size": 7282396,
+          "bundles": [
+            "dm-Vibrato-windows/dm-Vibrato.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

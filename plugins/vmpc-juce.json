@@ -1,0 +1,46 @@
+{
+  "id": "vmpc-juce",
+  "name": "VMPC2000XL",
+  "developer": "Izmar Verhage",
+  "description": "Emulation of the Akai MPC2000XL sampler and sequencer.",
+  "repo": "https://github.com/izzyreal/vmpc-juce",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "drum",
+    "machine",
+    "mpc",
+    "mpc2000xl",
+    "sampler",
+    "sequencer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VMPC2000XL"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.18",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.18/VMPC2000XL-Ubuntu20-x86_64-VST3-v0.9.18.zip",
+          "sha256": "65e830873aa2095bc430f8b1cf9c0ab3bafa24caddf000114efb1bcc5c253b2c",
+          "size": 18261969,
+          "bundles": [
+            "VMPC2000XL.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.18/VMPC2000XL-Installer-Intel-M1-v0.9.18.pkg",
+          "sha256": "45af1cb215d70ebaff0d10396247b366a83c503ad1682451570253a20b6c0fe4",
+          "size": 104397051,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/VMPC2000XL.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "sparta",
+  "name": "SPARTA",
+  "developer": "Leo McCormack",
+  "description": "Spatial audio suite: Ambisonics encoding and decoding, binaural rendering, beamforming and more.",
+  "repo": "https://github.com/leomccormack/SPARTA",
+  "license": "GPL-3.0",
+  "kind": "bundle",
+  "tags": [
+    "3d-audio",
+    "ambisonics",
+    "hoa",
+    "microphone-array-processing",
+    "sound-field-analysis",
+    "sound-field-visualisation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "HOSIRR"
+    },
+    {
+      "format": "VST3",
+      "name": "UltrasonicSuperHearing"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_6DoF"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_binaural"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_binauralVR"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_decoder"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_gravitator"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_sidechain"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_spatedit"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_tracker"
+    },
+    {
+      "format": "VST3",
+      "name": "compass_upmixer"
+    },
+    {
+      "format": "VST3",
+      "name": "cropac_binaural"
+    },
+    {
+      "format": "VST3",
+      "name": "hades_renderer"
+    },
+    {
+      "format": "VST3",
+      "name": "hodirac_binaural"
+    },
+    {
+      "format": "VST3",
+      "name": "hodirac_decoder"
+    },
+    {
+      "format": "VST3",
+      "name": "hodirac_upmixer"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_6DoFconv"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_ambiBIN"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_ambiDEC"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_ambiDRC"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_ambiENC"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_ambiRoomSim"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_array2sh"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_beamformer"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_binauraliser"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_binauraliser_nf"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_decorrelator"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_dirass"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_matrixconv"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_multiconv"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_panner"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_pitchShifter"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_powermap"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_rotator"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_sldoa"
+    },
+    {
+      "format": "VST3",
+      "name": "sparta_spreader"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.8.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Linux_SPARTA_VST3_2026_01_25_v1.8.2.zip",
+          "sha256": "a5a64ceb4534950ede09101358d6b639450713ca4d60d467852635abb0dd3310",
+          "size": 160563668,
+          "bundles": [
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/HOSIRR.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/UltrasonicSuperHearing.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_6DoF.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_binaural.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_binauralVR.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_decoder.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_gravitator.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_sidechain.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_spatedit.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_tracker.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_upmixer.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/cropac_binaural.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hades_renderer.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_binaural.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_decoder.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_upmixer.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_6DoFconv.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiBIN.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiDEC.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiDRC.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiENC.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiRoomSim.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_array2sh.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_beamformer.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_binauraliser.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_binauraliser_nf.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_decorrelator.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_matrixconv.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_multiconv.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_panner.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_pitchShifter.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_rotator.vst3",
+            "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_spreader.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_VST3_2026_01_25_v1.8.2.pkg",
+          "sha256": "dcae134a7161d8a277a8b968c78f35c4ac79f921529ae7faad3c26e147897918",
+          "size": 255103288,
+          "bundles": [
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/HOSIRR.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/UltrasonicSuperHearing.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_6DoF.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_binaural.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_binauralVR.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_decoder.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_gravitator.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_sidechain.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_spatedit.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_tracker.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/compass_upmixer.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/cropac_binaural.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/hades_renderer.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/hodirac_binaural.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/hodirac_decoder.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/hodirac_upmixer.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_6DoFconv.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_ambiBIN.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_ambiDEC.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_ambiDRC.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_ambiENC.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_ambiRoomSim.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_array2sh.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_beamformer.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_binauraliser.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_binauraliser_nf.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_decorrelator.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_dirass.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_matrixconv.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_multiconv.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_panner.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_pitchShifter.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_powermap.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_rotator.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_sldoa.vst3",
+            "SpartaVST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/sparta_spreader.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

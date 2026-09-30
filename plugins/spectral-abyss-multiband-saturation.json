@@ -1,0 +1,31 @@
+{
+  "id": "spectral-abyss-multiband-saturation",
+  "name": "Spectral Abyss",
+  "developer": "Philipp Schaupp",
+  "description": "Multiband saturation.",
+  "repo": "https://github.com/pschaupp/spectral-abyss-multiband-saturation",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SpectralAbyss"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssWindows.zip",
+          "sha256": "a0785be6c3908f0acbe02505d26929caf99d303093abccf9cb62ddd670a6344f",
+          "size": 2870845,
+          "bundles": [
+            "SpectralAbyssWindows/Contents/x86_64-win/SpectralAbyss.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

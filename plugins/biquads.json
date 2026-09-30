@@ -1,0 +1,54 @@
+{
+  "id": "biquads",
+  "name": "Biquads",
+  "developer": "Nathan",
+  "description": "Simple two-pole equalizer with variable oversampling.",
+  "repo": "https://github.com/nathanjhood/Biquads",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "bilinear-transformation",
+    "biquad",
+    "biquads",
+    "cplusplus",
+    "direct-form-i",
+    "direct-form-ii"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Biquads"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/nathanjhood/Biquads/releases/download/v1.2.2/StoneyDSP-Biquads-v1.2.2-Linux-x86_64-JUCE-v7.0.9.tar.gz",
+          "sha256": "d05a7f8355cea9ff6d2030fdb0eb32fe3e2e8708b415393289695452daaad452",
+          "size": 93103716,
+          "bundles": [
+            "StoneyDSP-Biquads-v1.2.2-Linux-x86_64-JUCE-v7.0.9/Builds/Biquads_Audio_Plugin_artefacts/Debug/VST3/Biquads.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/nathanjhood/Biquads/releases/download/v1.2.2/StoneyDSP-Biquads-v1.2.2-Darwin-arm64-JUCE-v7.0.9.tar.gz",
+          "sha256": "5e1ddf2b0ed9bf767ac234e0a29a69d4cdcc5737e636c46990a84e6b37813672",
+          "size": 86987631,
+          "bundles": [
+            "StoneyDSP-Biquads-v1.2.2-Darwin-arm64-JUCE-v7.0.9/Builds/Biquads_Audio_Plugin_artefacts/Debug/VST3/Biquads.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/nathanjhood/Biquads/releases/download/v1.2.2/StoneyDSP-Biquads-v1.2.2-Windows-AMD64-JUCE-v7.0.9.zip",
+          "sha256": "48ac2d08202561f99137827399a2b080ca8777c40ab6450b68598ba44fb966dd",
+          "size": 56114037,
+          "bundles": [
+            "StoneyDSP-Biquads-v1.2.2-Windows-AMD64-JUCE-v7.0.9/Builds/Biquads_Audio_Plugin_artefacts/Debug/VST3/Biquads.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

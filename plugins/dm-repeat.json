@@ -1,0 +1,47 @@
+{
+  "id": "dm-repeat",
+  "name": "dm-Repeat",
+  "developer": "Dave Mollen",
+  "description": "Multi-tap delay.",
+  "repo": "https://github.com/davemollen/dm-Repeat",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Repeat"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-ubuntu.zip",
+          "sha256": "38e3e48bb311d6276f6be041d6e8ed6e432681a97dcdbc787bfe51c73b0ff84a",
+          "size": 8095032,
+          "bundles": [
+            "dm-Repeat-ubuntu/dm-Repeat.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-macos.zip",
+          "sha256": "b3b9f69ff8f001cc896862362040b6507e3c04a1310556c6476a13cffb379645",
+          "size": 21396674,
+          "bundles": [
+            "dm-Repeat-macos/dm-Repeat.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-windows.zip",
+          "sha256": "315e75631e70763f0ea38a116e01b15c1f6d1be4daa4a1adc38aace5fb374127",
+          "size": 7274139,
+          "bundles": [
+            "dm-Repeat-windows/dm-Repeat.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

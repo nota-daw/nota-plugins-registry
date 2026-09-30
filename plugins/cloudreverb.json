@@ -1,0 +1,50 @@
+{
+  "id": "cloudreverb",
+  "name": "CloudReverb",
+  "developer": "xunil-cloud",
+  "description": "Lush algorithmic reverb based on the CloudSeed design.",
+  "repo": "https://github.com/xunil-cloud/CloudReverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "CloudReverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip",
+          "sha256": "81cda6a9979cdbaf4d7a261338e59b87c2d4f4a123d05049a5aeaaabe399e6d1",
+          "size": 7050789,
+          "bundles": [
+            "CloudReverb-v0.5-Linux-x86_64/VST3/CloudReverb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
+          "sha256": "88b60035570f680e29ccc2465711dd1ea9886d80c6c1bcca5f8bf09b2cd49b9c",
+          "size": 15082485,
+          "bundles": [
+            "CloudReverb-v0.5-macOS/VST3/CloudReverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip",
+          "sha256": "2674dab0c2dd58bb98cc9acdb612cc411b5baa7d896db20127b21fc6a22868a2",
+          "size": 8238611,
+          "bundles": [
+            "CloudReverb-v0.5-Windows-x86_64/VST3/CloudReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

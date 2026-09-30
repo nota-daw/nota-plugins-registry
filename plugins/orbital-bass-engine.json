@@ -1,0 +1,54 @@
+{
+  "id": "orbital-bass-engine",
+  "name": "Orbital Bass Engine",
+  "developer": "Tanguy VIVIER",
+  "description": "Bass signal chain: preamp, drive, compression and cabinet.",
+  "repo": "https://github.com/tywr/orbital-bass-engine",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "bass",
+    "bass-guitar",
+    "darkglass",
+    "overdrive",
+    "real-time",
+    "standalone"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "orbital-bass-engine"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v2.0.0/orbital-bass-engine-linux-vst3.tar.gz",
+          "sha256": "0120f239023512ee59cabbcb5a478a7c9daf171238740b26b65f672c6864fae2",
+          "size": 3388362,
+          "bundles": [
+            "orbital-bass-engine.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v2.0.0/orbital-bass-engine-macos-vst3.zip",
+          "sha256": "5fa3386fb65208fdd6bf04b2ad113629da96477651a465145de0c257cbb69dbc",
+          "size": 2921047,
+          "bundles": [
+            "orbital-bass-engine.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v2.0.0/orbital-bass-engine-windows-vst3.zip",
+          "sha256": "0f0042fa1365d794882fb3d3e1c15664448c2748399610a57d3b6aa8b3ef7fe7",
+          "size": 3902108,
+          "bundles": [
+            "orbital-bass-engine.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

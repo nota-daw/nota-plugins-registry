@@ -1,0 +1,34 @@
+{
+  "id": "biztortion",
+  "name": "Biztortion",
+  "developer": "Gabriel Bizzo",
+  "description": "Modular distortion: chain waveshapers, bitcrushers, filters and more in any order.",
+  "repo": "https://github.com/killbizz/Biztortion",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "cplusplus",
+    "distortion"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Biztortion"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_MacOS_Setup.pkg",
+          "sha256": "afd74e0955f0a41f30cf473b54849c0f83da2490746740f36c3be888cd317f07",
+          "size": 5438390,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Biztortion.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

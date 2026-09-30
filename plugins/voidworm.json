@@ -1,0 +1,35 @@
+{
+  "id": "voidworm",
+  "name": "VOIDWORM",
+  "developer": "lewonn",
+  "description": "Industrial distortion with four stages that react to the source.",
+  "repo": "https://github.com/lew0nn/voidworm",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-dsp",
+    "audio-effect",
+    "distortion"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VOIDWORM"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lew0nn/voidworm/releases/download/v1.0.1/VOIDWORM-1.0.1-Windows-x64-VST3.zip",
+          "sha256": "acfbad6103c8c8614c8ad5ea1d2ad70a3d7054a67e4fe515a6a1b712c13f844e",
+          "size": 10823598,
+          "bundles": [
+            "VOIDWORM.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

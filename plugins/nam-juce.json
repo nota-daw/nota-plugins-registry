@@ -1,0 +1,44 @@
+{
+  "id": "nam-juce",
+  "name": "Neural Amp Modeler",
+  "developer": "Manos Labrakis",
+  "description": "Neural Amp Modeler: plays captured amp and pedal models.",
+  "repo": "https://github.com/Tr3m/nam-juce",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "neural-amp-modeler",
+    "neural-amp-modeler-linux",
+    "vst3-linux"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Neural Amp Modeler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.5.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-linux_x86_64.tar.gz",
+          "sha256": "1c6a4b0bf027606b8214addf6c68d9b59d43cc36cde43e14edd1a9c97d517e40",
+          "size": 16221144,
+          "bundles": [
+            "nam-juce-v0.5.0-linux_x86_64/nam-juce/vst/Neural Amp Modeler.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-apple-silicon.dmg",
+          "sha256": "0e8fc8534dace40688bdc2ff7e8b28f0ae4bd0eedfa5c7dc0952cd591872f32d",
+          "size": 17393607,
+          "inner": "nam-juce-setup.pkg",
+          "bundles": [
+            "nam-juce_VST3.pkg/Payload/Neural Amp Modeler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

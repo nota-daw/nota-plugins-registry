@@ -1,0 +1,34 @@
+{
+  "id": "cosmic-rays",
+  "name": "Cosmic Rays",
+  "developer": "Evan Beechem",
+  "description": "Granular processor inspired by boutique hardware.",
+  "homepage": "https://khanthedalek1.github.io/cosmic-rays/",
+  "repo": "https://github.com/KhanTheDaleK1/cosmic-rays",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-units"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Cosmic Rays"
+    }
+  ],
+  "versions": [
+    {
+      "version": "30.03.2026-1058",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/KhanTheDaleK1/cosmic-rays/releases/download/v30.03.2026-1058/CosmicRays-30.03.2026-1058-Darwin.pkg",
+          "sha256": "909d6ad32242f9cf41e2781f91ab95eef84a99264f932dc5792cfffeec843a49",
+          "size": 26121234,
+          "bundles": [
+            "CosmicRays-30.03.2026-1058-Darwin-VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Cosmic Rays.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

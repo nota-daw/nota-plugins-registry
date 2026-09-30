@@ -1,0 +1,43 @@
+{
+  "id": "os-251",
+  "name": "OS-251",
+  "developer": "Utokusa",
+  "description": "Synthesizer.",
+  "homepage": "https://onsenaudio.com/products/os251",
+  "repo": "https://github.com/utokusa/OS-251",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synthesizer-plugin"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "OS-251"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Linux.zip",
+          "sha256": "862ddc6e7f63fc6a478b513bdb0d257dcb6fa0b32c7f5bd20c47c369c252eda5",
+          "size": 8621948,
+          "bundles": [
+            "OS-251-Linux/OS-251.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-macOS.dmg",
+          "sha256": "06b62a2e06301957102526bc3ceb6f070c1a20cae2abc9884054a205df9b7415",
+          "size": 14645710,
+          "inner": "OS-251.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/OS-251.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

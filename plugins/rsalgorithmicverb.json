@@ -1,0 +1,53 @@
+{
+  "id": "rsalgorithmicverb",
+  "name": "RSAlgorithmicVerb",
+  "developer": "Reilly Spitzfaden",
+  "description": "Retro algorithmic reverb with several algorithms, including emulations of vintage units.",
+  "repo": "https://github.com/reillypascal/RSAlgorithmicVerb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "emulation",
+    "juce-plugins",
+    "reverb",
+    "reverberator"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RSAlgorithmicVerb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.5.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Linux.zip",
+          "sha256": "b6c53dbee900aa4f0c9082ada4ce57dd1ba4048a35ff91a1acb1f1fbfa1a368e",
+          "size": 2105359,
+          "bundles": [
+            "RSAlgorithmicVerb-v0.5.5-Linux/RSAlgorithmicVerb.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-macOS.zip",
+          "sha256": "ed18948fd51537b49c09ad8caa03bf2ea98bfaf673ccf95cbfe7102f8892a1de",
+          "size": 12638320,
+          "bundles": [
+            "RSAlgorithmicVerb-v0.5.5-macOS/RSAlgorithmicVerb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Windows.zip",
+          "sha256": "71374af2c7038d795c452782ccd0e4a5a224c2d05b216a29bc19c0f0c2808216",
+          "size": 2715682,
+          "bundles": [
+            "RSAlgorithmicVerb-v0.5.5-Windows/RSAlgorithmicVerb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

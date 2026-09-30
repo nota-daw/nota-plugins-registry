@@ -1,0 +1,47 @@
+{
+  "id": "dm-bigmuff",
+  "name": "dm-BigMuff",
+  "developer": "Dave Mollen",
+  "description": "Emulation of the Big Muff fuzz pedal.",
+  "repo": "https://github.com/davemollen/dm-BigMuff",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BigMuff"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.8",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-ubuntu.zip",
+          "sha256": "3e5b0be46e3f0c9653346b3f0b7b32b02186f83620f5bd277ad9b20402e5240a",
+          "size": 8036528,
+          "bundles": [
+            "dm-BigMuff-ubuntu/dm-BigMuff.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-macos.zip",
+          "sha256": "76f38d298668a1311a5c2273e024599495453d5eefde04809187f3e06b843461",
+          "size": 21274172,
+          "bundles": [
+            "dm-BigMuff-macos/dm-BigMuff.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-windows.zip",
+          "sha256": "9ac19d66a275675017992e3480af88c91ba0054997319200c75b4e9e6879911a",
+          "size": 7226415,
+          "bundles": [
+            "dm-BigMuff-windows/dm-BigMuff.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

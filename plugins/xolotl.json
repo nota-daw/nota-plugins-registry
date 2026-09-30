@@ -1,0 +1,31 @@
+{
+  "id": "xolotl",
+  "name": "Xolotl",
+  "developer": "Modular Samples",
+  "description": "Harmonic synthesizer.",
+  "repo": "https://github.com/publicsamples/Xolotl",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Xolotl"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/xolotl-0.9.2-Linux.tar.xz",
+          "sha256": "31cf90dc9a9a3e839439ab5a0148cc4ad1bdedb4cfedc01c34edb1b192f3b111",
+          "size": 62289340,
+          "bundles": [
+            "xolotl-0.9.2-Linux/Xolotl.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

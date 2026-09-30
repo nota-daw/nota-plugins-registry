@@ -1,0 +1,47 @@
+{
+  "id": "dm-stutter",
+  "name": "dm-Stutter",
+  "developer": "Dave Mollen",
+  "description": "Stuttering delay.",
+  "repo": "https://github.com/davemollen/dm-Stutter",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Stutter"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.4",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.4/dm-Stutter-ubuntu.zip",
+          "sha256": "87d250580bae7355e00a8bd712620cb671393a44d58211549aed72513971b973",
+          "size": 7580554,
+          "bundles": [
+            "dm-Stutter-ubuntu/dm-Stutter.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.4/dm-Stutter-macos.zip",
+          "sha256": "df233014e36fd710891a3896427900b2273a29931881ad320ab4a41f5036a0d5",
+          "size": 20106538,
+          "bundles": [
+            "dm-Stutter-macos/dm-Stutter.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.4/dm-Stutter-windows.zip",
+          "sha256": "86a96205a2352a0d0828927a2d58487ca85e252d225632456f31ef7387c7c57d",
+          "size": 6625033,
+          "bundles": [
+            "dm-Stutter-windows/dm-Stutter.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

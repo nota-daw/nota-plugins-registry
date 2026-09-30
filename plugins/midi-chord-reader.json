@@ -1,0 +1,31 @@
+{
+  "id": "midi-chord-reader",
+  "name": "MIDI Chords",
+  "developer": "Mark Wilkins",
+  "description": "Scrolling display of the chords playing in a MIDI track.",
+  "repo": "https://github.com/markwilkins/midi-chord-reader",
+  "license": "BSD-2-Clause",
+  "kind": "midi",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MidiChords"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/markwilkins/midi-chord-reader/releases/download/v0.9.0/MidiChords_0.9.0.pkg",
+          "sha256": "bed57948b00bbd2ff260439a0571d76267323a9b661919f6e74172cdd1ef5f6c",
+          "size": 3402208,
+          "bundles": [
+            "MidiChords_VST3.pkg/Payload/MidiChords.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

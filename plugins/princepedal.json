@@ -1,0 +1,45 @@
+{
+  "id": "princepedal",
+  "name": "Prince",
+  "developer": "Keith Bloemer",
+  "description": "Prince of Tone overdrive emulated with a neural network.",
+  "repo": "https://github.com/GuitarML/PrincePedal",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "guitar",
+    "guitarml",
+    "machine-learning",
+    "neural-networks"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Prince"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/GuitarML/PrincePedal/releases/download/v1.0/Prince-Linux-x64-1.0.deb",
+          "sha256": "87b674405eea2931b4e5ea8287a2632baad5dad56ea7eeee57fe5fc1b8df6861",
+          "size": 17242184,
+          "bundles": [
+            "usr/local/lib/vst3/Prince.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/GuitarML/PrincePedal/releases/download/v1.0/Install-Prince-v1.0-Mac.dmg",
+          "sha256": "f778931ebc51c3310037d3e12a25cc1af7493ae437357c07bbacfc373ce39f83",
+          "size": 46616309,
+          "inner": "Prince-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Prince.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

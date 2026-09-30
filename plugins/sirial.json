@@ -1,0 +1,47 @@
+{
+  "id": "sirial",
+  "name": "Sirial",
+  "developer": "tiagolr",
+  "description": "Rhythmic delay.",
+  "repo": "https://github.com/tiagolr/sirial",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Sirial"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-linux-v1.1.1.zip",
+          "sha256": "4937c3c27ba4ffe41a76de4d5020ba4923ac828e6916258916fe329335c4aeff",
+          "size": 4959438,
+          "bundles": [
+            "sirial-linux/VST3/Sirial.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-macos-v1.1.1.zip",
+          "sha256": "8b824a76797d7d4310f673818c7794cf958215e435b35b4396db6beaa0a871fa",
+          "size": 7853482,
+          "bundles": [
+            "sirial-macos/VST3/Sirial.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-win-v1.1.1.zip",
+          "sha256": "6b3f2b96511269ad1f5c3176d999ba3bd30f236fa98ac3dae537df12e3097997",
+          "size": 2766466,
+          "bundles": [
+            "sirial-win/Sirial.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

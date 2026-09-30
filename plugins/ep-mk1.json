@@ -1,0 +1,44 @@
+{
+  "id": "ep-mk1",
+  "name": "EP-MK1",
+  "developer": "Mike Moreno DSP",
+  "description": "Physical model of an electric piano, built with Pure Data.",
+  "repo": "https://github.com/MikeMorenoDSP/EP-MK1",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "camomile",
+    "electric-piano",
+    "ep-mk1",
+    "pure-data"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "EP-MK1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.4",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-MacOS.zip",
+          "sha256": "260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f",
+          "size": 5258069,
+          "bundles": [
+            "EP-MK1-MacOS/EP-MK1.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Windows64.zip",
+          "sha256": "d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282",
+          "size": 4706043,
+          "bundles": [
+            "EP-MK1-Windows64/EP-MK1/EP-MK1.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

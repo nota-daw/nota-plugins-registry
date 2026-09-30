@@ -1,0 +1,96 @@
+{
+  "id": "sox-plugins",
+  "name": "SoX-Plugins",
+  "developer": "Prof. Spock",
+  "description": "The SoX audio processor's effects reimplemented as plugins.",
+  "repo": "https://github.com/prof-spock/SoX-Plugins",
+  "license": "MIT",
+  "kind": "bundle",
+  "tags": [
+    "compander",
+    "filter",
+    "gain",
+    "overdrive",
+    "phaser",
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SoXChorusAndEcho"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXCompander"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXFilter"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXFlangerPhaserAndTremolo"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXGain"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXOverdrive"
+    },
+    {
+      "format": "VST3",
+      "name": "SoXReverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.96.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.96.2/SoXPlugins-Linux-x86_64.zip",
+          "sha256": "51cb2313e37d2f6778e164383655ca41555f50f5328308aef6f19882ca678924",
+          "size": 26267711,
+          "bundles": [
+            "programs/VST3/SoXChorusAndEcho.vst3",
+            "programs/VST3/SoXCompander.vst3",
+            "programs/VST3/SoXFilter.vst3",
+            "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+            "programs/VST3/SoXGain.vst3",
+            "programs/VST3/SoXOverdrive.vst3",
+            "programs/VST3/SoXReverb.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.96.2/SoXPlugins-Darwin-x86_64.zip",
+          "sha256": "489e4215a56fda2806b88ecf0eac107d470c08d4b775fa5dcc2dc8b07d4513ea",
+          "size": 49735657,
+          "bundles": [
+            "programs/VST3/SoXChorusAndEcho.vst3",
+            "programs/VST3/SoXCompander.vst3",
+            "programs/VST3/SoXFilter.vst3",
+            "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+            "programs/VST3/SoXGain.vst3",
+            "programs/VST3/SoXOverdrive.vst3",
+            "programs/VST3/SoXReverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.96.2/SoXPlugins-Windows-AMD64.zip",
+          "sha256": "0017975554de9ed59d57f93566ccd708d0f6136798eb9464dd7897b7e38dcbe5",
+          "size": 12021693,
+          "bundles": [
+            "programs/VST3/SoXChorusAndEcho.vst3",
+            "programs/VST3/SoXCompander.vst3",
+            "programs/VST3/SoXFilter.vst3",
+            "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+            "programs/VST3/SoXGain.vst3",
+            "programs/VST3/SoXOverdrive.vst3",
+            "programs/VST3/SoXReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

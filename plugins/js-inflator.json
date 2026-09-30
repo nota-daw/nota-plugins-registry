@@ -1,0 +1,40 @@
+{
+  "id": "js-inflator",
+  "name": "JS_Inflator",
+  "developer": "Aris Kiriki-Liszt == yg331",
+  "description": "Recreation of the Sonnox Inflator loudness enhancer.",
+  "repo": "https://github.com/Kiriki-liszt/JS_Inflator",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JS Inflator"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.3.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.macOS.v2.0.3.2.zip",
+          "sha256": "061e5ffa3522f26f7ff0b88213e30b52feefbaf5f4c6bfdcd0c46f6bfb5a144d",
+          "size": 10085918,
+          "bundles": [
+            "JS_Inflator.component/Contents/Resources/plugin.vst3",
+            "JS_Inflator.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
+          "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
+          "size": 4598786,
+          "bundles": [
+            "JS Inflator Win v2.0.3.2/JS_Inflator.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

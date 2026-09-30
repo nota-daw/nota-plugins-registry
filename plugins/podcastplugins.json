@@ -1,0 +1,64 @@
+{
+  "id": "podcastplugins",
+  "name": "PodcastPlugins",
+  "developer": "Klaus Scheuermann",
+  "description": "Speech enhancement plugins for podcasts: noise reduction, levelling, de-essing and more.",
+  "repo": "https://github.com/trummerschlunk/PodcastPlugins",
+  "license": "GPL-3.0",
+  "kind": "bundle",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PodcastPlugins MASTER"
+    },
+    {
+      "format": "VST3",
+      "name": "PodcastPlugins TRACK"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-arm64.tar.xz",
+          "sha256": "5b7005fe2146473f6ac17b4ebeaf925606289503d035d0b65f89aa2cff9e89a1",
+          "size": 2824324,
+          "bundles": [
+            "podcast-plugins-1.0.0/pp-master.vst3",
+            "podcast-plugins-1.0.0/pp-track.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-x86_64.tar.xz",
+          "sha256": "daeb4e6cc8b3f44ca76929f782372ad09438b17fc0f8f37f2654a94d375bcbad",
+          "size": 3189792,
+          "bundles": [
+            "podcast-plugins-1.0.0/pp-master.vst3",
+            "podcast-plugins-1.0.0/pp-track.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-macos-universal.dmg",
+          "sha256": "7cd01e3706e197f56a36690bc74413648c388035f973704915a50b07675652cc",
+          "size": 22837453,
+          "inner": "podcast-plugins-AudioPlugins.pkg",
+          "bundles": [
+            "dpf-PodcastPlugins-vst3bundles.pkg/Payload/pp-master.vst3",
+            "dpf-PodcastPlugins-vst3bundles.pkg/Payload/pp-track.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-win64.zip",
+          "sha256": "774a53e6cd71cb994770bf07cc3a441c8bcdaaa84ea0375e8e66eb66e4560ba8",
+          "size": 24707420,
+          "bundles": [
+            "podcast-plugins-1.0.0/pp-master.vst3",
+            "podcast-plugins-1.0.0/pp-track.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

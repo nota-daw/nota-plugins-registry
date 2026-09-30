@@ -1,0 +1,47 @@
+{
+  "id": "resonarium",
+  "name": "resonarium",
+  "developer": "Gabriel Soule",
+  "description": "Expressive semi-modular physical-modelling synth built on waveguides and resonators.",
+  "repo": "https://github.com/gabrielsoule/resonarium",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Resonarium"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Effect-0.1.1-Linux.zip",
+          "sha256": "d77c2cd3076cb13d1d0ce11ecb6602bfcd8f875aa20514dcfb858e4526541fd3",
+          "size": 25428237,
+          "bundles": [
+            "VST3/Resonarium Effect.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Instrument-0.1.1-macOS-notarized.zip",
+          "sha256": "9189f5ee6461a73dcc0b7b5fdb8a486bbbe5f0dc487433bf5a1d4f77bde3b0de",
+          "size": 55331264,
+          "bundles": [
+            "VST3/Resonarium.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Effect-0.1.1-Windows.zip",
+          "sha256": "5ccdaf1660190587a2a6bdedc7462a1e56b43ee32a321d44d5f3e7ee3853bf5d",
+          "size": 19402062,
+          "bundles": [
+            "VST3/Resonarium Effect.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

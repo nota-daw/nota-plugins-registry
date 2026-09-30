@@ -1,0 +1,33 @@
+{
+  "id": "oxygen",
+  "name": "oXygen",
+  "developer": "Wamphyre",
+  "description": "Mastering processor focused on a practical workflow.",
+  "repo": "https://github.com/Wamphyre/oXygen",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "mastering"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "oXygen"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Wamphyre/oXygen/releases/download/v1.2.1/oXygen-1.2.1-Linux-x86_64.zip",
+          "sha256": "68bd6aa2e03b046116b6b46e873341bd2dc453e82d02c5ed024d335c2a1c760b",
+          "size": 3100739,
+          "bundles": [
+            "oXygen.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

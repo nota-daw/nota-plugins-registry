@@ -1,0 +1,77 @@
+{
+  "id": "intersect",
+  "name": "INTERSECT",
+  "developer": "tucktuckg00se",
+  "description": "Non-destructive, time-stretching sample slicer with independent slice layers.",
+  "homepage": "https://tucktuckg00se.github.io/INTERSECT/",
+  "repo": "https://github.com/tucktuckg00se/INTERSECT",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "au-plugin",
+    "audio-sampler",
+    "music-production",
+    "vibe-coded"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "INTERSECT"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.16.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-Linux-arm64.zip",
+          "sha256": "544f9b1011dc1db3e434ba0f1a0cf48089c98729d9d009a3f64f5435866278c4",
+          "size": 9141177,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-Linux-x64.zip",
+          "sha256": "a6d6740ee84df1590109f72f58a844086a0e8a432654195c9510ab2e1558e719",
+          "size": 9217721,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-macOS-arm64.zip",
+          "sha256": "a34db140bfee11cb4eb2fbd28c9de92fcf902c4c3afa60ebd5c417543f6c51d2",
+          "size": 9195079,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-macOS-x64.zip",
+          "sha256": "3711af8c2dc8c5cec4a4582a881f3812e4e1d526cadce978779f431676eb7287",
+          "size": 9996236,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-Windows-arm64.zip",
+          "sha256": "7a9e0ad644d2ee8eb11040b47455766a2ec0262f0c1478a2a6e201e5cd81704c",
+          "size": 7680335,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.16.0/INTERSECT-v0.16.0-Windows-x64.zip",
+          "sha256": "a640df00ca21deedac27350887d64c2c942242f61b1fb13150860ea63672b280",
+          "size": 7345335,
+          "bundles": [
+            "INTERSECT.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

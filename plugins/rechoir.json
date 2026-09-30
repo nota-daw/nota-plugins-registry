@@ -1,0 +1,48 @@
+{
+  "id": "rechoir",
+  "name": "Rechoir",
+  "developer": "Igor Zinken",
+  "description": "Delay whose repeats are pitch-shifted to harmonise with the input.",
+  "homepage": "https://www.igorski.nl/download/rechoir",
+  "repo": "https://github.com/igorski/rechoir",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "cplusplus",
+    "delay",
+    "echo",
+    "pitchshifter",
+    "steinberg",
+    "vst3-sdk"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Rechoir"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_macos.zip",
+          "sha256": "7a1df5f354177c9abd9f2871a306e6b961df310c901dc199d535d5924ad2ff13",
+          "size": 9704639,
+          "bundles": [
+            "AU/Rechoir AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/Rechoir.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_windows.zip",
+          "sha256": "00146de375ee86e3b3fa07d12f2c43c3e4ea87d684340d886e84c859234c95e4",
+          "size": 1938058,
+          "bundles": [
+            "VST3/Rechoir.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

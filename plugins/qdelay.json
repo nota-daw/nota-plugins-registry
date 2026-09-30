@@ -1,0 +1,54 @@
+{
+  "id": "qdelay",
+  "name": "QDelay",
+  "developer": "tiagolr",
+  "description": "Dual delay with ping-pong, modulation, filters and ducking.",
+  "repo": "https://github.com/tiagolr/qdelay",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "pitch-shift",
+    "reverb",
+    "reverse",
+    "saturation",
+    "tape"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "QDelay"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+          "sha256": "c79035db01c072ac338bc5be54cc456588b47307722f3c0667995815c266794b",
+          "size": 5462344,
+          "bundles": [
+            "qdelay-linux/VST3/QDelay.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+          "sha256": "0987616a8b0d5dc41961ca33cce4880b4e30006a44aaf917fe1870a3e8a604aa",
+          "size": 8877154,
+          "bundles": [
+            "qdelay-macos/VST3/QDelay.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+          "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
+          "size": 3346241,
+          "bundles": [
+            "qdelay-win/QDelay.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "orbit-looper",
+  "name": "Orbit Looper",
+  "developer": "dev-dhg",
+  "description": "Eight-layer guitar looper with a single-footswitch workflow.",
+  "repo": "https://github.com/dev-dhg/orbit-looper",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "ai-generated-code",
+    "antigravity",
+    "antigravity-ai",
+    "antigravity-ide",
+    "audio-plugin-coder",
+    "claude-code"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Orbit Looper"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/dev-dhg/orbit-looper/releases/download/v1.0.2/OrbitLooper-Linux-ARM64-VST3.zip",
+          "sha256": "eb265e31f4cc21276aeb2d19f2f18edc2fa2c38b1b642edb70a956c6a8942569",
+          "size": 2986068,
+          "bundles": [
+            "OrbitLooper-Linux-ARM64-VST3/Orbit Looper.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/dev-dhg/orbit-looper/releases/download/v1.0.2/OrbitLooper-Linux-x64-VST3.zip",
+          "sha256": "837952302b2c4e7734ddc32126da3c54be99fc36c6ec6fb7bfe0235104b5128b",
+          "size": 2949383,
+          "bundles": [
+            "OrbitLooper-Linux-x64-VST3/Orbit Looper.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/dev-dhg/orbit-looper/releases/download/v1.0.2/OrbitLooper-macOS-VST3.zip",
+          "sha256": "f89d428bea8e6431671df0d0b8af545dd141d82b834cb7022b196e714bbaf28e",
+          "size": 4043394,
+          "bundles": [
+            "OrbitLooper-macOS-VST3/Orbit Looper.vst3"
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/dev-dhg/orbit-looper/releases/download/v1.0.2/OrbitLooper-Windows-ARM64-VST3.zip",
+          "sha256": "22ebdefcfeabf98bbab1d26aae958fcd83fb2b27b99737c8b1f4ffaf0be30a05",
+          "size": 3144477,
+          "bundles": [
+            "OrbitLooper-Windows-ARM64-VST3/Orbit Looper.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/dev-dhg/orbit-looper/releases/download/v1.0.2/OrbitLooper-Windows-x64-VST3.zip",
+          "sha256": "8407ddbd1b4ba0f479bcbc2530197263f2a0444996768d49de1a4e6e741a29eb",
+          "size": 3070333,
+          "bundles": [
+            "OrbitLooper-Windows-x64-VST3/Orbit Looper.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

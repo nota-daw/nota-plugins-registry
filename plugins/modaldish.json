@@ -1,0 +1,55 @@
+{
+  "id": "modaldish",
+  "name": "ModalDish",
+  "developer": "Olivier Doaré",
+  "description": "Plate of any shape modelled with finite elements: excite it and hear it ring.",
+  "homepage": "https://fx-mechanics.com",
+  "repo": "https://github.com/odoare/ModalDish",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "acoustics",
+    "cymbal",
+    "digital-audio",
+    "gong",
+    "linux-audio",
+    "physical-modeling"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ModalDish"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-linux-x86_64.zip",
+          "sha256": "ef3f6dd436392ef9b2359b6d01d448de0051549012b0f71f5b681a6003b81f2c",
+          "size": 27040907,
+          "bundles": [
+            "ModalDish.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-macOS.pkg",
+          "sha256": "44664431015df0f41e5d625bd3f47d52d9cd75740696e29c72ad4643e3c444ea",
+          "size": 52152173,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/ModalDish.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-windows-x86_64.zip",
+          "sha256": "521d8a030163b60cfd2e0b35e916409cc8cceb67f082e1cfece73c5d77e623cc",
+          "size": 27579861,
+          "bundles": [
+            "ModalDish.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

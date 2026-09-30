@@ -1,0 +1,47 @@
+{
+  "id": "plasma",
+  "name": "Plasma",
+  "developer": "Dimethoxy",
+  "description": "Asymmetric distortion.",
+  "homepage": "https://dimethoxy.com",
+  "repo": "https://github.com/Dimethoxy/Plasma",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "arch-linux",
+    "audio-effect",
+    "clip",
+    "clipper",
+    "distortion",
+    "hardcore"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Plasma"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-linux.tar.gz",
+          "sha256": "f61cfd287b0d58b9eca419c6c785e66a8bf94caf26b33615aa465c25bd8ee4e1",
+          "size": 7888520,
+          "bundles": [
+            "Plasma.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+          "sha256": "245b217f02e92536ac3b595cd92065068ebb4901a1cdac2628b3f6d0e9ad55ee",
+          "size": 11398049,
+          "bundles": [
+            "AU.pkg/Payload/Audio/Plug-Ins/VST3/Plasma.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

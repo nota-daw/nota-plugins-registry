@@ -47,7 +47,8 @@ LICENSES = {
     "GPL-2.0", "GPL-3.0", "LGPL-2.1", "LGPL-3.0", "AGPL-3.0",
     "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later",
     "LGPL-2.1-or-later", "LGPL-3.0-or-later", "AGPL-3.0-only", "AGPL-3.0-or-later",
-    "MIT", "BSD-2-Clause", "BSD-3-Clause", "ISC", "Apache-2.0", "MPL-2.0", "Zlib",
+    "MIT", "BSD-2-Clause", "BSD-3-Clause", "0BSD", "ISC", "Apache-2.0", "MPL-2.0", "Zlib",
+    "BSL-1.0", "Unlicense",
 }
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,48}[a-z0-9]$")
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
@@ -410,6 +411,11 @@ def cmd_verify(args) -> int:
                 except Exception as e:  # noqa: BLE001 — report and carry on
                     print(f"FAIL  {label}: {e}")
                     failures += 1
+                finally:
+                    # CI runners have little disk: don't keep hundreds of archives around.
+                    if os.environ.get("CI"):
+                        for f in CACHE.glob(f"*/{asset['url'].rsplit('/', 1)[-1]}"):
+                            f.unlink(missing_ok=True)
     print(f"{failures} failure(s)")
     return 1 if failures else 0
 

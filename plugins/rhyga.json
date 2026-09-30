@@ -1,0 +1,35 @@
+{
+  "id": "rhyga",
+  "name": "RhyGa",
+  "developer": "Olivier Doaré",
+  "description": "Rhythmic gate.",
+  "homepage": "https://fx-mechanics.com/",
+  "repo": "https://github.com/odoare/RhyGa",
+  "license": "LGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "gate",
+    "rhythm"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RhyGa"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/odoare/RhyGa/releases/download/0.2/RhyGa.0.2.WIN.x64.VST3.zip",
+          "sha256": "898b1ebcb70f0b396330d31489d090872623210cb1441340007ab9f501635694",
+          "size": 2604387,
+          "bundles": [
+            "RhyGa.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

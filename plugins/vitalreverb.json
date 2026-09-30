@@ -1,0 +1,58 @@
+{
+  "id": "vitalreverb",
+  "name": "Vital Reverb",
+  "developer": "ManasWolrd",
+  "description": "The reverb from the Vital synthesizer as a standalone effect.",
+  "homepage": "https://manaswolrd.github.io/en/index.html#vitalreverb",
+  "repo": "https://github.com/ManasWolrd/VitalReverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VitalReverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.4",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ManasWolrd/VitalReverb/releases/download/v0.2.4/VitalReverb-linux-v0.2.4.zip",
+          "sha256": "c0385221178305db07c4df8ab197770ac068289688a163b67138f84a3a1c6fa1",
+          "size": 5010248,
+          "bundles": [
+            "VST3/VitalReverb.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ManasWolrd/VitalReverb/releases/download/v0.2.4/VitalReverb-macos-arm64-v0.2.4.zip",
+          "sha256": "65f87c7d4fabd15c12a51403b7ac851c63ed7117f3f2289461765a090acfaa88",
+          "size": 3695353,
+          "bundles": [
+            "VST3/VitalReverb.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/ManasWolrd/VitalReverb/releases/download/v0.2.4/VitalReverb-macos-x64-v0.2.4.zip",
+          "sha256": "00fcfa20332fe2611a1fad5871f78936c0f823a0523c35a88bf357564537eae6",
+          "size": 4125834,
+          "bundles": [
+            "VST3/VitalReverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ManasWolrd/VitalReverb/releases/download/v0.2.4/VitalReverb-win-v0.2.4.zip",
+          "sha256": "960643f2f9e0790a355a4e0cb07cec8d79e686ceb4829b37ac15c6f233a859af",
+          "size": 2438256,
+          "bundles": [
+            "VST3/VitalReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

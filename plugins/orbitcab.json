@@ -1,0 +1,71 @@
+{
+  "id": "orbitcab",
+  "name": "OrbitCab",
+  "developer": "Darwin's Cat",
+  "description": "Cabinet impulse response loader for guitar and bass.",
+  "homepage": "https://darwinscat.com/orbitcab",
+  "repo": "https://github.com/darwinscat/orbitcab",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "agpl",
+    "audio-effect",
+    "bass",
+    "cab-sim",
+    "cabinet",
+    "cabinet-simulator"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "OrbitCab"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.5.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/darwinscat/orbitcab/releases/download/v2.5.0/OrbitCab-2.5.0-Linux-arm64.tar.gz",
+          "sha256": "102094499a15f412666d2c54589b136b2c4486f1f41975ba8f1eba1259d7040f",
+          "size": 39236447,
+          "bundles": [
+            "OrbitCab.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/darwinscat/orbitcab/releases/download/v2.5.0/OrbitCab-2.5.0-Linux-x86_64.tar.gz",
+          "sha256": "8306b663fe2011cf276cd7d39b1051177cdca566f60b6d4d483896910137785e",
+          "size": 39291261,
+          "bundles": [
+            "OrbitCab.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/darwinscat/orbitcab/releases/download/v2.5.0/OrbitCab-2.5.0-macOS.zip",
+          "sha256": "d08eaf0ebb46f4f41003fb86a8b25d432dbd8a034e67cccc1a576a3785d22419",
+          "size": 99311965,
+          "bundles": [
+            "OrbitCab.vst3"
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/darwinscat/orbitcab/releases/download/v2.5.0/OrbitCab-2.5.0-Windows-arm64.zip",
+          "sha256": "b963e7ac706cfeb5dcf9165329c6a909d66756f50e4ff84e81d21e72fc0bf8f9",
+          "size": 38256917,
+          "bundles": [
+            "OrbitCab.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/darwinscat/orbitcab/releases/download/v2.5.0/OrbitCab-2.5.0-Windows-x64.zip",
+          "sha256": "ab3f3f81f445ecb36b055033468d443a74e04207f8b47313fc4017b4f878561a",
+          "size": 38553171,
+          "bundles": [
+            "OrbitCab.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

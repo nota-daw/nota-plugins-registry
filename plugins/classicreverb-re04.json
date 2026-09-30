@@ -1,0 +1,41 @@
+{
+  "id": "classicreverb-re04",
+  "name": "ClassicReverb-RE04",
+  "developer": "AnClark Liu",
+  "description": "Recreation of Kjaerhus Audio Classic Reverb with further enhancements.",
+  "repo": "https://github.com/AnClark/ClassicReverb-RE04",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Classic Reverb RE-04"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE04/releases/download/v1.1.1/ClassicReverb-RE04-arm64-macOS-1.1.1-ae1734a4.pkg",
+          "sha256": "ba42960b8f2752f049000d784ea61bc7e9e51df22e5a517128cb54b375a873c8",
+          "size": 4841012,
+          "bundles": [
+            "ClassicReverb-RE04-arm64-macOS-1.1.1-ae1734a4-VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ClassicReverb-RE04.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE04/releases/download/v1.1.1/ClassicReverb-RE04-x86_64-Windows-1.1.1-0fa197d6.zip",
+          "sha256": "0e62eaed8c510b5b69c60790e9463a2b24cdad1859ccd3f8b4227f12e88c8a4a",
+          "size": 20291281,
+          "bundles": [
+            "ClassicReverb-RE04-x86_64-Windows-1.1.1-0fa197d6/ClassicReverb-RE04.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

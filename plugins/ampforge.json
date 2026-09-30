@@ -1,0 +1,46 @@
+{
+  "id": "ampforge",
+  "name": "AmpForge",
+  "developer": "Atakan Unsever",
+  "description": "Guitar amp simulator with a reorderable pedalboard.",
+  "repo": "https://github.com/Loursy/AmpForge",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "amp-simulator",
+    "guitar",
+    "jack",
+    "linux-audio",
+    "music-production",
+    "pipewire"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "AmpForge"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Loursy/AmpForge/releases/download/v0.4.0/AmpForge-0.4.0-linux-x86_64.tar.gz",
+          "sha256": "86a03403150b97a2a760651dfe4e8d59d4d94484e6ca911e448d4b0164b02f54",
+          "size": 40739508,
+          "bundles": [
+            "AmpForge-0.4.0-linux-x86_64/bin/ampforge_main.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Loursy/AmpForge/releases/download/v0.4.0/AmpForge-0.4.0-macos.zip",
+          "sha256": "30662b56667356003ac7769331c9f4a34101eb7feb4aeafa92b310b1d6fa5dc4",
+          "size": 4008081,
+          "bundles": [
+            "AmpForge-0.4.0-macos/bin/ampforge_main.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

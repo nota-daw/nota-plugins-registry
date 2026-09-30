@@ -1,0 +1,54 @@
+{
+  "id": "roomreverb",
+  "name": "RoomReverb",
+  "developer": "Christian Voigt",
+  "description": "Algorithmic room reverb with many presets, mono or stereo in, stereo out.",
+  "homepage": "https://www.elephantdsp.com",
+  "repo": "https://github.com/cvde/RoomReverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "audio-effect",
+    "freeverb",
+    "juce-application",
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Room Reverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Linux-Plugin-Files.zip",
+          "sha256": "7824c06f9b7e98c8dcd0b94ec8972b10fc19d79a81bb64793ea326f0786c7e9a",
+          "size": 6828455,
+          "bundles": [
+            "VST3/RoomReverb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Mac-Plugin-Files.zip",
+          "sha256": "ebf52d96d39b4e52a69ce3c87dbb443a54c434623dcaa0f51788322776da754e",
+          "size": 14553253,
+          "bundles": [
+            "VST3/RoomReverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Windows-Plugin-Files.zip",
+          "sha256": "a912f32036a648c45f65a927f959e571d10bb454fa01222f2b269b381d589d3d",
+          "size": 8243434,
+          "bundles": [
+            "VST3/RoomReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

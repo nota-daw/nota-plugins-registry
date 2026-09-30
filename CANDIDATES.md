@@ -1,0 +1,471 @@
+# Reviewed candidates
+
+Repositories checked for the registry that are **not** listed yet, and why. Re-check one with
+`python3 scripts/add.py owner/repo` when its situation changes (a license file, a VST3 archive, a stable release).
+
+## No OSI license detected (84)
+
+- [akustikrausch/FXChainPlayer-Releases](https://github.com/akustikrausch/FXChainPlayer-Releases) — None
+- [ameyakakade/drummock](https://github.com/ameyakakade/drummock) — None
+- [ameyakakade/musializer-plugin](https://github.com/ameyakakade/musializer-plugin) — None
+- [arkark2010arkark/ArkComposer](https://github.com/arkark2010arkark/ArkComposer) — None
+- [audiohacking/acestep-vst](https://github.com/audiohacking/acestep-vst) — None
+- [auditive-tokyo/BoomBaby](https://github.com/auditive-tokyo/BoomBaby) — NOASSERTION
+- [bhoot1234567890/VB1Reimpl](https://github.com/bhoot1234567890/VB1Reimpl) — None
+- [bogggare567/abcTrain](https://github.com/bogggare567/abcTrain) — NOASSERTION
+- [boxofrules/bass-betterer](https://github.com/boxofrules/bass-betterer) — NOASSERTION
+- [brummer10/LoadBox](https://github.com/brummer10/LoadBox) — None
+- [brummer10/SmoothIR](https://github.com/brummer10/SmoothIR) — None
+- [christophhart/HISE](https://github.com/christophhart/HISE) — NOASSERTION
+- [Cookseyyyyyy/hand-control-vst](https://github.com/Cookseyyyyyy/hand-control-vst) — None
+- [crispinha/modal-synth](https://github.com/crispinha/modal-synth) — None
+- [dan-k-k/stem-extractor](https://github.com/dan-k-k/stem-extractor) — None
+- [DISTRHO/DPF-Plugins](https://github.com/DISTRHO/DPF-Plugins) — NOASSERTION
+- [Earu/AudioChain](https://github.com/Earu/AudioChain) — None
+- [ellamenop/juce-plugin-ci](https://github.com/ellamenop/juce-plugin-ci) — None
+- [ellamenop/repitch](https://github.com/ellamenop/repitch) — None
+- [Enkerli/rhythm_pattern_explorer](https://github.com/Enkerli/rhythm_pattern_explorer) — CC0-1.0
+- [Fannon/ChordLens](https://github.com/Fannon/ChordLens) — None
+- [floe-audio/Floe](https://github.com/floe-audio/Floe) — None
+- [GareBear99/Instrudio](https://github.com/GareBear99/Instrudio) — None
+- [Hornfisk/autokit](https://github.com/Hornfisk/autokit) — None
+- [hotwatermorning/Vst3SampleHost](https://github.com/hotwatermorning/Vst3SampleHost) — NOASSERTION
+- [innermost47/ai-dj](https://github.com/innermost47/ai-dj) — NOASSERTION
+- [jpcima/ADLplug](https://github.com/jpcima/ADLplug) — BSL-1.0
+- [jpcima/string-machine](https://github.com/jpcima/string-machine) — BSL-1.0
+- [jthorborg/signalizer](https://github.com/jthorborg/signalizer) — None
+- [juandagilc/Audio-Effects](https://github.com/juandagilc/Audio-Effects) — None
+- [juce-framework/JUCE](https://github.com/juce-framework/JUCE) — NOASSERTION
+- [KevinToodlepoot/MS-Exciter](https://github.com/KevinToodlepoot/MS-Exciter) — None
+- [khrykin/BlackFace](https://github.com/khrykin/BlackFace) — None
+- [lsooxlla8/default_distortion](https://github.com/lsooxlla8/default_distortion) — NOASSERTION
+- [Lucarda/pdvst3](https://github.com/Lucarda/pdvst3) — NOASSERTION
+- [lucianodato/noise-repellent](https://github.com/lucianodato/noise-repellent) — NOASSERTION
+- [lukemcraig/OvertoneFilter](https://github.com/lukemcraig/OvertoneFilter) — None
+- [madskjeldgaard/Birdhouse](https://github.com/madskjeldgaard/Birdhouse) — NOASSERTION
+- [maurocosentino/lupex-analog-delay](https://github.com/maurocosentino/lupex-analog-delay) — None
+- [MikeMorenoDSP/Euklid](https://github.com/MikeMorenoDSP/Euklid) — None
+- [MikeMorenoDSP/LIRA-8](https://github.com/MikeMorenoDSP/LIRA-8) — NOASSERTION
+- [mtiid/chuck-racks](https://github.com/mtiid/chuck-racks) — None
+- [noahbaxter/chartchotic](https://github.com/noahbaxter/chartchotic) — NOASSERTION
+- [odoare/AmbiRR2](https://github.com/odoare/AmbiRR2) — None
+- [odoare/FlappyChord](https://github.com/odoare/FlappyChord) — None
+- [odoare/Mechanodd](https://github.com/odoare/Mechanodd) — None
+- [orchidas/StereoWidener](https://github.com/orchidas/StereoWidener) — CC0-1.0
+- [pongasoft/vst-ab-switch](https://github.com/pongasoft/vst-ab-switch) — NOASSERTION
+- [pongasoft/vst-sam-spl-64](https://github.com/pongasoft/vst-sam-spl-64) — NOASSERTION
+- [pongasoft/vst-vac-6v](https://github.com/pongasoft/vst-vac-6v) — NOASSERTION
+- [Qing-Audio/Plugin-Nurse-QQ-ChainScope-Release](https://github.com/Qing-Audio/Plugin-Nurse-QQ-ChainScope-Release) — None
+- [QuentinStoll/VstProfiler](https://github.com/QuentinStoll/VstProfiler) — NOASSERTION
+- [reales/OB-Xd](https://github.com/reales/OB-Xd) — None
+- [RickRossati/ross-vu](https://github.com/RickRossati/ross-vu) — NOASSERTION
+- [rindeal/Amalgamate](https://github.com/rindeal/Amalgamate) — NOASSERTION
+- [ruki7423/Soranaflow](https://github.com/ruki7423/Soranaflow) — NOASSERTION
+- [rullopat/sfizioso-player](https://github.com/rullopat/sfizioso-player) — NOASSERTION
+- [sachhm/Blackheart](https://github.com/sachhm/Blackheart) — None
+- [samplaman/owmb](https://github.com/samplaman/owmb) — None
+- [sneed-and-feed/braun_as-42](https://github.com/sneed-and-feed/braun_as-42) — NOASSERTION
+- [sneed-and-feed/braun_rb-26](https://github.com/sneed-and-feed/braun_rb-26) — NOASSERTION
+- [SpotlightKid/adt](https://github.com/SpotlightKid/adt) — NOASSERTION
+- [SpotlightKid/cchorus](https://github.com/SpotlightKid/cchorus) — NOASSERTION
+- [SpotlightKid/dfjpverb](https://github.com/SpotlightKid/dfjpverb) — NOASSERTION
+- [SpotlightKid/dfzitarev1](https://github.com/SpotlightKid/dfzitarev1) — NOASSERTION
+- [SpotlightKid/stereocrossdelay](https://github.com/SpotlightKid/stereocrossdelay) — NOASSERTION
+- [SpotlightKid/waxman](https://github.com/SpotlightKid/waxman) — NOASSERTION
+- [SpotlightKid/ykchorus](https://github.com/SpotlightKid/ykchorus) — NOASSERTION
+- [ssabug/fxseq](https://github.com/ssabug/fxseq) — None
+- [stancsz/fnd-reverb-vst3](https://github.com/stancsz/fnd-reverb-vst3) — None
+- [Succyboi/mlem_plugins](https://github.com/Succyboi/mlem_plugins) — NOASSERTION
+- [sunquan8094/Krush3x](https://github.com/sunquan8094/Krush3x) — None
+- [suzumushi0/AudioQAM_binary](https://github.com/suzumushi0/AudioQAM_binary) — None
+- [suzumushi0/PolyPortamento_binary](https://github.com/suzumushi0/PolyPortamento_binary) — None
+- [suzumushi0/SoundObject_binary](https://github.com/suzumushi0/SoundObject_binary) — None
+- [suzumushi0/SpeakerObjects_binary](https://github.com/suzumushi0/SpeakerObjects_binary) — None
+- [suzumushi0/VoMPE_binary](https://github.com/suzumushi0/VoMPE_binary) — None
+- [Taikakim/spectral-forge](https://github.com/Taikakim/spectral-forge) — None
+- [tparker48/sherpa-synthesizer](https://github.com/tparker48/sherpa-synthesizer) — None
+- [Tronhjem/ORchestra](https://github.com/Tronhjem/ORchestra) — NOASSERTION
+- [ViGAWorld-FR/ViGAWorld-ViGAPhone](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone) — NOASSERTION
+- [vult-dsp/vult](https://github.com/vult-dsp/vult) — NOASSERTION
+- [Yusufmolla/betterarchetype](https://github.com/Yusufmolla/betterarchetype) — NOASSERTION
+- [zrythm/zrythm](https://github.com/zrythm/zrythm) — NOASSERTION
+
+## No VST3 in the release archives (55)
+
+- [alexanderwanyoike/vibez](https://github.com/alexanderwanyoike/vibez) — CLAP/LV2/VST2 only, or installer
+- [alexwest1981/sonix](https://github.com/alexwest1981/sonix) — CLAP/LV2/VST2 only, or installer
+- [amsynth/amsynth](https://github.com/amsynth/amsynth) — CLAP/LV2/VST2 only, or installer
+- [anthonyalfimov/Multi-Device-Player](https://github.com/anthonyalfimov/Multi-Device-Player) — CLAP/LV2/VST2 only, or installer
+- [artfwo/andes](https://github.com/artfwo/andes) — CLAP/LV2/VST2 only, or installer
+- [atsushieno/uapmd](https://github.com/atsushieno/uapmd) — CLAP/LV2/VST2 only, or installer
+- [bitgapp/eqMac](https://github.com/bitgapp/eqMac) — CLAP/LV2/VST2 only, or installer
+- [brummer10/Ratatouille.lv2](https://github.com/brummer10/Ratatouille.lv2) — CLAP/LV2/VST2 only, or installer
+- [bsutherland/JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) — CLAP/LV2/VST2 only, or installer
+- [CaYatur/SoundVisualizer](https://github.com/CaYatur/SoundVisualizer) — CLAP/LV2/VST2 only, or installer
+- [christofmuc/KnobKraft-orm](https://github.com/christofmuc/KnobKraft-orm) — CLAP/LV2/VST2 only, or installer
+- [clearly-broken-software/ninjas2](https://github.com/clearly-broken-software/ninjas2) — CLAP/LV2/VST2 only, or installer
+- [Conceptual-Machines/magda-core](https://github.com/Conceptual-Machines/magda-core) — CLAP/LV2/VST2 only, or installer
+- [consint/Panacea](https://github.com/consint/Panacea) — CLAP/LV2/VST2 only, or installer
+- [Darkglass-Electronics/anagram-midi-control](https://github.com/Darkglass-Electronics/anagram-midi-control) — CLAP/LV2/VST2 only, or installer
+- [davemollen/dm-GrainDelay](https://github.com/davemollen/dm-GrainDelay) — CLAP/LV2/VST2 only, or installer
+- [davemollen/dm-LFO](https://github.com/davemollen/dm-LFO) — CLAP/LV2/VST2 only, or installer
+- [davemollen/dm-Octaver](https://github.com/davemollen/dm-Octaver) — CLAP/LV2/VST2 only, or installer
+- [davemollen/dm-Reverse](https://github.com/davemollen/dm-Reverse) — CLAP/LV2/VST2 only, or installer
+- [Diversiam90815/TheOrchestra](https://github.com/Diversiam90815/TheOrchestra) — CLAP/LV2/VST2 only, or installer
+- [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) — CLAP/LV2/VST2 only, or installer
+- [DropSnorz/wobbleizer](https://github.com/DropSnorz/wobbleizer) — CLAP/LV2/VST2 only, or installer
+- [fake-industries/fuzzball](https://github.com/fake-industries/fuzzball) — CLAP/LV2/VST2 only, or installer
+- [fiverecords/SuperTimecodeConverter](https://github.com/fiverecords/SuperTimecodeConverter) — CLAP/LV2/VST2 only, or installer
+- [Frieve-A/effetune](https://github.com/Frieve-A/effetune) — CLAP/LV2/VST2 only, or installer
+- [glenwrhodes/OpenDaw](https://github.com/glenwrhodes/OpenDaw) — CLAP/LV2/VST2 only, or installer
+- [greatest-ape/OctaSine](https://github.com/greatest-ape/OctaSine) — CLAP/LV2/VST2 only, or installer
+- [hannesbraun/airwindows-lv2](https://github.com/hannesbraun/airwindows-lv2) — CLAP/LV2/VST2 only, or installer
+- [johnnovak/Nuked-SC55-CLAP](https://github.com/johnnovak/Nuked-SC55-CLAP) — CLAP/LV2/VST2 only, or installer
+- [jpcima/spectacle](https://github.com/jpcima/spectacle) — CLAP/LV2/VST2 only, or installer
+- [jpcima/stone-phaser](https://github.com/jpcima/stone-phaser) — CLAP/LV2/VST2 only, or installer
+- [LMMS/lmms](https://github.com/LMMS/lmms) — CLAP/LV2/VST2 only, or installer
+- [mattanikiej/bamboo-forest-ghost-chorus](https://github.com/mattanikiej/bamboo-forest-ghost-chorus) — CLAP/LV2/VST2 only, or installer
+- [mattanikiej/pandamonium-fuzz](https://github.com/mattanikiej/pandamonium-fuzz) — CLAP/LV2/VST2 only, or installer
+- [mattanikiej/party-panda-univibe](https://github.com/mattanikiej/party-panda-univibe) — CLAP/LV2/VST2 only, or installer
+- [MeijisIrlnd/Transfer](https://github.com/MeijisIrlnd/Transfer) — CLAP/LV2/VST2 only, or installer
+- [mikeoliphant/neural-amp-modeler-lv2](https://github.com/mikeoliphant/neural-amp-modeler-lv2) — CLAP/LV2/VST2 only, or installer
+- [monocasual/giada](https://github.com/monocasual/giada) — CLAP/LV2/VST2 only, or installer
+- [Musicoll/Kiwi](https://github.com/Musicoll/Kiwi) — CLAP/LV2/VST2 only, or installer
+- [mzuther/K-Meter](https://github.com/mzuther/K-Meter) — CLAP/LV2/VST2 only, or installer
+- [mzuther/Squeezer](https://github.com/mzuther/Squeezer) — CLAP/LV2/VST2 only, or installer
+- [mzuther/traKmeter](https://github.com/mzuther/traKmeter) — CLAP/LV2/VST2 only, or installer
+- [Noktomezo/ShallowHost](https://github.com/Noktomezo/ShallowHost) — CLAP/LV2/VST2 only, or installer
+- [nota-daw/nota](https://github.com/nota-daw/nota) — CLAP/LV2/VST2 only, or installer
+- [OrganicOrchestra/LGML](https://github.com/OrganicOrchestra/LGML) — CLAP/LV2/VST2 only, or installer
+- [raul-fernandez-ortega/natambio](https://github.com/raul-fernandez-ortega/natambio) — CLAP/LV2/VST2 only, or installer
+- [rsjaffe/MIDI2LR](https://github.com/rsjaffe/MIDI2LR) — CLAP/LV2/VST2 only, or installer
+- [sfztools/sfizz](https://github.com/sfztools/sfizz) — CLAP/LV2/VST2 only, or installer
+- [stargatedaw/stargate](https://github.com/stargatedaw/stargate) — CLAP/LV2/VST2 only, or installer
+- [studiorack/studiorack-app](https://github.com/studiorack/studiorack-app) — CLAP/LV2/VST2 only, or installer
+- [swesterfeld/spectmorph](https://github.com/swesterfeld/spectmorph) — CLAP/LV2/VST2 only, or installer
+- [the-synister/the-source](https://github.com/the-synister/the-source) — CLAP/LV2/VST2 only, or installer
+- [valsteen/note_effects_vst](https://github.com/valsteen/note_effects_vst) — CLAP/LV2/VST2 only, or installer
+- [wolf-plugins/wolf-spectrum](https://github.com/wolf-plugins/wolf-spectrum) — CLAP/LV2/VST2 only, or installer
+- [zynaddsubfx/zynaddsubfx](https://github.com/zynaddsubfx/zynaddsubfx) — CLAP/LV2/VST2 only, or installer
+
+## Pre-releases only (70)
+
+- [AkiyukiOkayasu/ImpulseResponseMeasurement](https://github.com/AkiyukiOkayasu/ImpulseResponseMeasurement)
+- [ales-tsurko/kotoist](https://github.com/ales-tsurko/kotoist)
+- [apohl79/GuitarAmp](https://github.com/apohl79/GuitarAmp)
+- [atsushieno/aap-juce](https://github.com/atsushieno/aap-juce)
+- [AustrianAudioGmbH/AmbiCreator](https://github.com/AustrianAudioGmbH/AmbiCreator)
+- [AustrianAudioGmbH/PolarDesigner](https://github.com/AustrianAudioGmbH/PolarDesigner)
+- [AustrianAudioGmbH/StereoCreator](https://github.com/AustrianAudioGmbH/StereoCreator)
+- [Boof2015/prism](https://github.com/Boof2015/prism)
+- [ChristosKonstantas/HTekDistortion](https://github.com/ChristosKonstantas/HTekDistortion)
+- [clearly-broken-software/drops](https://github.com/clearly-broken-software/drops)
+- [davemollen/dm-Seq](https://github.com/davemollen/dm-Seq)
+- [Davit-G/Hamburger](https://github.com/Davit-G/Hamburger)
+- [DISTRHO/MVerb](https://github.com/DISTRHO/MVerb)
+- [domenicostefani/cpp-timbreID](https://github.com/domenicostefani/cpp-timbreID)
+- [egor-sm/equalize_it](https://github.com/egor-sm/equalize_it)
+- [eimsound/EIM](https://github.com/eimsound/EIM)
+- [eliot-des/Xmax-Protection-Plugins](https://github.com/eliot-des/Xmax-Protection-Plugins)
+- [erroreyes/crrshrr](https://github.com/erroreyes/crrshrr)
+- [EwanMe/anyMidi](https://github.com/EwanMe/anyMidi)
+- [froehlicht/motion2midi](https://github.com/froehlicht/motion2midi)
+- [GatoImorrivel/fretcat](https://github.com/GatoImorrivel/fretcat)
+- [gdean725706/AudioManipulator](https://github.com/gdean725706/AudioManipulator)
+- [gdean725706/HourglassGranular](https://github.com/gdean725706/HourglassGranular)
+- [giulioz/rdpiano](https://github.com/giulioz/rdpiano)
+- [hsetlik/HexFm](https://github.com/hsetlik/HexFm)
+- [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2)
+- [JanosGit/Schrammel_OJD](https://github.com/JanosGit/Schrammel_OJD)
+- [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer)
+- [Jaybee18/Garbage](https://github.com/Jaybee18/Garbage)
+- [JerwuQu/w4on2](https://github.com/JerwuQu/w4on2)
+- [jmcgill-public/feral](https://github.com/jmcgill-public/feral)
+- [joex92/XYVI](https://github.com/joex92/XYVI)
+- [justonem0reuser/MatchingCompressor](https://github.com/justonem0reuser/MatchingCompressor)
+- [kyr0/microtune](https://github.com/kyr0/microtune)
+- [lukemcraig/PathSynth](https://github.com/lukemcraig/PathSynth)
+- [maksut/midi-time-machine](https://github.com/maksut/midi-time-machine)
+- [monadgroup/axiom](https://github.com/monadgroup/axiom)
+- [mtytel/helm](https://github.com/mtytel/helm)
+- [nabsei/delta-zero](https://github.com/nabsei/delta-zero)
+- [nacgarg/JUCESampleFinder](https://github.com/nacgarg/JUCESampleFinder)
+- [oikoaudio/oikoaudio](https://github.com/oikoaudio/oikoaudio)
+- [olilarkin/pMix2](https://github.com/olilarkin/pMix2)
+- [oliou/GroovOliou](https://github.com/oliou/GroovOliou)
+- [oxesoft/oxefmsynth](https://github.com/oxesoft/oxefmsynth)
+- [Pachii/topaz-pan](https://github.com/Pachii/topaz-pan)
+- [parawave/vulkan-cpp-library](https://github.com/parawave/vulkan-cpp-library)
+- [pkhead/beepbox-plug](https://github.com/pkhead/beepbox-plug)
+- [quarkquad/qs](https://github.com/quarkquad/qs)
+- [rghvdberg/ninjas](https://github.com/rghvdberg/ninjas)
+- [robbert-vdh/nih-plug](https://github.com/robbert-vdh/nih-plug)
+- [rochen-sound-collective/modular_collection](https://github.com/rochen-sound-collective/modular_collection)
+- [RustAudio/rust-lv2](https://github.com/RustAudio/rust-lv2)
+- [sourc3array/808TK](https://github.com/sourc3array/808TK)
+- [Speechrezz/VibratoPlugin](https://github.com/Speechrezz/VibratoPlugin)
+- [steeelydan/js2eel](https://github.com/steeelydan/js2eel)
+- [sunquan8094/overtonix](https://github.com/sunquan8094/overtonix)
+- [surge-synthesizer/conduit](https://github.com/surge-synthesizer/conduit)
+- [surge-synthesizer/monique-monosynth](https://github.com/surge-synthesizer/monique-monosynth)
+- [surge-synthesizer/shortcircuit-xt](https://github.com/surge-synthesizer/shortcircuit-xt)
+- [TheWaveWarden/odin2](https://github.com/TheWaveWarden/odin2)
+- [thezhe/PLUG-QA](https://github.com/thezhe/PLUG-QA)
+- [TobiasKozel/GuitarD](https://github.com/TobiasKozel/GuitarD)
+- [toni-lyttinen/CognitoniBlkFx](https://github.com/toni-lyttinen/CognitoniBlkFx)
+- [utokusa/BiquadLimiter](https://github.com/utokusa/BiquadLimiter)
+- [vsicurella/SuperVirtualKeyboard](https://github.com/vsicurella/SuperVirtualKeyboard)
+- [vvvar/juce-conan](https://github.com/vvvar/juce-conan)
+- [xivilay/chord-recognition](https://github.com/xivilay/chord-recognition)
+- [xivilay/scale-remapper](https://github.com/xivilay/scale-remapper)
+- [yamadapc/augmented-audio](https://github.com/yamadapc/augmented-audio)
+- [zmann-org/zmann](https://github.com/zmann-org/zmann)
+
+## Installers only (23)
+
+- [acendan/zerochecker](https://github.com/acendan/zerochecker) — .exe/.msi
+- [Ankalot/Bifractalizer](https://github.com/Ankalot/Bifractalizer) — .exe/.msi
+- [christofmuc/BCR2000_Master](https://github.com/christofmuc/BCR2000_Master) — .exe/.msi
+- [dechamps/ASIO401](https://github.com/dechamps/ASIO401) — .exe/.msi
+- [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) — .exe/.msi
+- [Hans45300/helmBoy](https://github.com/Hans45300/helmBoy) — .exe/.msi
+- [HappyAcccident/Quadratic-Visualizer-Plugin](https://github.com/HappyAcccident/Quadratic-Visualizer-Plugin) — .exe/.msi
+- [heide-oficial/Light-Host-Modern](https://github.com/heide-oficial/Light-Host-Modern) — .exe/.msi
+- [ikkeseb/bleeploop](https://github.com/ikkeseb/bleeploop) — .exe/.msi
+- [JagGillarVatten/PluginPurge](https://github.com/JagGillarVatten/PluginPurge) — .exe/.msi
+- [jedlamartin/Crush20L](https://github.com/jedlamartin/Crush20L) — .exe/.msi
+- [KnightChaser/8ds](https://github.com/KnightChaser/8ds) — .exe/.msi
+- [kunitoki/popsicle](https://github.com/kunitoki/popsicle) — .exe/.msi
+- [maudoin/jucevlc](https://github.com/maudoin/jucevlc) — .exe/.msi
+- [momentarylapse/tsunami](https://github.com/momentarylapse/tsunami) — .exe/.msi
+- [philipz794/MicVST](https://github.com/philipz794/MicVST) — .exe/.msi
+- [psemiletov/drumlabooh](https://github.com/psemiletov/drumlabooh) — .exe/.msi
+- [surge-synthesizer/surge-rack](https://github.com/surge-synthesizer/surge-rack) — .exe/.msi
+- [tesserato/PianoForte](https://github.com/tesserato/PianoForte) — .exe/.msi
+- [vihdzp/colimiter](https://github.com/vihdzp/colimiter) — .exe/.msi
+- [Vybecode-LTD/stripkit](https://github.com/Vybecode-LTD/stripkit) — .exe/.msi
+- [waddafunk/Oscilloscope](https://github.com/waddafunk/Oscilloscope) — .exe/.msi
+- [yoruhinot/DawAudioStreamer](https://github.com/yoruhinot/DawAudioStreamer) — .exe/.msi
+
+## Archives over 300 MB (4)
+
+- [DISTRHO/Cardinal](https://github.com/DISTRHO/Cardinal) — Cardinal-linux-aarch64-26.02.tar.gz, Cardinal-linux-x86_64-26.02.tar.gz, Cardina
+- [JamesStubbsEng/8ridgelite](https://github.com/JamesStubbsEng/8ridgelite) — 8ridgelite.pkg
+- [Kanebos9/BASAMAK](https://github.com/Kanebos9/BASAMAK) — BASAMAK-1.6.0-Linux.zip, BASAMAK-1.6.0-macOS.zip, BASAMAK-1.6.0-Windows.zip
+- [VASTDynamics/Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) — Vaporizer2_installer_OSX64_3.5.0.zip, Vaporizer2_installer_win_3.5.0.zip
+
+## Curated out (29)
+
+Templates, games, hardware-specific editors, and plugins that need an external app, server or API.
+
+- [kalexis1994/rackforge](https://github.com/kalexis1994/rackforge) — a host app rather than a plugin
+- [valeriorlandini/theinformer](https://github.com/valeriorlandini/theinformer) — framework, needs its broadcast app
+- [ak5k/ndi-audio-io](https://github.com/ak5k/ndi-audio-io) — needs the NDI runtime
+- [apohl79/audiogridder](https://github.com/apohl79/audiogridder) — needs its server app
+- [baconpaul/airwin2rack](https://github.com/baconpaul/airwin2rack) — rolling "DAWPlugin" tag whose assets are replaced
+- [betweentwomidnights/gary4juce](https://github.com/betweentwomidnights/gary4juce) — needs remote AI servers
+- [BOBONA/Just-a-Sample](https://github.com/BOBONA/Just-a-Sample) — latest release is a pre-release
+- [cdp-wasm-suite/cdp-plugin](https://github.com/cdp-wasm-suite/cdp-plugin) — web-embedding experiment
+- [christofmuc/JammerNetz](https://github.com/christofmuc/JammerNetz) — needs its server
+- [directmusic/DoomVST](https://github.com/directmusic/DoomVST) — a game, not an audio tool
+- [gmoican/DistortionDesigner](https://github.com/gmoican/DistortionDesigner) — developer tool
+- [gopher-atz/64klang](https://github.com/gopher-atz/64klang) — pre-release; needs SSE4.1, so no Apple silicon
+- [k1ln/VibePlugin](https://github.com/k1ln/VibePlugin) — needs a Claude API key
+- [KaiDrange/ECMapper](https://github.com/KaiDrange/ECMapper) — Eigenharp-only
+- [LiveTrack-X/DirectPipe](https://github.com/LiveTrack-X/DirectPipe) — companion to a host app
+- [ManasWolrd/dev-plugins](https://github.com/ManasWolrd/dev-plugins) — per-plugin tags in a monorepo; add plugins one by one with --tag
+- [polimi-ispl/ebeamer](https://github.com/polimi-ispl/ebeamer) — eSticks-only
+- [rclement/meeblip-controller](https://github.com/rclement/meeblip-controller) — editor for one hardware synth
+- [RitaAndAurora/kijimi-babu-frik](https://github.com/RitaAndAurora/kijimi-babu-frik) — editor for one hardware synth
+- [rolandzwaga/krate-audio](https://github.com/rolandzwaga/krate-audio) — tags contain "/" (monorepo)
+- [satiricalguru/Beatrice-voicechanger-windows](https://github.com/satiricalguru/Beatrice-voicechanger-windows) — pre-release; voice-changer app
+- [shirohata/vc-rs](https://github.com/shirohata/vc-rs) — needs ONNX models on Windows ML
+- [steveseguin/Ninja-VST3-Plugin](https://github.com/steveseguin/Ninja-VST3-Plugin) — needs VDO.Ninja
+- [studiorack/studiorack-template-iplug](https://github.com/studiorack/studiorack-template-iplug) — plugin template
+- [studiorack/studiorack-template-juce](https://github.com/studiorack/studiorack-template-juce) — plugin template
+- [studiorack/studiorack-template-steinberg](https://github.com/studiorack/studiorack-template-steinberg) — plugin template
+- [sudara/pamplejuce](https://github.com/sudara/pamplejuce) — plugin template
+- [Torsion-Audio/nn-inference-template](https://github.com/Torsion-Audio/nn-inference-template) — code template
+- [valeriorlandini/theinformer](https://github.com/valeriorlandini/theinformer) — framework, needs its broadcast app
+
+## Release has no archive for macOS/Windows/Linux (177)
+
+Mostly libraries, apps or plugins that publish no binaries.
+
+- [abbysoft-team/Soompler](https://github.com/abbysoft-team/Soompler)
+- [AkiyukiOkayasu/MelodyEstimator](https://github.com/AkiyukiOkayasu/MelodyEstimator)
+- [AkiyukiOkayasu/preceding_note_blocker](https://github.com/AkiyukiOkayasu/preceding_note_blocker)
+- [AlexW00/clockwork](https://github.com/AlexW00/clockwork)
+- [andDevW/AEQ](https://github.com/andDevW/AEQ)
+- [antonok-edm/ampli-Fe](https://github.com/antonok-edm/ampli-Fe)
+- [atkAudio/PluginForObsRelease](https://github.com/atkAudio/PluginForObsRelease)
+- [atsushieno/aap-core](https://github.com/atsushieno/aap-core)
+- [atsushieno/aap-juce-vital](https://github.com/atsushieno/aap-juce-vital)
+- [atsushieno/aap-lv2](https://github.com/atsushieno/aap-lv2)
+- [audiooffler/JucyFluttering](https://github.com/audiooffler/JucyFluttering)
+- [blackboxaudio/nectar](https://github.com/blackboxaudio/nectar)
+- [BLCK-B/Prescient-VST](https://github.com/BLCK-B/Prescient-VST)
+- [Bleuzen/FFaudioConverter](https://github.com/Bleuzen/FFaudioConverter)
+- [brummer10/guitarix.vst](https://github.com/brummer10/guitarix.vst)
+- [brummer10/XUiDesigner](https://github.com/brummer10/XUiDesigner)
+- [Celemony/ARA_API](https://github.com/Celemony/ARA_API)
+- [Celemony/ARA_Examples](https://github.com/Celemony/ARA_Examples)
+- [Celemony/ARA_Library](https://github.com/Celemony/ARA_Library)
+- [Celemony/ARA_SDK](https://github.com/Celemony/ARA_SDK)
+- [chebum/equalizer-apo-64](https://github.com/chebum/equalizer-apo-64)
+- [cognitone/sf2convert](https://github.com/cognitone/sf2convert)
+- [CristianMoresi/DSPark](https://github.com/CristianMoresi/DSPark)
+- [DADDesign-Projects/OSCAR_P01A01](https://github.com/DADDesign-Projects/OSCAR_P01A01)
+- [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer)
+- [DBraun/TD-JUCE](https://github.com/DBraun/TD-JUCE)
+- [devashish-gupta/Tranquil](https://github.com/devashish-gupta/Tranquil)
+- [dinaraparanid/Crescendo](https://github.com/dinaraparanid/Crescendo)
+- [DirtyBeastAfterTheToad/LLMidi](https://github.com/DirtyBeastAfterTheToad/LLMidi)
+- [DISTRHO/DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports)
+- [Do-sth-sharp/libDMDA](https://github.com/Do-sth-sharp/libDMDA)
+- [Do-sth-sharp/libMackieControl](https://github.com/Do-sth-sharp/libMackieControl)
+- [dps123/dynaudnorm_ladspa](https://github.com/dps123/dynaudnorm_ladspa)
+- [duncanwold/GuitarVocoder](https://github.com/duncanwold/GuitarVocoder)
+- [erroreyes/hardclipper](https://github.com/erroreyes/hardclipper)
+- [EVERTims/auralization_engine_evertims](https://github.com/EVERTims/auralization_engine_evertims)
+- [EXLOUD/PE-API-REPLACER](https://github.com/EXLOUD/PE-API-REPLACER)
+- [EZForever/Viruz2](https://github.com/EZForever/Viruz2)
+- [fedden/RenderMan](https://github.com/fedden/RenderMan)
+- [ffAudio/foleys_gui_magic](https://github.com/ffAudio/foleys_gui_magic)
+- [FilTer87/VST-AnalogChannel](https://github.com/FilTer87/VST-AnalogChannel)
+- [forart/HyMPS](https://github.com/forart/HyMPS)
+- [fsecada01/bus_channel_strip](https://github.com/fsecada01/bus_channel_strip)
+- [GeekyEggo/SoundDeck](https://github.com/GeekyEggo/SoundDeck)
+- [GizzZmo/DSP4Guitar](https://github.com/GizzZmo/DSP4Guitar)
+- [Gluton-Official/FreqChain](https://github.com/Gluton-Official/FreqChain)
+- [GrieferPig/zippify](https://github.com/GrieferPig/zippify)
+- [Guillemsc/ImplementationSelector](https://github.com/Guillemsc/ImplementationSelector)
+- [GullDSP/Circulate-VST](https://github.com/GullDSP/Circulate-VST)
+- [HelgeSverre/rust-vst3-host](https://github.com/HelgeSverre/rust-vst3-host)
+- [helpermedia/beamer](https://github.com/helpermedia/beamer)
+- [hollance/bombaz](https://github.com/hollance/bombaz)
+- [hollance/krunch](https://github.com/hollance/krunch)
+- [hollance/lost-and-found-piano](https://github.com/hollance/lost-and-found-piano)
+- [hollance/mda-plugins-juce](https://github.com/hollance/mda-plugins-juce)
+- [hollance/sMexoscope](https://github.com/hollance/sMexoscope)
+- [hotwatermorning/vstrex](https://github.com/hotwatermorning/vstrex)
+- [igorski/vst-plugin-boilerplate](https://github.com/igorski/vst-plugin-boilerplate)
+- [ImJimmi/JIVE](https://github.com/ImJimmi/JIVE)
+- [Iunusov/LameVST](https://github.com/Iunusov/LameVST)
+- [Iunusov/ShoutVST](https://github.com/Iunusov/ShoutVST)
+- [iver56/cross-adaptive-audio](https://github.com/iver56/cross-adaptive-audio)
+- [jakeyjakeyy/SnapTrack](https://github.com/jakeyjakeyy/SnapTrack)
+- [jameshball/osci-render](https://github.com/jameshball/osci-render)
+- [JamesStubbsEng/TS-808-Ultra](https://github.com/JamesStubbsEng/TS-808-Ultra)
+- [JanWilczek/adc24-workshop](https://github.com/JanWilczek/adc24-workshop)
+- [JanWilczek/audio-plugin-template](https://github.com/JanWilczek/audio-plugin-template)
+- [jatinchowdhury18/ChowDSP-VCV](https://github.com/jatinchowdhury18/ChowDSP-VCV)
+- [JosephTLyons/GUI-Delay-Time-Calculator](https://github.com/JosephTLyons/GUI-Delay-Time-Calculator)
+- [jpcima/HybridReverb2](https://github.com/jpcima/HybridReverb2)
+- [jpcima/quadrafuzz](https://github.com/jpcima/quadrafuzz)
+- [jpcima/rezonateur](https://github.com/jpcima/rezonateur)
+- [Juce-Assets/Juce-CoreUnity](https://github.com/Juce-Assets/Juce-CoreUnity)
+- [Juce-Assets/Juce-Feedbacks](https://github.com/Juce-Assets/Juce-Feedbacks)
+- [Juce-Assets/Juce-Tween](https://github.com/Juce-Assets/Juce-Tween)
+- [Juce-Assets/Juce-TweenPlayer](https://github.com/Juce-Assets/Juce-TweenPlayer)
+- [Juce-Assets/Juce-Utils](https://github.com/Juce-Assets/Juce-Utils)
+- [junh1024/Reaper-Surround](https://github.com/junh1024/Reaper-Surround)
+- [jurihock/stftPitchShift](https://github.com/jurihock/stftPitchShift)
+- [KaixoCode/CMBNEX](https://github.com/KaixoCode/CMBNEX)
+- [kbinani/je2be-desktop](https://github.com/kbinani/je2be-desktop)
+- [kbinani/mcview](https://github.com/kbinani/mcview)
+- [kunitoki/yup](https://github.com/kunitoki/yup)
+- [kushview/Element](https://github.com/kushview/Element)
+- [lachesis17/Delay-ja-vu](https://github.com/lachesis17/Delay-ja-vu)
+- [liuyueyi/quick-media](https://github.com/liuyueyi/quick-media)
+- [Lomasterrrr/Audio-Generator](https://github.com/Lomasterrrr/Audio-Generator)
+- [LongKelvin/midi-chord-detector-plugin](https://github.com/LongKelvin/midi-chord-detector-plugin)
+- [m1m0zzz/utility-clone](https://github.com/m1m0zzz/utility-clone)
+- [marc365/FxBox](https://github.com/marc365/FxBox)
+- [Matth-ewe-f/audio-plugin-delay-intervals](https://github.com/Matth-ewe-f/audio-plugin-delay-intervals)
+- [melinteflxrin/DISTROAR-Distortion-Plugin](https://github.com/melinteflxrin/DISTROAR-Distortion-Plugin)
+- [michael-truscott/DoomVst](https://github.com/michael-truscott/DoomVst)
+- [MichaelBokatius/BlissBox](https://github.com/MichaelBokatius/BlissBox)
+- [mikegazzaruso/RnboJuceTemplate](https://github.com/mikegazzaruso/RnboJuceTemplate)
+- [mikeoliphant/AudioPlugSharp](https://github.com/mikeoliphant/AudioPlugSharp)
+- [ModernMube/OwnAudioSharp](https://github.com/ModernMube/OwnAudioSharp)
+- [Moebytes/Gain-Booster](https://github.com/Moebytes/Gain-Booster)
+- [mourednik/argotlunar](https://github.com/mourednik/argotlunar)
+- [Mrugalla/NEL-19](https://github.com/Mrugalla/NEL-19)
+- [NaviCisco/StoneMistress](https://github.com/NaviCisco/StoneMistress)
+- [Neutone/neutone_sdk](https://github.com/Neutone/neutone_sdk)
+- [njazz/cloudseed-juce](https://github.com/njazz/cloudseed-juce)
+- [obiwanjacobi/vst.net](https://github.com/obiwanjacobi/vst.net)
+- [OlliV/DiaPro](https://github.com/OlliV/DiaPro)
+- [open-audio-stack/open-audio-stack-registry](https://github.com/open-audio-stack/open-audio-stack-registry)
+- [OpenSauce/nam-rs](https://github.com/OpenSauce/nam-rs)
+- [OpenShot/libopenshot-audio](https://github.com/OpenShot/libopenshot-audio)
+- [Orastron/brickworks](https://github.com/Orastron/brickworks)
+- [osam-cologne/stereogain](https://github.com/osam-cologne/stereogain)
+- [OTODESK4193/Ambience1.0.1](https://github.com/OTODESK4193/Ambience1.0.1)
+- [OTODESK4193/ANATOMY](https://github.com/OTODESK4193/ANATOMY)
+- [OTODESK4193/QuadMorphFilter](https://github.com/OTODESK4193/QuadMorphFilter)
+- [p-chan5/EasyPulse](https://github.com/p-chan5/EasyPulse)
+- [paranoid2droid/ParanoidChorus](https://github.com/paranoid2droid/ParanoidChorus)
+- [patriceguyot/ComposeSiren](https://github.com/patriceguyot/ComposeSiren)
+- [PedalPi/PluginsManager](https://github.com/PedalPi/PluginsManager)
+- [PentagramPro/OwlBass](https://github.com/PentagramPro/OwlBass)
+- [pongasoft/jamba](https://github.com/pongasoft/jamba)
+- [pongasoft/jamba-sample-gain](https://github.com/pongasoft/jamba-sample-gain)
+- [Princeton-CDH/bitKlavier](https://github.com/Princeton-CDH/bitKlavier)
+- [qbroquetas/IV-XDelay](https://github.com/qbroquetas/IV-XDelay)
+- [Quefumas/gensound](https://github.com/Quefumas/gensound)
+- [QVbDev/quantumVerb](https://github.com/QVbDev/quantumVerb)
+- [RealAlexZ/MultiMeter](https://github.com/RealAlexZ/MultiMeter)
+- [RickBn/reDroidFlux](https://github.com/RickBn/reDroidFlux)
+- [rickgiantsteps/bucket-brigade](https://github.com/rickgiantsteps/bucket-brigade)
+- [rjstudiosaustralia/DeFeedback](https://github.com/rjstudiosaustralia/DeFeedback)
+- [robbert-vdh/yabridge](https://github.com/robbert-vdh/yabridge)
+- [RocoPlayer/RocoPlayerAndroid](https://github.com/RocoPlayer/RocoPlayerAndroid)
+- [rullopat/sfizioso](https://github.com/rullopat/sfizioso)
+- [RustAudio/vst-rs](https://github.com/RustAudio/vst-rs)
+- [s-oram/Grace](https://github.com/s-oram/Grace)
+- [sainsay/AudioPlugins](https://github.com/sainsay/AudioPlugins)
+- [sakku116/ampforge](https://github.com/sakku116/ampforge)
+- [satelllte/GainPlugin](https://github.com/satelllte/GainPlugin)
+- [scheffle/vst3utils](https://github.com/scheffle/vst3utils)
+- [schollz/oooo-vst](https://github.com/schollz/oooo-vst)
+- [SloeComputers/picoX7](https://github.com/SloeComputers/picoX7)
+- [smbolton/hexter](https://github.com/smbolton/hexter)
+- [SonicSkunk/DuckingSpace](https://github.com/SonicSkunk/DuckingSpace)
+- [sonosole/SpeechAugment.jl](https://github.com/sonosole/SpeechAugment.jl)
+- [sophiapoirier/destroyfx](https://github.com/sophiapoirier/destroyfx)
+- [Spatial-Media-Lab/OpenSpatialDelay](https://github.com/Spatial-Media-Lab/OpenSpatialDelay)
+- [spotify/pedalboard](https://github.com/spotify/pedalboard)
+- [SpotlightKid/cookiecutter-dpf-faust](https://github.com/SpotlightKid/cookiecutter-dpf-faust)
+- [SpotlightKid/dpf-faust-project-template](https://github.com/SpotlightKid/dpf-faust-project-template)
+- [SpotlightKid/sendmixer](https://github.com/SpotlightKid/sendmixer)
+- [SquarePine/squarepine_core](https://github.com/SquarePine/squarepine_core)
+- [src3453/3HSPlug](https://github.com/src3453/3HSPlug)
+- [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui)
+- [suzumushi0/PolyPortamento_source](https://github.com/suzumushi0/PolyPortamento_source)
+- [suzumushi0/SoundObject_source](https://github.com/suzumushi0/SoundObject_source)
+- [suzumushi0/VoMPE_source](https://github.com/suzumushi0/VoMPE_source)
+- [tesselode/cocoa-delay](https://github.com/tesselode/cocoa-delay)
+- [tesselode/flutterbird](https://github.com/tesselode/flutterbird)
+- [tesselode/mika-micro](https://github.com/tesselode/mika-micro)
+- [TheAvalanche/JustAudioFX](https://github.com/TheAvalanche/JustAudioFX)
+- [thezhe/D-lay](https://github.com/thezhe/D-lay)
+- [toasty-ghost/ASE_KM_Caverb](https://github.com/toasty-ghost/ASE_KM_Caverb)
+- [tobanteAudio/juce-cookbook](https://github.com/tobanteAudio/juce-cookbook)
+- [toxyl/sonica-bundle](https://github.com/toxyl/sonica-bundle)
+- [Tracktion/tracktion_engine](https://github.com/Tracktion/tracktion_engine)
+- [usdivad/Melodrumatic](https://github.com/usdivad/Melodrumatic)
+- [ValdemarOrn/CloudSeed](https://github.com/ValdemarOrn/CloudSeed)
+- [vgorloff/VST3NetSend](https://github.com/vgorloff/VST3NetSend)
+- [Wasted-Audio/wstd-dl3y](https://github.com/Wasted-Audio/wstd-dl3y)
+- [wheatBread1306/Dispenser](https://github.com/wheatBread1306/Dispenser)
+- [wxxminjeong/WX_CRUSHER](https://github.com/wxxminjeong/WX_CRUSHER)
+- [xiph/rnnoise](https://github.com/xiph/rnnoise)
+- [xoofx/NPlug](https://github.com/xoofx/NPlug)
+- [xuan25/RXG100-RE](https://github.com/xuan25/RXG100-RE)
+- [yeeking/ai-enhanced-audio-book](https://github.com/yeeking/ai-enhanced-audio-book)
+- [yonie/WetCompressor](https://github.com/yonie/WetCompressor)
+- [yonie/WetDelay](https://github.com/yonie/WetDelay)
+- [yonie/WetEQ](https://github.com/yonie/WetEQ)
+- [yonie/WetReverb](https://github.com/yonie/WetReverb)

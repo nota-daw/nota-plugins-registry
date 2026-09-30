@@ -1,0 +1,47 @@
+{
+  "id": "dm-spaceecho",
+  "name": "dm-SpaceEcho",
+  "developer": "Dave Mollen",
+  "description": "Tape delay and spring reverb in the style of the Roland Space Echo.",
+  "repo": "https://github.com/davemollen/dm-SpaceEcho",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SpaceEcho"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-ubuntu.zip",
+          "sha256": "e443939732f31f4dc3ee531292b8021e4d3e95eaad3255d84d8352659b9ad0f5",
+          "size": 7811104,
+          "bundles": [
+            "dm-SpaceEcho-ubuntu/dm-SpaceEcho.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-macos.zip",
+          "sha256": "4d8a61b51638bb3fcb213cf636ae6219fb625e9ff511b847b86e0f7cb081748b",
+          "size": 20406338,
+          "bundles": [
+            "dm-SpaceEcho-macos/dm-SpaceEcho.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-windows.zip",
+          "sha256": "e2f02a7690fbd8b7cdd0ff0953e1cb38789e3d96c14c53a8cd173ead90c8a4ae",
+          "size": 6853771,
+          "bundles": [
+            "dm-SpaceEcho-windows/dm-SpaceEcho.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

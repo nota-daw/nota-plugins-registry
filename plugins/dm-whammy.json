@@ -1,0 +1,47 @@
+{
+  "id": "dm-whammy",
+  "name": "dm-Whammy",
+  "developer": "Dave Mollen",
+  "description": "Pitch shifter in the style of the DigiTech Whammy.",
+  "repo": "https://github.com/davemollen/dm-Whammy",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Whammy"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-ubuntu.zip",
+          "sha256": "2e6034eb0679d2eed979a03dab392ffcdbdd7133580a9638cec96d8c402b7efc",
+          "size": 8019676,
+          "bundles": [
+            "dm-Whammy-ubuntu/dm-Whammy.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-macos.zip",
+          "sha256": "6ad44ef627cedfda52e091e9222913ed7f0c8ebeb15667d0906ad689cc1906de",
+          "size": 21254173,
+          "bundles": [
+            "dm-Whammy-macos/dm-Whammy.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-windows.zip",
+          "sha256": "4292a8d0eae565a862a495bee458dc7891275ab91734fbbac3b4dd76038b3801",
+          "size": 7201089,
+          "bundles": [
+            "dm-Whammy-windows/dm-Whammy.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "zones-client",
+  "name": "Zones",
+  "developer": "Zones Convolution",
+  "description": "Convolution reverb with impulse responses from shared, real spaces.",
+  "homepage": "https://zonesconvolution.com",
+  "repo": "https://github.com/zones-convolution/zones_client",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "convolution"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Zones"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.5",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg",
+          "sha256": "0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202",
+          "size": 6085364,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Zones.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

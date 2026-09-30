@@ -1,0 +1,47 @@
+{
+  "id": "dm-reverb",
+  "name": "dm-Reverb",
+  "developer": "Dave Mollen",
+  "description": "Reverb.",
+  "repo": "https://github.com/davemollen/dm-Reverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Reverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-ubuntu.zip",
+          "sha256": "1cb59f08ce6453ac30c3337cdfdb96ae7477b253919fbd066c1ea14acf5e052c",
+          "size": 7689570,
+          "bundles": [
+            "dm-Reverb-ubuntu/dm-Reverb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-macos.zip",
+          "sha256": "3c0f04331bfd99bb4955da178f6da7846f90229a0b6793b4b6457610e3ecc277",
+          "size": 20096088,
+          "bundles": [
+            "dm-Reverb-macos/dm-Reverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-windows.zip",
+          "sha256": "138f5f6dbcd3d26c8e2ea70ac3644bb00603e4311f15ec74dc9ec8895b1d6c8a",
+          "size": 6757110,
+          "bundles": [
+            "dm-Reverb-windows/dm-Reverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

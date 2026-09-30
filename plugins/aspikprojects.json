@@ -1,0 +1,77 @@
+{
+  "id": "aspikprojects",
+  "name": "ASPiK Projects",
+  "developer": "Steve Dwyer",
+  "description": "Collection of effects built with the ASPiK framework.",
+  "repo": "https://github.com/DoomyDwyer/ASPiKProjects",
+  "license": "GPL-3.0",
+  "kind": "bundle",
+  "tags": [
+    "win64"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Auto-Q"
+    },
+    {
+      "format": "VST3",
+      "name": "Howler"
+    },
+    {
+      "format": "VST3",
+      "name": "Memento"
+    },
+    {
+      "format": "VST3",
+      "name": "Reliq"
+    },
+    {
+      "format": "VST3",
+      "name": "Unphased"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/DoomyDwyer/ASPiKProjects/releases/download/2.0.0/Doomsville_VST3_MacOS_arm64_2.0.0.zip",
+          "sha256": "e2551e790fea8aa6935f2f4f18e043488a86aabc7b547a8f12ce514edc3ede73",
+          "size": 4454246,
+          "bundles": [
+            "AutoQ.vst3",
+            "Howler.vst3",
+            "Memento.vst3",
+            "Reliq.vst3",
+            "Unphased.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/DoomyDwyer/ASPiKProjects/releases/download/2.0.0/Doomsville_VST3_MacOS_x86_64_2.0.0.zip",
+          "sha256": "92b1a9f4c4b2620719d225f8a7e5851b2663b11a10303f03b263199c280741bc",
+          "size": 5272586,
+          "bundles": [
+            "AutoQ.vst3",
+            "Howler.vst3",
+            "Memento.vst3",
+            "Reliq.vst3",
+            "Unphased.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/DoomyDwyer/ASPiKProjects/releases/download/2.0.0/Doomsville_VST3_x86_64_win_2.0.0.zip",
+          "sha256": "9a7054c25d5b7c731e0eaa1b8af25b78094a8d7bbae931c27b4beb67549a9a74",
+          "size": 7065969,
+          "bundles": [
+            "AutoQ.vst3",
+            "Howler.vst3",
+            "Memento.vst3",
+            "Reliq.vst3",
+            "Unphased.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

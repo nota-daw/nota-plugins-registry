@@ -1,0 +1,55 @@
+{
+  "id": "zerocomp",
+  "name": "ZeroComp",
+  "developer": "Jun Murakami",
+  "description": "Zero-latency compressor for broadcast.",
+  "homepage": "https://jun-murakami.web.app/apps/zerocomp",
+  "repo": "https://github.com/Jun-Murakami/ZeroComp",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "aax",
+    "juce-plugins",
+    "lv2-plugins",
+    "react",
+    "reactjs",
+    "typescript"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZeroComp"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.7",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "sha256": "e371e8204471bcb37009eb978e25268cce734eabefecd329f762362c061e58de",
+          "size": 11413627,
+          "bundles": [
+            "VST3/ZeroComp.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "sha256": "60740354113ab8d63ed8f67d6106ebbfa7846072dc35f0a9d65ac48b3e7aeeca",
+          "size": 27282732,
+          "bundles": [
+            "ZeroComp.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "sha256": "2f3d30be07be155e3a82bd30512665a158e0c32b587ce5c16b92749eed3bfd1e",
+          "size": 21958122,
+          "bundles": [
+            "ZeroComp.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gainstagefx",
+  "name": "GainStageFx",
+  "developer": "Simon Huber",
+  "description": "Gain-staging utility.",
+  "repo": "https://github.com/BurningTreeC/gainstagefx",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "amplifier",
+    "daw-plugins",
+    "distortion",
+    "pedal",
+    "preamp",
+    "saturation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "GainStageFx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.33.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.33.0/GainStageFx-linux-v0.33.0.zip",
+          "sha256": "edc24639b3662011ab85aaad0933d20efac13856776e049b6a40d696a2be4e3c",
+          "size": 23870831,
+          "bundles": [
+            "GainStageFx.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.33.0/GainStageFx-macos-universal-v0.33.0.zip",
+          "sha256": "3432edd791ec1b4b6323d8299c2a2563c5937d378842d1064ebfb99c2824c099",
+          "size": 40896564,
+          "bundles": [
+            "GainStageFx.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.33.0/GainStageFx-windows-v0.33.0.zip",
+          "sha256": "25999ac6fed762e29ef48c8a9a107a91979b9ec5a0051b06fc33f81025f53e1a",
+          "size": 21386337,
+          "bundles": [
+            "GainStageFx.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

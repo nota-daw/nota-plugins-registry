@@ -1,0 +1,33 @@
+{
+  "id": "drumcraker",
+  "name": "DrumCraker",
+  "developer": "Wamphyre",
+  "description": "Drum sampler, compatible with DrumGizmo kits.",
+  "repo": "https://github.com/Wamphyre/DrumCraker",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "drums"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DrumCraker"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.4",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Wamphyre/DrumCraker/releases/download/v1.3.4/DrumCraker-Linux.vst3.zip",
+          "sha256": "14ec7c52110b08ea9b050982390dbbb05d8a91c9b38ff4750e4987739fb4af31",
+          "size": 5511536,
+          "bundles": [
+            "DrumCraker.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

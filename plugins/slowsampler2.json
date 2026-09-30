@@ -1,0 +1,35 @@
+{
+  "id": "slowsampler2",
+  "name": "SlowSampler",
+  "developer": "chsh2",
+  "description": "Sampler for tuning and time-stretching samples.",
+  "repo": "https://github.com/chsh2/SlowSampler2",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "otomad",
+    "puredata",
+    "ytpmv"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SlowSampler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/chsh2/SlowSampler2/releases/download/v0.1/SlowSampler2_Mac_Universal.zip",
+          "sha256": "565570650917aa7529ab1b0fe026f433e03fd7cb74f0e16b13a59537d73c6e84",
+          "size": 36985071,
+          "bundles": [
+            "SlowSampler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

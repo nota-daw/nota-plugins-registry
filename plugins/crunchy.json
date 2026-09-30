@@ -1,0 +1,50 @@
+{
+  "id": "crunchy",
+  "name": "Crunchy",
+  "developer": "Garneek",
+  "description": "DCT-domain clipper and bitcrusher.",
+  "repo": "https://github.com/Garneek/crunchy",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "dct",
+    "effect"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Crunchy"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-linux.zip",
+          "sha256": "f24862ecd2f86b28b9b6547e0c8925d9cb247e8633dee6aceb126135adae70dc",
+          "size": 7514992,
+          "bundles": [
+            "crunchy-plugin.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-macOS.zip",
+          "sha256": "6440cdd926f416959bc0f780ed2a8110c396c39e9156b045b695fec5ca8b6bc9",
+          "size": 13203480,
+          "bundles": [
+            "crunchy-plugin.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-windows.zip",
+          "sha256": "8aa21c074b0252b4bcf3e53367c546dcf928eff45daa90ed47e42c87d6f7df63",
+          "size": 5997196,
+          "bundles": [
+            "crunchy-plugin.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

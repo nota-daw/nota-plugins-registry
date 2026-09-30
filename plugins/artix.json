@@ -1,0 +1,36 @@
+{
+  "id": "artix",
+  "name": "Artix",
+  "developer": "Spatian.dev",
+  "description": "Maps MIDI channels to notes to simplify keyswitches.",
+  "homepage": "https://artix.spatian.dev",
+  "repo": "https://github.com/spatian-dev/artix",
+  "license": "AGPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "au-plugin",
+    "keyswitch",
+    "midi"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Artix"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/spatian-dev/artix/releases/download/1.0.0/Artix.vst3_win_x64_v1.0.0.zip",
+          "sha256": "a143d6a97eb44302ca93e48962560d20eb9c70a967d44bf3c202a216fb990bd3",
+          "size": 2397435,
+          "bundles": [
+            "Artix.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

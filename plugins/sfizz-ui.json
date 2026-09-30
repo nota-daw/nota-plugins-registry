@@ -1,0 +1,43 @@
+{
+  "id": "sfizz-ui",
+  "name": "sfizz",
+  "developer": "SFZ Tools",
+  "description": "Sampler for SFZ instruments.",
+  "homepage": "https://sfztools.github.io/sfizz/",
+  "repo": "https://github.com/sfztools/sfizz-ui",
+  "license": "BSD-2-Clause",
+  "kind": "instrument",
+  "tags": [
+    "musical-instrument",
+    "sample-player",
+    "sampler",
+    "sfz",
+    "sfz-files"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "sfizz"
+    },
+    {
+      "format": "VST3",
+      "name": "sfizz-multi"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-macos.pkg",
+          "sha256": "62c76af58bfec05ca6ef199befca7c2508e15a5e63bca076198d94f085c14da7",
+          "size": 11872790,
+          "bundles": [
+            "sfz-tools-sfizz-vst3-bundle.pkg/Payload/sfizz.vst3"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "The project is archived upstream; this is its last release."
+}

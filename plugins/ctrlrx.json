@@ -1,0 +1,46 @@
+{
+  "id": "ctrlrx",
+  "name": "CtrlrX",
+  "developer": "Damien Sellier",
+  "description": "Build or load panels that edit and control any MIDI hardware; an enhanced fork of Ctrlr.",
+  "homepage": "https://ko-fi.com/damiensellier",
+  "repo": "https://github.com/damiensellier/CtrlrX",
+  "license": "BSD-3-Clause",
+  "kind": "midi",
+  "tags": [
+    "midi",
+    "midi-controller",
+    "sysex"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "CtrlrX"
+    }
+  ],
+  "versions": [
+    {
+      "version": "5.6.35",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.36-beta-20260917-1427-Linux.zip",
+          "sha256": "19c9851f47427481391e8fe86fac5bae4c28f1ac732f81e7a355beaf16be4745",
+          "size": 22644533,
+          "inner": "CtrlrX-5.6.36-Linux.zip",
+          "bundles": [
+            "CtrlrX-5.6.36-Linux-Signed/CtrlrX.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.36-beta-20260916-macOS.zip",
+          "sha256": "f1e189ddf4cd9376093d5db1a00b2a9438bd88fdfb2ae0a4eac1887bebf6513d",
+          "size": 45322734,
+          "inner": "CtrlrX-5.6.36-macOS.pkg",
+          "bundles": [
+            "CtrlrX.vst3.pkg/Payload/CtrlrX.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

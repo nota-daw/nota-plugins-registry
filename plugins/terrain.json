@@ -1,0 +1,48 @@
+{
+  "id": "terrain",
+  "name": "Terrain",
+  "developer": "Aaron Anderson",
+  "description": "Wave terrain synthesizer: oscillators trace paths across a 3D surface.",
+  "repo": "https://github.com/aaronaanderson/Terrain",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Terrain"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Linux.tar.gz",
+          "sha256": "0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6",
+          "size": 6792615,
+          "bundles": [
+            "Terrain_1.2.2_Linux/Terrain.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Mac.zip",
+          "sha256": "28f8270b4f1edfc6dcbe8adadcfec2651b68572ece4a53c7894485ebde5be9b9",
+          "size": 11921549,
+          "inner": "Terrain_1.2.2_Mac/Terrain.pkg",
+          "bundles": [
+            "Terrain_VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Terrain.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Windows.zip",
+          "sha256": "214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3",
+          "size": 6277710,
+          "bundles": [
+            "Terrain_1.2.2_Windows/Terrain.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

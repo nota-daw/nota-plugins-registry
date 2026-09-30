@@ -1,0 +1,54 @@
+{
+  "id": "wolf-shaper",
+  "name": "Wolf Shaper",
+  "developer": "Wolf Plugins",
+  "description": "Waveshaper with a spline-based graph editor.",
+  "homepage": "https://wolf-plugins.github.io/wolf-shaper/",
+  "repo": "https://github.com/wolf-plugins/wolf-shaper",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "dssi",
+    "jack",
+    "nanovg",
+    "waveshaper"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "wolf-shaper"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip",
+          "sha256": "79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2",
+          "size": 4923270,
+          "bundles": [
+            "wolf-shaper.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
+          "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
+          "size": 5089663,
+          "bundles": [
+            "wolf-shaper.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2%2B20230515144200-windows-x64.zip",
+          "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
+          "size": 5481008,
+          "bundles": [
+            "bin/wolf-shaper.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

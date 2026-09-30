@@ -1,0 +1,37 @@
+{
+  "id": "geonkick",
+  "name": "Geonkick",
+  "developer": "Quamplex",
+  "description": "Percussion synthesizer for kicks, snares, hi-hats and more.",
+  "homepage": "https://quamplex.com/geonkick",
+  "repo": "https://github.com/quamplex/geonkick",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "c",
+    "percussion",
+    "standalone",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Geonkick"
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.7.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GNULinux_binaries_v3.7.0_basic.zip",
+          "sha256": "ee656ef575596ab0b7976bd2ebafa93cac0059920a4721c1dd0a5c9f68a7add0",
+          "size": 4435094,
+          "bundles": [
+            "GNULinux_binaries_v3.7.0_basic/lib/vst3/Geonkick.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

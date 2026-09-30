@@ -1,0 +1,34 @@
+{
+  "id": "le-phonk",
+  "name": "LePhonk",
+  "developer": "Speechrezz",
+  "description": "Phonk-style distortion.",
+  "homepage": "https://www.xynth.audio/plugins/lephonk",
+  "repo": "https://github.com/Speechrezz/Le-Phonk",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "distortion"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "LePhonk"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Speechrezz/Le-Phonk/releases/download/v1.0.2/LePhonk.Setup.MacOS.pkg",
+          "sha256": "c2aada8d759a7596f68b7e1bb786da78a98588ce4ccd8e5e7b5e9b18f6fa882a",
+          "size": 12542150,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/LePhonk.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

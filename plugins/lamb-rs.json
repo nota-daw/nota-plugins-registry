@@ -1,0 +1,54 @@
+{
+  "id": "lamb-rs",
+  "name": "lamb",
+  "developer": "Bart Brouns",
+  "description": "Lookahead compressor and limiter that is soft as a lamb.",
+  "repo": "https://github.com/magnetophon/lamb-rs",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "compressor",
+    "faust",
+    "faust-dsp",
+    "limiter",
+    "mastering"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "lamb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
+          "sha256": "4539a873c6d5a2f956f2c2ae3620ab8fe91f3ce811000d1dc06b2d7958a3718b",
+          "size": 12807099,
+          "bundles": [
+            "lamb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip",
+          "sha256": "aa9e1b5187a4547408aade1da0dcf875c048d8c52357769ffec829e93a56f966",
+          "size": 23920420,
+          "bundles": [
+            "lamb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip",
+          "sha256": "093463e86bc88623d90e9ca33ac9386677e81513b6959627b0412e26dfafbcc2",
+          "size": 11499144,
+          "bundles": [
+            "lamb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}
