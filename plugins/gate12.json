@@ -1,0 +1,51 @@
+{
+  "id": "gate12",
+  "name": "GATE-12",
+  "developer": "tiagolr",
+  "description": "Trance gate and volume shaper with drawable envelopes and audio or MIDI triggering.",
+  "repo": "https://github.com/tiagolr/gate12",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "gate",
+    "modulation",
+    "envelope"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "GATE-12"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-macos-v1.3.3.zip",
+          "sha256": "2c11517bd9b59a83fa813fe9f933c4233deff5c7571b4e299c8b6fd91b2e7189",
+          "size": 12505885,
+          "bundles": [
+            "gate12-macos/VST3/GATE-12.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-win-v1.3.3.zip",
+          "sha256": "93b1056a40a341452804260a165ce9ce0feaad65eedbcf192319910671f54cf5",
+          "size": 6383770,
+          "bundles": [
+            "gate12-win/VST3/GATE-12.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-linux-v1.3.3.zip",
+          "sha256": "fa19ebf1cacd064c5c2fc687894ffc7400a92e9887f6db3cc3f2f59042d07cad",
+          "size": 5135883,
+          "bundles": [
+            "gate12-linux/VST3/GATE-12.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

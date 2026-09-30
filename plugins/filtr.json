@@ -1,0 +1,51 @@
+{
+  "id": "filtr",
+  "name": "FILT-R",
+  "developer": "tiagolr",
+  "description": "Envelope-based filter modulator with drawable cutoff and resonance curves.",
+  "repo": "https://github.com/tiagolr/filtr",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "filter",
+    "modulation",
+    "envelope"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "FILT-R"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
+          "sha256": "4a3c2f6128dd6c9b883857ac1bf37d8265dd3e44c9fe77a03f8c61d2834f43f1",
+          "size": 13395910,
+          "bundles": [
+            "filtr-macos/VST3/FILT-R.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
+          "sha256": "7d77c3369ebc6ca8cc85baef08b1d9d8164cf79da2a2f3f4ca48fb54a9d87b98",
+          "size": 6599776,
+          "bundles": [
+            "filtr-win/VST3/FILT-R.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
+          "sha256": "30840e30ed7cf323e7f8142aaba260b538fcdd531be74d2fdf796fb6f0dacfa0",
+          "size": 5487278,
+          "bundles": [
+            "filtr-linux/VST3/FILT-R.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "reevr",
+  "name": "REEV-R",
+  "developer": "tiagolr",
+  "description": "Convolution reverb with drawable pre- and post-modulation envelopes.",
+  "repo": "https://github.com/tiagolr/reevr",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb",
+    "convolution",
+    "modulation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "REEV-R"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip",
+          "sha256": "92e069e942ac0f286169b32d0fd175483a10e07da6470a3582c93cc8a741c9e3",
+          "size": 19300930,
+          "bundles": [
+            "reevr-macos/VST3/REEV-R.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
+          "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
+          "size": 7730204,
+          "bundles": [
+            "reevr-win/VST3/REEV-R.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip",
+          "sha256": "243da8bd8b90e60372f75ddea9a6ae54c5a1dd7f2071b0050e47ed613c511f8f",
+          "size": 7549063,
+          "bundles": [
+            "reevr-linux/VST3/REEV-R.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

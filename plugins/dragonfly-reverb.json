@@ -1,0 +1,72 @@
+{
+  "id": "dragonfly-reverb",
+  "name": "Dragonfly Reverb",
+  "developer": "Michael Willis",
+  "description": "Four algorithmic reverbs: hall, room, plate and early reflections.",
+  "homepage": "https://michaelwillis.github.io/dragonfly-reverb",
+  "repo": "https://github.com/michaelwillis/dragonfly-reverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Dragonfly Early Reflections"
+    },
+    {
+      "format": "VST3",
+      "name": "Dragonfly Hall Reverb"
+    },
+    {
+      "format": "VST3",
+      "name": "Dragonfly Plate Reverb"
+    },
+    {
+      "format": "VST3",
+      "name": "Dragonfly Room Reverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.2.10",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
+          "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
+          "size": 24954281,
+          "inner": "dragonfly-reverb-AudioPlugins.pkg",
+          "bundles": [
+            "dpf-dragonfly-reverb-vst3bundles.pkg/Payload/DragonflyEarlyReflections.vst3",
+            "dpf-dragonfly-reverb-vst3bundles.pkg/Payload/DragonflyHallReverb.vst3",
+            "dpf-dragonfly-reverb-vst3bundles.pkg/Payload/DragonflyPlateReverb.vst3",
+            "dpf-dragonfly-reverb-vst3bundles.pkg/Payload/DragonflyRoomReverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
+          "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
+          "size": 22447365,
+          "bundles": [
+            "dragonfly-reverb-3.2.10/DragonflyEarlyReflections.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyHallReverb.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyPlateReverb.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyRoomReverb.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
+          "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
+          "size": 2267368,
+          "bundles": [
+            "dragonfly-reverb-3.2.10/DragonflyEarlyReflections.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyHallReverb.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyPlateReverb.vst3",
+            "dragonfly-reverb-3.2.10/DragonflyRoomReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

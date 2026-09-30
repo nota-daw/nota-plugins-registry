@@ -1,0 +1,23 @@
+# Weekly health check: every asset still downloads and matches its hash (upstream
+# releases do get deleted or re-uploaded), and which plugins have a newer upstream release.
+name: weekly
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Upstream releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/registry.py outdated | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Verify all assets
+        run: python3 scripts/registry.py verify
