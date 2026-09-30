@@ -1,0 +1,39 @@
+{
+  "id": "dessmetal",
+  "name": "DessMetal",
+  "developer": "Alex Dess",
+  "description": "Guitar amp simulator built on Neural Amp Modeler, with parametric gain.",
+  "homepage": "https://github.com/appdess/dessmetal/releases/tag/v0.1.1",
+  "repo": "https://github.com/appdess/dessmetal",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "amp-simulator",
+    "audiodsp",
+    "auv2",
+    "guitar",
+    "guitar-amp",
+    "machine-learning"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DessMetal"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/appdess/dessmetal/releases/download/v0.1.1/DessMetal-v0.1.1-mac.pkg",
+          "sha256": "6412683a4185fe6833a72760d498dabd3509fd1ed7ca7a78c4ac9a18d649b2d1",
+          "size": 38359097,
+          "bundles": [
+            "DessMetal_VST3.pkg/Payload/DessMetal.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

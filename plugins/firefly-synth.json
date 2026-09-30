@@ -1,0 +1,51 @@
+{
+  "id": "firefly-synth",
+  "name": "Firefly Synth",
+  "developer": "Sjoerd van Kreel",
+  "description": "Semi-modular synthesizer and effects (version 1).",
+  "repo": "https://github.com/sjoerdvankreel/firefly-synth",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "software-synthesizer",
+    "studiorack-plugin"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Firefly Synth FX 1.9.9 VST3"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.9.9",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.9/firefly_synth_1.9.9_linux_vst3_fx.zip",
+          "sha256": "8715958bc2fac4c5f6adac063a2a1984e0e153cd11eed0c054f27979c5b32d5e",
+          "size": 7394135,
+          "bundles": [
+            "firefly_synth_fx_1.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.9/firefly_synth_1.9.9_mac_vst3_fx.zip",
+          "sha256": "8394637cccc72089382191fcd336d078f6ac1cdfdd981d6ce8e4d8336863a86b",
+          "size": 11345523,
+          "bundles": [
+            "firefly_synth_fx_1.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.9/firefly_synth_1.9.9_windows_vst3_fx.zip",
+          "sha256": "74543eaa298a94d3d253eb82712bc15f4c507846966fbc6525c82215b12251dc",
+          "size": 3724553,
+          "bundles": [
+            "firefly_synth_fx_1.vst3"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "The project is archived upstream; this is its last release."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder",
+  "name": "Pathfinder",
+  "developer": "Audio Tech Hub",
+  "description": "Sampler that lays out a folder of samples as a map to explore and play.",
+  "homepage": "https://audiotechhub.com",
+  "repo": "https://github.com/Audio-Tech-Hub/pathfinder",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "granular",
+    "hise",
+    "music-production",
+    "sample-library",
+    "sampler"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Pathfinder"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Audio-Tech-Hub/pathfinder/releases/download/v1.1.3/Pathfinder-1.1.3-macOS.pkg",
+          "sha256": "b67243c96223ff019869195b2f7b1fcfd233b1fe436cc0cee5bdd16c049e12d7",
+          "size": 35694529,
+          "bundles": [
+            "Pathfinder-VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Pathfinder.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

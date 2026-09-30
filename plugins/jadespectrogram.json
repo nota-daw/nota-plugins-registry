@@ -1,0 +1,49 @@
+{
+  "id": "jadespectrogram",
+  "name": "Jade Spectrogram",
+  "developer": "Joerg Bitzer",
+  "description": "Spectrogram.",
+  "repo": "https://github.com/JoergBitzer/JadeSpectrogram",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "spectrogram"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JadeSpectrogram"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/JoergBitzer/JadeSpectrogram/releases/download/1.0.0/JadeSpectrogram_linux.zip",
+          "sha256": "06e588ae6cafea3c8b986914f7c5fa2918ab42ecb531ea26114c5a84283c297d",
+          "size": 1694898,
+          "bundles": [
+            "JadeSpectrogram_linux/JadeSpectrogram.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/JoergBitzer/JadeSpectrogram/releases/download/1.0.0/JadeSpectrogram_mac.zip",
+          "sha256": "92e4aab4183fee27a6a18ad6c9c1069bf71443b81919aef02babda74501746a2",
+          "size": 2401013,
+          "bundles": [
+            "JadeSpectrogram_mac/JadeSpectrogram.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/JoergBitzer/JadeSpectrogram/releases/download/1.0.0/JadeSpectrogram_win.zip",
+          "sha256": "36cd026e001c1b9223ceb48d128eb96e13d783ceeba96bdbfcaab36de051fadd",
+          "size": 1832080,
+          "bundles": [
+            "JadeSpectrogram_win/JadeSpectrogram.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dcoffsetter",
+  "name": "DCOffsetter",
+  "developer": "Kazuma Narita",
+  "description": "Adds or removes a DC offset.",
+  "homepage": "https://wheatbread.dev/",
+  "repo": "https://github.com/wheatBread1306/DCOffsetter",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "juce-plugins"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DCOffsetter"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/wheatBread1306/DCOffsetter/releases/download/1.0.1/DCOffsetter_win64_1.0.1.zip",
+          "sha256": "3aae5e64f8a186973ffab7434f68787b148ce30c2462630220bce612c5811983",
+          "size": 2458337,
+          "bundles": [
+            "DCOffsetter.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

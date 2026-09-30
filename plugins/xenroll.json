@@ -1,0 +1,62 @@
+{
+  "id": "xenroll",
+  "name": "XenRoll",
+  "developer": "Andrew Kotov",
+  "description": "Microtonal piano roll for writing music in any tuning.",
+  "repo": "https://github.com/Ankalot/XenRoll",
+  "license": "GPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "free-pitch",
+    "microtonal",
+    "music-sequencer",
+    "piano-roll",
+    "pitch-memory",
+    "psychoacoustics"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "XenRoll"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_linux_x86_64.zip",
+          "sha256": "6fce73b34afcfe14bbaaff9e72b43cf52c92cf429e1f78b6f24d837d553ce527",
+          "size": 3481536,
+          "bundles": [
+            "XenRoll_v0.4.3_VST3_linux_x86_64/XenRoll.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_macOS_arm64.zip",
+          "sha256": "14fa911ce57c7f40643c39b9d45302854103fec3f68879015991cbf127b10399",
+          "size": 2739819,
+          "bundles": [
+            "XenRoll_v0.4.3_VST3_macOS_arm64/XenRoll.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_macOS_x86_64.zip",
+          "sha256": "5defd5a85ef135b1b862063cf9bcdd60af9b668b8c289875bd8aa7643cd7a1b9",
+          "size": 3004876,
+          "bundles": [
+            "XenRoll_v0.4.3_VST3_macOS_x86_64/XenRoll.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_windows.zip",
+          "sha256": "d253afe732525d6442da59647b0f712b1a258901775b4bfb48c1751b1eff09c8",
+          "size": 5213242,
+          "bundles": [
+            "XenRoll_v0.4.3_VST3_windows/XenRoll.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

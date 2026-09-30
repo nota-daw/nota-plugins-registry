@@ -1,0 +1,49 @@
+{
+  "id": "plugdata",
+  "name": "plugdata",
+  "developer": "plugdata-team",
+  "description": "Pure Data inside your DAW, with a modern interface for building patches.",
+  "homepage": "https://plugdata.org",
+  "repo": "https://github.com/plugdata-team/plugdata",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "libpd",
+    "pure-data"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "plugdata"
+    },
+    {
+      "format": "VST3",
+      "name": "plugdata-fx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.3-2",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Ubuntu-22.04-aarch64.tar.xz",
+          "sha256": "8f4b9beda0e1d20f5d76b2e840f45e502b506663b955947b47a310b6d5c8c3e0",
+          "size": 278967792,
+          "bundles": [
+            "plugdata/VST3/plugdata-fx.vst3",
+            "plugdata/VST3/plugdata.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Ubuntu-22.04-x64.tar.xz",
+          "sha256": "cedd27f0abbbc34f48d8c43797ec5580765abd75a79394bec18dc32344cdf269",
+          "size": 286995904,
+          "bundles": [
+            "plugdata/VST3/plugdata-fx.vst3",
+            "plugdata/VST3/plugdata.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

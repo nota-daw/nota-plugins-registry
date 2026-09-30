@@ -1,0 +1,46 @@
+{
+  "id": "zlspectrumequalizer",
+  "name": "ZL Spectrum Equalizer",
+  "developer": "ZL Audio",
+  "description": "Dynamic equalizer that follows the spectrum.",
+  "homepage": "https://zl-audio.github.io/plugins/zlspeceq/",
+  "repo": "https://github.com/ZL-Audio/ZLSpectrumEqualizer",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "equalizer",
+    "fft",
+    "spectrum"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Spectrum Equalizer"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.0/ZL.Spectrum.Equalizer-0.1.0-Linux-arm64.zip",
+          "sha256": "a7e394c5abeb379519e7c6a17f085a90aaa3ad6c321058705734ed4b66174c90",
+          "size": 5765255,
+          "bundles": [
+            "VST3/ZL Spectrum Equalizer.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.0/ZL.Spectrum.Equalizer-0.1.0-macOS-arm64.dmg",
+          "sha256": "7f0c963549b412cc7330ae1f4c39ff5b6c3e050a6f754040b54ac78cfd244a33",
+          "size": 5590759,
+          "inner": "ZL Spectrum Equalizer-0.1.0-macOS-arm64.pkg",
+          "bundles": [
+            "ZL_Spectrum_Equalizer.vst3.pkg/Payload/ZL Spectrum Equalizer.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

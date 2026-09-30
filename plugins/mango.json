@@ -1,0 +1,54 @@
+{
+  "id": "mango",
+  "name": "Mango",
+  "developer": "Olivier Doaré",
+  "description": "Modular sound glitcher and mangler.",
+  "repo": "https://github.com/odoare/Mango",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-units",
+    "glitcher",
+    "mangler",
+    "sequencer",
+    "sequencer-music",
+    "sequencers"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Mango"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Linux-x86_64.zip",
+          "sha256": "32987b0e92759a87ae1c3b67f4972f262067ee4036694d68a004714e43a3918f",
+          "size": 8369744,
+          "bundles": [
+            "staging/Mango.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS.pkg",
+          "sha256": "c7e533c8d7a5767898bc9c266d6303ac594781d86cff7322081bf01aaf5f81ca",
+          "size": 13959834,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/Mango.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Windows-x86_64.zip",
+          "sha256": "f5abf729e346417ae809c7cd7d1f989f43ecbb1ac1c028d39bd4b6a1466c0e8f",
+          "size": 7147655,
+          "bundles": [
+            "Mango.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

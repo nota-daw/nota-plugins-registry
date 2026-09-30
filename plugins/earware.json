@@ -1,0 +1,54 @@
+{
+  "id": "earware",
+  "name": "Earware",
+  "developer": "aila",
+  "description": "Headphone correction with AutoEQ profiles, using linear-phase FIR EQ.",
+  "homepage": "https://aila.dance",
+  "repo": "https://github.com/AilaScott/Earware",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "autoeq",
+    "autoeq-app",
+    "headphone-correction",
+    "linux-audio",
+    "vst-plugins"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Earware"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/AilaScott/Earware/releases/download/v0.4.1/Earware_Linux_x64_VST3.zip",
+          "sha256": "503757ef2595be0ba2d287935d48953e5254755c993b05110d08fe59a50e859b",
+          "size": 2676441,
+          "bundles": [
+            "Earware.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/AilaScott/Earware/releases/download/v0.4.1/Earware_macOS_Universal_VST3.zip",
+          "sha256": "3097df2c7874f404332feb4cf98fe10423af8aebb1cecc21590c4e60123b0947",
+          "size": 4428431,
+          "bundles": [
+            "Earware.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/AilaScott/Earware/releases/download/v0.4.1/Earware_Windows_x64_VST3.zip",
+          "sha256": "821cd1f453953ad6ad135042d32314e98367a4dee37765f8f349a406e19afc61",
+          "size": 3331851,
+          "bundles": [
+            "Earware.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rcsiner",
+  "name": "RCSiner",
+  "developer": "RCJacH",
+  "description": "Sine-based waveshaper.",
+  "repo": "https://github.com/RCJacH/RCSiner",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "waveshaper"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RCSiner"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_MacOS.vst3.zip",
+          "sha256": "4ce37b53b05b2f44d294af06401bdf3ae352570ea61127a3887b0bd17673c7f7",
+          "size": 1353095,
+          "bundles": [
+            "RCSiner.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

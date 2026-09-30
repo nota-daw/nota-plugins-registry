@@ -1,0 +1,42 @@
+{
+  "id": "vari-fuzz",
+  "name": "Vari-Fuzz",
+  "developer": "Chrysovalantis Nikolaou",
+  "description": "Three classic fuzz characters in one: germanium, germanium + silicon and silicon.",
+  "repo": "https://github.com/cva-labs/vari-fuzz",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "fuzz",
+    "guitar"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Vari-Fuzz"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/cva-labs/vari-fuzz/releases/download/v1.0.0/VariFuzz-1.0.0-macOS-Universal.zip",
+          "sha256": "91d9e1a38d3d02f9b7e4c2f417f71131e0cc61718dc54c00079ed7b89cf1e45d",
+          "size": 6701935,
+          "bundles": [
+            "Vari-Fuzz.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/cva-labs/vari-fuzz/releases/download/v1.0.0/VariFuzz-1.0.0-Windows-x64.zip",
+          "sha256": "02fd2cf41830f412edb6ec971856c4fafd03ccc86bd90dc09a26f428da2fc392",
+          "size": 4725940,
+          "bundles": [
+            "VariFuzz.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

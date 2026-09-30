@@ -1,0 +1,52 @@
+{
+  "id": "jc303",
+  "name": "JC303",
+  "developer": "midilab",
+  "description": "Emulation of the Roland TB-303 bass synthesizer.",
+  "homepage": "https://midilab.co/jc303",
+  "repo": "https://github.com/midilab/jc303",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "clone",
+    "roland",
+    "tb-303"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JC303"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.13.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-linux_x64-plugins.zip",
+          "sha256": "8324378f967ad1178e21411c564acb6266af7301d873f628b17bb1550f6b31f9",
+          "size": 27277969,
+          "bundles": [
+            "JC-303_Linux_X64-0.13.0/VST3/JC303.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-macos_universal-plugins.zip",
+          "sha256": "7cf62de758efb6977489480adb3a5dccffdc0e9e203eccf2876dffc41cca48be",
+          "size": 66016857,
+          "bundles": [
+            "JC-303_MacOS_Universal-0.13.0/VST3/JC303.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-windows_x64-plugins.zip",
+          "sha256": "ab0f9fb5515fd41ee3e967efeee8503bbaa19bfb8a71d3e95ac91a8751c00f99",
+          "size": 25976598,
+          "bundles": [
+            "JC-303_Windows_X64-0.13.0/VST3/JC303.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

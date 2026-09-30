@@ -1,0 +1,40 @@
+{
+  "id": "byod",
+  "name": "BYOD",
+  "developer": "Chowdhury DSP",
+  "description": "Build-your-own guitar distortion: wire amp, pedal and tone modules into a custom chain.",
+  "repo": "https://github.com/Chowdhury-DSP/BYOD",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BYOD"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Linux-x64-1.3.0.deb",
+          "sha256": "c1803ae57b717bab04ef2072c10284bcb7d44fbe352d42645075b0c6875c9aeb",
+          "size": 22194032,
+          "bundles": [
+            "usr/lib/vst3/BYOD.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Mac-1.3.0.dmg",
+          "sha256": "997a0508b00a583d8563eb0e330c7e318fe43e7f4f3b06ba3d389221aeb7254a",
+          "size": 89127908,
+          "inner": "BYOD-signed.pkg",
+          "bundles": [
+            "AAX.pkg/Payload/Library/Audio/Plug-Ins/VST3/BYOD.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

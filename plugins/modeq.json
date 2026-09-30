@@ -1,0 +1,44 @@
+{
+  "id": "modeq",
+  "name": "modEQ",
+  "developer": "tobanteAudio",
+  "description": "EQ with modulation on its bands.",
+  "repo": "https://github.com/tobanteAudio/modEQ",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "audio-units",
+    "projucer",
+    "xcode"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "modEQ"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-macOS.zip",
+          "sha256": "52dd7824dd728477c56d98ceff91fc269b90f9e57cff864b7d954ad1d84e4a57",
+          "size": 3209964,
+          "bundles": [
+            "build/Release/modEQ.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-win64.zip",
+          "sha256": "e9688f6eda4e7076804c3abf68184c12f4c898fd59ca1333d06a15781b4a4341",
+          "size": 3719312,
+          "bundles": [
+            "modEQ-v0.4.0-win64/modEQ.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "wahwth",
+  "name": "Wahwth",
+  "developer": "hotwatermorning",
+  "description": "Use your mouth as an effect: camera-tracked mouth shapes drive a filter.",
+  "repo": "https://github.com/hotwatermorning/wahwth",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "cplusplus",
+    "dlib"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Wahwth"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.3",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/hotwatermorning/wahwth/releases/download/v0.9.3/wahwth-0.9.3-mac.zip",
+          "sha256": "6b20517436545c1f9b727c82fd8c84f657cb8dbdd72e3ed8afc72e75fe18278f",
+          "size": 226942505,
+          "bundles": [
+            "VST3/Wahwth.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hotwatermorning/wahwth/releases/download/v0.9.3/wahwth-0.9.3-win.zip",
+          "sha256": "92a8a621c90ff1442495113c164a9a6c5f6fd81f5d7c782437d0361f7aa5d574",
+          "size": 149347804,
+          "bundles": [
+            "VST3/Wahwth.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

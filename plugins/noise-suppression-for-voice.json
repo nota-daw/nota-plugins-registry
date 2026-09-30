@@ -1,0 +1,53 @@
+{
+  "id": "noise-suppression-for-voice",
+  "name": "RNNoise Suppression",
+  "developer": "Danylo",
+  "description": "Real-time noise suppression for voice, based on Xiph's RNNoise.",
+  "repo": "https://github.com/werman/noise-suppression-for-voice",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "auv3-plugin",
+    "ladspa",
+    "noise-cancellation",
+    "voice"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RNNoise suppression for voice"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
+          "sha256": "811390b6eb6e28dde023c70590c74d26e74ebb2e595bcf4b95af2341db160e99",
+          "size": 36831356,
+          "bundles": [
+            "linux-rnnoise/rnnoise.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
+          "sha256": "53c41fe3ce8af529b1d2d18802ecbd7e9f0b6d7ad013fd5f92f6af974472a9e9",
+          "size": 81797637,
+          "bundles": [
+            "macos-rnnoise/rnnoise.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
+          "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
+          "size": 37740885,
+          "bundles": [
+            "win-rnnoise/rnnoise.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "neuralrack",
+  "name": "NeuralRack",
+  "developer": "Hermann",
+  "description": "Loads neural amp models and cabinet impulse responses.",
+  "repo": "https://github.com/brummer10/NeuralRack",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "neural-amp-modeler",
+    "stand-alone"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "NeuralRackVST3"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-vst3-linux-x86_64.tar.xz",
+          "sha256": "9a0c20c5610ba542ec1895fb9efafc4d4bcde65b30324f522ecfce8a356207cc",
+          "size": 2516320,
+          "bundles": [
+            "NeuralRack-v0.4.1-vst3/NeuralRackVST3.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-vst3-v0.4.1-win64.zip",
+          "sha256": "522bd2ade9efcc906a132bd773b70df4b0744659546db5e9dcc8c4ccd4ddd0ae",
+          "size": 3140629,
+          "bundles": [
+            "NeuralRack-vst3-v0.4.1/NeuralRackVST3.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

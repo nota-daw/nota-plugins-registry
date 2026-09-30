@@ -1,0 +1,44 @@
+{
+  "id": "str-x",
+  "name": "STR-X",
+  "developer": "ArborealAudio",
+  "description": "Custom guitar amplifier emulation.",
+  "homepage": "https://arborealaudio.com/plugins/str-x",
+  "repo": "https://github.com/ArborealAudio/STR-X",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "amp",
+    "guitar"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "STR-X"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-linux.tar.xz",
+          "sha256": "a2321e3d9d98a5aab5911611cbe04da9af65110f94345859da41fcc57694e4f8",
+          "size": 3014420,
+          "bundles": [
+            "STR-X-linux/VST3/STR-X.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-mac.dmg",
+          "sha256": "e595d439a6ffc1a45aed2e0e9d999163eed00db8973a556b2fd51c0cbe106fb1",
+          "size": 13072806,
+          "inner": "STR-X.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/STR-X.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

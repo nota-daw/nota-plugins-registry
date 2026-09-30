@@ -1,0 +1,52 @@
+{
+  "id": "rustortion",
+  "name": "Rustortion",
+  "developer": "Leigh",
+  "description": "Low-latency guitar amp simulator.",
+  "repo": "https://github.com/OpenSauce/rustortion",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "amplifier",
+    "audio-effect",
+    "guitar",
+    "guitar-amp"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Rustortion"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/OpenSauce/rustortion/releases/download/v0.3.0/Rustortion-linux-aarch64.zip",
+          "sha256": "4634e41509cce3f64270bc77a924549c2bf1900448837876f9546adb5cc262c2",
+          "size": 24743224,
+          "bundles": [
+            "Rustortion.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/OpenSauce/rustortion/releases/download/v0.3.0/Rustortion-linux-x86_64.zip",
+          "sha256": "adfe68085aaa1998c30fa4019c277bf28161809cf4501ddd9e1f3af0eea795a8",
+          "size": 25575898,
+          "bundles": [
+            "Rustortion.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/OpenSauce/rustortion/releases/download/v0.3.0/Rustortion-windows-x86_64.zip",
+          "sha256": "bbcf3e0cb4a5dc0ef18e4872996b69d466699537a771c70cbd386c8d988ecd40",
+          "size": 17230986,
+          "bundles": [
+            "Rustortion.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

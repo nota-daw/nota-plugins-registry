@@ -1,0 +1,50 @@
+{
+  "id": "pulteqfx",
+  "name": "PultEQFx",
+  "developer": "Simon Huber",
+  "description": "Pultec-style EQ.",
+  "repo": "https://github.com/BurningTreeC/pulteqfx",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "daw-plugins",
+    "equalizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PultEQFx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.12.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.12.0/PultEQFx-linux-v0.12.0.zip",
+          "sha256": "9b4f08c3ce1662fb11c2fa4c16fa621f1e4dd38422edfbe9677f73bc0b34045b",
+          "size": 13784551,
+          "bundles": [
+            "PultEQFx.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.12.0/PultEQFx-macos-universal-v0.12.0.zip",
+          "sha256": "53b3056e11859eb7af382bc533914d38697fc7057a799439c05f0dc0e40eea13",
+          "size": 26434368,
+          "bundles": [
+            "PultEQFx.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.12.0/PultEQFx-windows-v0.12.0.zip",
+          "sha256": "3138ec3f85f4e4031f2e921aabdf35ac7079b3426e9a06faeb731843b60bd3f0",
+          "size": 13204396,
+          "bundles": [
+            "PultEQFx.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

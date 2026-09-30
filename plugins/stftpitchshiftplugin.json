@@ -1,0 +1,54 @@
+{
+  "id": "stftpitchshiftplugin",
+  "name": "STFT Pitch Shift",
+  "developer": "Jürgen Hock",
+  "description": "Pitch shifter with formant preservation, based on stftPitchShift.",
+  "repo": "https://github.com/jurihock/stftPitchShiftPlugin",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "dafx",
+    "fft",
+    "formants",
+    "juce-plugins",
+    "low-latency"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "StftPitchShiftPlugin v1.1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-ubuntu-v1.1.5.zip",
+          "sha256": "3af374a834781d06c5f142c34529656e8ddd0e48527e043642c785eb32f75900",
+          "size": 7323967,
+          "bundles": [
+            "VST3/StftPitchShiftPlugin.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-macos-v1.1.5.zip",
+          "sha256": "87baedecfdb662ee6e4f453d89481ce83de373e508363ecd0df2cb6defdb42fa",
+          "size": 11640679,
+          "bundles": [
+            "VST3/StftPitchShiftPlugin.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-windows-v1.1.5.zip",
+          "sha256": "c6b44baf819d48fce2d021f208e6ae4967c59776da2755748377bca67396dbd0",
+          "size": 5626196,
+          "bundles": [
+            "VST3/StftPitchShiftPlugin.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

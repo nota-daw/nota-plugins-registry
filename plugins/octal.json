@@ -1,0 +1,38 @@
+{
+  "id": "octal",
+  "name": "Octal",
+  "developer": "Kongsjorden",
+  "description": "Eight-slot Neural Amp Modeler chain: amp captures, cabinet IRs, gate and an eight-band EQ.",
+  "repo": "https://github.com/kongsjorden/octal",
+  "license": "Apache-2.0",
+  "kind": "effect",
+  "tags": [
+    "amp-simulation",
+    "guitar",
+    "impulse-response",
+    "nam",
+    "neural-amp-modeler",
+    "realtime-audio"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Octal"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/kongsjorden/octal/releases/download/v0.1.0/Octal-0.1.0.pkg",
+          "sha256": "ae220b913dba18daaad1e8d4d04e5fb43eb43823b2d6baa5b15f5c0ff00b5077",
+          "size": 1658250,
+          "bundles": [
+            "Payload/VST3/Octal.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

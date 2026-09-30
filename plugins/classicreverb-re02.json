@@ -1,0 +1,41 @@
+{
+  "id": "classicreverb-re02",
+  "name": "ClassicReverb-RE02",
+  "developer": "AnClark Liu",
+  "description": "Recreation of Kjaerhus Audio Classic Reverb with a different tone.",
+  "repo": "https://github.com/AnClark/ClassicReverb-RE02",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Classic Reverb RE-02"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-arm64-macOS-1.1.1-5507cfff.pkg",
+          "sha256": "c070a8a1c23a31fecff8a481f438384a6e90494194f9eac2eeb7f4b028eccc41",
+          "size": 4839200,
+          "bundles": [
+            "ClassicReverb-RE02-arm64-macOS-1.1.1-5507cfff-VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ClassicReverb-RE02.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-x86_64-Windows-1.1.1-5507cfff.zip",
+          "sha256": "6bf83e36c71055de93dcc6d96113bdbe4ccf10bb3840bcbbb0813c9f41dd4f72",
+          "size": 20291018,
+          "bundles": [
+            "ClassicReverb-RE02-x86_64-Windows-1.1.1-5507cfff/ClassicReverb-RE02.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

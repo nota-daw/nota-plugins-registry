@@ -1,0 +1,35 @@
+{
+  "id": "jr-granular",
+  "name": "JR-Granular",
+  "developer": "Kengo",
+  "description": "Real-time granular effect.",
+  "repo": "https://github.com/szkkng/jr-granular",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "granular",
+    "rnbo"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JR-Granular"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.4",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/szkkng/jr-granular/releases/download/v1.0.4/mac_JR-Granular.pkg",
+          "sha256": "8b4731a08e3be2373f375f0f7349bbff56416fc1002518cb8f059991b850568f",
+          "size": 6838224,
+          "bundles": [
+            "mac_JR-Granular-VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/JR-Granular.vst3"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "The project is archived upstream; this is its last release."
+}

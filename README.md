@@ -19,7 +19,8 @@ against the manifest before unpacking it.
   platform that only ships an installer is left out of that plugin's `assets`.
 - **Pinned.** Every asset has its exact `size` and `sha256`. A re-uploaded asset fails verification until the
   manifest is updated.
-- **Stable release tags.** Rolling "Nightly" releases replace their assets, so they are not accepted.
+- **Stable release tags.** Pre-releases and rolling "Nightly" or "latest" releases, whose assets get replaced, are not accepted.
+- **Useful on its own.** No templates, examples or games, no editors for one specific hardware unit, and nothing that needs an external server, app or API key to make sound.
 
 ## Manifest
 
@@ -59,8 +60,29 @@ against the manifest before unpacking it.
 
 ## Adding a plugin or a version
 
-`inspect` downloads an asset and prints its size, sha256 and the `.vst3` bundles inside. If it finds none, it
-lists nested archives to retry with `--inner`:
+The quick way: `add.py` drafts the manifest from the repo's latest stable release, or prepends a new version
+to an existing manifest. It needs a GitHub token, from `GITHUB_TOKEN` or a logged-in `gh`.
+
+```sh
+python3 scripts/add.py owner/repo [owner/repo …] --worker /path/to/nota-scanworker
+python3 scripts/add.py --from-file repos.txt --jobs 6 --report report.jsonl
+```
+
+For each OS it picks the best-looking archive from the file names. It downloads and unpacks it, follows a
+nested `.pkg`/`.dmg`/`.zip`, and then reads the bundles themselves:
+
+- The **platform key** comes from the binaries: Mach-O slices, `Contents/<arch>-win|linux` folders, or the PE
+  header. File names are not trusted.
+- The **plugin names** and **instrument or effect** come from `Contents/Resources/moduleinfo.json`. When a
+  bundle has none, `add.py` loads it in the scan worker (macOS).
+
+It skips repos without an OSI license, stable release or VST3 archive, and assets over `--max-size` MB (300).
+Descriptions are copied from the repo, so give them an edit before the PR. Keep them short, plain and in
+sentence case, with no format lists and no "free!". Repos that were checked and left out, and why, are in
+[CANDIDATES.md](CANDIDATES.md).
+
+By hand: `inspect` downloads an asset and prints its size, sha256 and the `.vst3` bundles inside. If it finds
+none, it lists nested archives to retry with `--inner`:
 
 ```sh
 python3 scripts/registry.py inspect https://github.com/…/releases/download/v1.0/Foo-macOS.dmg

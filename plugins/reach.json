@@ -1,0 +1,39 @@
+{
+  "id": "reach",
+  "name": "Reach",
+  "developer": "Sinuslabs",
+  "description": "Otherworldly reverb with a distinctive character.",
+  "repo": "https://github.com/Sinuslabs/Reach",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Reach"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.6.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Linux.zip",
+          "sha256": "a7c44e13fad75a01a4f0fc6f91592bcf21f40678b63ba4ccf60c6aa67aef4e9e",
+          "size": 17125725,
+          "bundles": [
+            "Reach.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-MacOS.pkg",
+          "sha256": "81e349d21c35830bd0d15375971983b973928242d4ace2a9e0d30a24a555eb8f",
+          "size": 37826384,
+          "bundles": [
+            "Reach_VST3.pkg/Payload/Reach.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

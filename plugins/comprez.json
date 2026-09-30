@@ -1,0 +1,35 @@
+{
+  "id": "comprez",
+  "name": "Comprez",
+  "developer": "AnClark Liu",
+  "description": "Simple, fast compressor.",
+  "repo": "https://github.com/AnClark/Comprez",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "compressor",
+    "puredata"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Comprez"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/AnClark/Comprez/releases/download/v1.0.0/Comprez-macOS-universal-1.0.0.zip",
+          "sha256": "f568c215f25d34591dc494166ddb95f7443cee345dba4b3d76386fb97f99034a",
+          "size": 4896405,
+          "inner": "Comprez-macOS.pkg",
+          "bundles": [
+            "dpf-Comprez-vst3bundles.pkg/Payload/Comprez.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "birr",
+  "name": "BiRR",
+  "developer": "Olivier Doaré",
+  "description": "Binaural room reverb for headphone listening.",
+  "repo": "https://github.com/odoare/BiRR",
+  "license": "LGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "ambisonics",
+    "binaural",
+    "foa",
+    "impulse-response",
+    "reverb",
+    "reverberator"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "AmbiRR - Ambisonics Room Reverb"
+    },
+    {
+      "format": "VST3",
+      "name": "BiRR - Binaural Room Reverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.WIN.x64.VST3.zip",
+          "sha256": "11374b6cf0f3ec6cdfb8011f3c21bd9ef16a9b3471fd92782c6c18591e1f6a4a",
+          "size": 14544390,
+          "bundles": [
+            "AmbiRR.vst3",
+            "BiRR.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sub-dominant-vst",
+  "name": "Sub Dominant",
+  "developer": "_astriid_",
+  "description": "Sub-octave fuzz inspired by the EQD Bit Commander.",
+  "repo": "https://github.com/astriiddev/Sub_Dominant-VST",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "distortion-plugin",
+    "fuzz",
+    "linuxaudio"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Sub_Dominant"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/astriiddev/Sub_Dominant-VST/releases/download/v1.1/SubDominant_macOS.pkg",
+          "sha256": "c3677b7f76f4dadedd9e73f68daf38603c4d0ef4355407f4f28478bf6b003391",
+          "size": 4016613,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/SubDominant.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

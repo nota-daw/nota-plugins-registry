@@ -1,0 +1,35 @@
+{
+  "id": "sint",
+  "name": "sinT",
+  "developer": "Alberto N. Rodríguez",
+  "description": "Polyphonic digital synthesizer.",
+  "repo": "https://github.com/AlbertoNR98/sinT",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "sint",
+    "synth",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "sinT"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/AlbertoNR98/sinT/releases/download/1.1.1/sint-digital-synth_1.1.1_Linux_RPi.deb",
+          "sha256": "0646b8de583473dc8e52db3b687b0b2c6e46be929728f62c7c7f1500db739f3c",
+          "size": 2158400,
+          "bundles": [
+            "usr/bin/sinT.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

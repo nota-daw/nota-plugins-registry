@@ -1,0 +1,46 @@
+{
+  "id": "tumult",
+  "name": "Tumult",
+  "developer": "Consistent Interruption",
+  "description": "Noisemaker and texturizer: adds vinyl, tape and other noise to make things sound aged.",
+  "homepage": "https://www.consint.net",
+  "repo": "https://github.com/consint/Tumult",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "effect",
+    "faust-dsp",
+    "hise",
+    "music-production",
+    "noise-generator"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Tumult"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
+          "sha256": "c92c7a38aa26b202035c2b4dd87b73ba8f2b8998184fa6c4b588dd73dd15a20e",
+          "size": 242030776,
+          "bundles": [
+            "Tumult_1_1_1_Linux_vst3/Tumult.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
+          "sha256": "6f2d7ef48584bf3e9f4a3d685ed29ba81ed414683f86b6263704f2e95656cc77",
+          "size": 239289360,
+          "bundles": [
+            "Tumult_1_1_1_Win_vst3/Tumult/Tumult.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

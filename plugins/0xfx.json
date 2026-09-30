@@ -1,0 +1,37 @@
+{
+  "id": "0xfx",
+  "name": "0xFX",
+  "developer": "averagenative",
+  "description": "Guitar amp simulator and effects pedalboard.",
+  "repo": "https://github.com/averagenative/0xFX",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "amp-simulator",
+    "c99",
+    "effects",
+    "guitar",
+    "pedalboard"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "0xFX"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/averagenative/0xFX/releases/download/v1.3.1/0xFX-1.3.1-macos-universal.zip",
+          "sha256": "cdea390cb59787849e8514d0ac0bc80e7b022142939510401559151b099f8687",
+          "size": 155316391,
+          "bundles": [
+            "Plugins/0xFX.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

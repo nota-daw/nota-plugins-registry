@@ -1,0 +1,34 @@
+{
+  "id": "synth2",
+  "name": "Synth2",
+  "developer": "klknn",
+  "description": "Virtual analog synthesizer.",
+  "repo": "https://github.com/klknn/synth2",
+  "license": "BSL-1.0",
+  "kind": "instrument",
+  "tags": [
+    "dplug",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Kl Kn Synth2"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/klknn/synth2/releases/download/v0.0.1/ubuntu-latest.zip",
+          "sha256": "aca671e6fbf87cbe977e436cf267d9e20135855474f7db097bfc9211808e8f48",
+          "size": 2066970,
+          "bundles": [
+            "builds/Linux-64b-VST3/Kl Kn Synth2.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

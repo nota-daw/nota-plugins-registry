@@ -1,0 +1,31 @@
+{
+  "id": "hammer-and-meiszel",
+  "name": "Hammer und Meiszel",
+  "developer": "Florian Mrugalla",
+  "description": "Polyphonic, keytracked modal filter that turns any sound into struck, resonant bodies.",
+  "repo": "https://github.com/Mrugalla/Hammer-and-Meiszel",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Hammer und Meiszel"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2025.04.17",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Mrugalla/Hammer-and-Meiszel/releases/download/vst/2025-04-27_hammer.dmg",
+          "sha256": "db906475b1ac6ac07d0c23b239be195fe6986b8bfd19a5f62eae02ba6a59492d",
+          "size": 34184125,
+          "bundles": [
+            "Hammer und Meißel.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

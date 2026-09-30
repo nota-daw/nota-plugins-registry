@@ -1,0 +1,38 @@
+{
+  "id": "ami-sampler-vst",
+  "name": "Ami Sampler",
+  "developer": "_astriid_",
+  "description": "8-bit sampler inspired by the sound of the Commodore Amiga.",
+  "repo": "https://github.com/astriiddev/Ami-Sampler-VST",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "8-bit",
+    "amiga",
+    "au-plugin",
+    "chiptune",
+    "demoscene",
+    "protracker"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Ami Sampler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.7.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_macOS.pkg",
+          "sha256": "64a8c4aa425784a7f346ed0e1ec789503676869ea7de7c359884181234f14454",
+          "size": 10980161,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Ami Sampler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

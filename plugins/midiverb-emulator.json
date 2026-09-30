@@ -1,0 +1,31 @@
+{
+  "id": "midiverb-emulator",
+  "name": "Midiverb Emulator",
+  "developer": "thement",
+  "description": "Emulation of the Alesis Midiverb I and II reverbs.",
+  "repo": "https://github.com/thement/midiverb_emulator",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Midiverb Emulator"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/thement/midiverb_emulator/releases/download/v0.4/Midiverb.Emulator-Win64-0.4.vst3.zip",
+          "sha256": "bfdf9963b6e28c6c93bf3b8f1a71e9a62c6522e0ae02d0a9b8bec551c5f773c7",
+          "size": 2654795,
+          "bundles": [
+            "Midiverb Emulator.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

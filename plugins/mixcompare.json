@@ -1,0 +1,55 @@
+{
+  "id": "mixcompare",
+  "name": "MixCompare",
+  "developer": "Jun Murakami",
+  "description": "Switch instantly between mix versions and reference tracks, level-matched.",
+  "homepage": "https://jun-murakami.web.app/apps/mixcompare",
+  "repo": "https://github.com/Jun-Murakami/MixCompare",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "aax",
+    "juce-plugins",
+    "mui",
+    "mui-material",
+    "react",
+    "reactjs"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MixCompare"
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.0.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "sha256": "7fcf829887ed9a1ca30486e556a83afe99130149e21eacc6e5c22d2f3c90b447",
+          "size": 20280020,
+          "bundles": [
+            "VST3/MixCompare.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "sha256": "3d531fd855cb660161fa21242061f505ce1c2eec5896633fddddb2710125b6c0",
+          "size": 47374600,
+          "bundles": [
+            "MixCompare.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "sha256": "7f12176cdc715b9800a70c15ebd90adaa5696c1ecb3c2657eba0c73e2ea82c3a",
+          "size": 28688771,
+          "bundles": [
+            "MixCompare.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

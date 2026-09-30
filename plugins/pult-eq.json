@@ -1,0 +1,44 @@
+{
+  "id": "pult-eq",
+  "name": "Pult EQ",
+  "developer": "Consistent Interruption",
+  "description": "Pultec-style tube EQ.",
+  "homepage": "https://www.consint.net/",
+  "repo": "https://github.com/consint/Pult-EQ",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "effect",
+    "equalizer",
+    "saturation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Pult EQ"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Linux_vst3.zip",
+          "sha256": "5b3b233ed361d8bc41e1a7a987b31f7b33bcf4b66ac7e843ee5fac5756b87092",
+          "size": 14699710,
+          "bundles": [
+            "Pult EQ_1_0_0_Linux_vst3/Pult EQ.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Win_vst3.zip",
+          "sha256": "506fd14cdd7c5710f978bf01d0c56d9ca9c8518fbd0478aea8e1dac541a2ae7a",
+          "size": 11963479,
+          "bundles": [
+            "Pult EQ_1_0_0_Win_vst3/Pult EQ/Pult EQ.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

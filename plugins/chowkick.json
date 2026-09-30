@@ -1,0 +1,32 @@
+{
+  "id": "chowkick",
+  "name": "ChowKick",
+  "developer": "Chowdhury DSP",
+  "description": "Kick drum synthesizer modelled on the circuits of classic drum machines.",
+  "repo": "https://github.com/Chowdhury-DSP/ChowKick",
+  "license": "BSD-3-Clause",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ChowKick"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Mac-1.2.0.dmg",
+          "sha256": "de1833ac2bfd7f9d74ba61cb64f3fb7c600de348cba6b46d9c05c8df14d158f7",
+          "size": 18907522,
+          "inner": "ChowKick-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ChowKick.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

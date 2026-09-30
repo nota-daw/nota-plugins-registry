@@ -1,0 +1,44 @@
+{
+  "id": "setekh",
+  "name": "Setekh",
+  "developer": "Full FX Media",
+  "description": "Minimal, powerful distortion.",
+  "repo": "https://github.com/fullfxmedia/setekh",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "distortion",
+    "saturation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Setekh"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.13",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-macos-v1.0.13.zip",
+          "sha256": "45bcff0e199153815c7926f47d2b318d3a1ad675f07e07ffe71448eea2daee06",
+          "size": 44249770,
+          "inner": "setekh-macos/Setekh-1.0.13.pkg",
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/Setekh.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-windows-v1.0.13.zip",
+          "sha256": "192f121c9f938c4f8877b28c2a0c7667937a49c55e511c180b015a8f4b630d7e",
+          "size": 12331375,
+          "bundles": [
+            "setekh-windows/Setekh.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

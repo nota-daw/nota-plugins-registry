@@ -1,0 +1,43 @@
+{
+  "id": "thekissofshame",
+  "name": "The Kiss of Shame",
+  "developer": "Matthijs Hollemans",
+  "description": "Magnetic tape emulation with saturation, hiss, wow and flutter.",
+  "homepage": "https://audiodev.blog/kiss-of-shame/",
+  "repo": "https://github.com/hollance/TheKissOfShame",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "cplusplus"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "The Kiss Of Shame"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+          "sha256": "252ae895958afb89f03d0ef7893b0a5ced1ed2460384fbd0aacc700ec0fb358a",
+          "size": 191811319,
+          "bundles": [
+            "KissOfShame-Mac-v1.0.2/KissOfShame.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
+          "sha256": "e4f0483cd2ea03c624d1420a033c9e3fe0351b49230a40ead92b6ac9fe632d08",
+          "size": 49212561,
+          "bundles": [
+            "KissOfShame-Windows-v1.0.2/KissOfShame.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

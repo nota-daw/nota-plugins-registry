@@ -1,0 +1,48 @@
+{
+  "id": "transformant",
+  "name": "transformant",
+  "developer": "Igor Zinken",
+  "description": "Multichannel formant filter.",
+  "homepage": "https://www.igorski.nl/plugins/transformant",
+  "repo": "https://github.com/igorski/transformant",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "filter",
+    "formant",
+    "formants",
+    "steinberg",
+    "vst2-vst3",
+    "vst3-sdk"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Transformant"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_macos.zip",
+          "sha256": "0bf173764b09636fa01b15cc009bea14cf4dde5d3fb681a4255559e764a2b56c",
+          "size": 7119678,
+          "bundles": [
+            "AU/Transformant AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/transformant.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_windows.zip",
+          "sha256": "f0b3394fe43c4ccdf489a22b1d625970885e2c5b409117798eb255bf8d53fa7c",
+          "size": 1954890,
+          "bundles": [
+            "Windows 64-Bit/VST3/transformant.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

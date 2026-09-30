@@ -1,0 +1,55 @@
+{
+  "id": "overtonium",
+  "name": "Overtonium",
+  "developer": "Benjamin Dehli",
+  "description": "Additive synthesizer: 32 partials laid out like a 32-channel mixer.",
+  "homepage": "https://benjamindehli.github.io/overtonium/",
+  "repo": "https://github.com/benjamindehli/overtonium",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "additive-synthesis",
+    "dehli-musikk",
+    "dehlimusikk",
+    "instrument-plugin",
+    "overtones",
+    "synth"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Overtonium"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.9.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.9.0/Overtonium-v1.9.0-Linux.zip",
+          "sha256": "5fb16801a65bf7399bab9c6cac23682aeadfd95dedf3fb672445f215af03d710",
+          "size": 9204214,
+          "bundles": [
+            "Overtonium-v1.9.0-Linux/VST3/Overtonium.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.9.0/Overtonium-v1.9.0-macOS.zip",
+          "sha256": "9600d132c79ce4f19590265ead2db49f1b0e43c81ce848c4ccfa14b1fcfdcaa5",
+          "size": 16052355,
+          "bundles": [
+            "Overtonium-v1.9.0-macOS/VST3/Overtonium.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.9.0/Overtonium-v1.9.0-Windows.zip",
+          "sha256": "402113402f56db174bbfd3acdf2935e98efeefed4ea81f0f8913f288cda30f53",
+          "size": 7092679,
+          "bundles": [
+            "Overtonium-v1.9.0-Windows/VST3/Overtonium.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

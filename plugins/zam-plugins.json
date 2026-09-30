@@ -1,0 +1,229 @@
+{
+  "id": "zam-plugins",
+  "name": "ZAM Plugins",
+  "developer": "Damien Zammit",
+  "description": "Collection of mixing tools: compressors, EQs, delay, saturation and more.",
+  "repo": "https://github.com/zamaudio/zam-plugins",
+  "license": "GPL-2.0",
+  "kind": "bundle",
+  "tags": [
+    "zam-plugins"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZaMaximX2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZaMultiComp"
+    },
+    {
+      "format": "VST3",
+      "name": "ZaMultiCompX2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamAutoSat"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamComp"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamCompX2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamDelay"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamDynamicEQ"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamEQ2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamEcho"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamGEQ31"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamGate"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamGateX2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamGrains"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamHeadX2"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamNoise"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamPhono"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamTube"
+    },
+    {
+      "format": "VST3",
+      "name": "ZamVerb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.5",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz",
+          "sha256": "4e02771b743afaaa2d6912eac083661c1d9ab0a92dd6787414f29e365877b4c2",
+          "size": 39549040,
+          "bundles": [
+            "zam-plugins-4.5/ZaMaximX2.vst3",
+            "zam-plugins-4.5/ZaMultiComp.vst3",
+            "zam-plugins-4.5/ZaMultiCompX2.vst3",
+            "zam-plugins-4.5/ZamAutoSat.vst3",
+            "zam-plugins-4.5/ZamComp.vst3",
+            "zam-plugins-4.5/ZamCompX2.vst3",
+            "zam-plugins-4.5/ZamDelay.vst3",
+            "zam-plugins-4.5/ZamDynamicEQ.vst3",
+            "zam-plugins-4.5/ZamEQ2.vst3",
+            "zam-plugins-4.5/ZamEcho.vst3",
+            "zam-plugins-4.5/ZamGEQ31.vst3",
+            "zam-plugins-4.5/ZamGate.vst3",
+            "zam-plugins-4.5/ZamGateX2.vst3",
+            "zam-plugins-4.5/ZamGrains.vst3",
+            "zam-plugins-4.5/ZamHeadX2.vst3",
+            "zam-plugins-4.5/ZamNoise.vst3",
+            "zam-plugins-4.5/ZamPhono.vst3",
+            "zam-plugins-4.5/ZamTube.vst3",
+            "zam-plugins-4.5/ZamVerb.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz",
+          "sha256": "16b022cce2998d11d3dbcf15aa6fe176cd14576cad42250ae8cfc56d1b7add7a",
+          "size": 39868912,
+          "bundles": [
+            "zam-plugins-4.5/ZaMaximX2.vst3",
+            "zam-plugins-4.5/ZaMultiComp.vst3",
+            "zam-plugins-4.5/ZaMultiCompX2.vst3",
+            "zam-plugins-4.5/ZamAutoSat.vst3",
+            "zam-plugins-4.5/ZamComp.vst3",
+            "zam-plugins-4.5/ZamCompX2.vst3",
+            "zam-plugins-4.5/ZamDelay.vst3",
+            "zam-plugins-4.5/ZamDynamicEQ.vst3",
+            "zam-plugins-4.5/ZamEQ2.vst3",
+            "zam-plugins-4.5/ZamEcho.vst3",
+            "zam-plugins-4.5/ZamGEQ31.vst3",
+            "zam-plugins-4.5/ZamGate.vst3",
+            "zam-plugins-4.5/ZamGateX2.vst3",
+            "zam-plugins-4.5/ZamGrains.vst3",
+            "zam-plugins-4.5/ZamHeadX2.vst3",
+            "zam-plugins-4.5/ZamNoise.vst3",
+            "zam-plugins-4.5/ZamPhono.vst3",
+            "zam-plugins-4.5/ZamTube.vst3",
+            "zam-plugins-4.5/ZamVerb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg",
+          "sha256": "ac163eb25781b08936b80c12e809777e3aaa523887d0355504f2e6586c4e43cf",
+          "size": 246954246,
+          "inner": "zam-plugins-AudioPlugins.pkg",
+          "bundles": [
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMaximX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMultiComp.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMultiCompX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamAutoSat.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamComp.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamCompX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamDelay.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamDynamicEQ.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamEQ2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamEcho.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGEQ31.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGate.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGateX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGrains.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamHeadX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamNoise.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamPhono.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamTube.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamVerb.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-intel.dmg",
+          "sha256": "432285157f2b65e83d4d3182d192d7c5e29f635cdf2e15f90236f0bfffa95e1f",
+          "size": 127964014,
+          "inner": "zam-plugins-AudioPlugins.pkg",
+          "bundles": [
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMaximX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMultiComp.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZaMultiCompX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamAutoSat.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamComp.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamCompX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamDelay.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamDynamicEQ.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamEQ2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamEcho.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGEQ31.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGate.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGateX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamGrains.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamHeadX2.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamNoise.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamPhono.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamTube.vst3",
+            "dpf-zam-plugins-vst3bundles.pkg/Payload/ZamVerb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
+          "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
+          "size": 128302481,
+          "bundles": [
+            "zam-plugins-4.5/ZaMaximX2.vst3",
+            "zam-plugins-4.5/ZaMultiComp.vst3",
+            "zam-plugins-4.5/ZaMultiCompX2.vst3",
+            "zam-plugins-4.5/ZamAutoSat.vst3",
+            "zam-plugins-4.5/ZamComp.vst3",
+            "zam-plugins-4.5/ZamCompX2.vst3",
+            "zam-plugins-4.5/ZamDelay.vst3",
+            "zam-plugins-4.5/ZamDynamicEQ.vst3",
+            "zam-plugins-4.5/ZamEQ2.vst3",
+            "zam-plugins-4.5/ZamEcho.vst3",
+            "zam-plugins-4.5/ZamGEQ31.vst3",
+            "zam-plugins-4.5/ZamGate.vst3",
+            "zam-plugins-4.5/ZamGateX2.vst3",
+            "zam-plugins-4.5/ZamGrains.vst3",
+            "zam-plugins-4.5/ZamHeadX2.vst3",
+            "zam-plugins-4.5/ZamNoise.vst3",
+            "zam-plugins-4.5/ZamPhono.vst3",
+            "zam-plugins-4.5/ZamTube.vst3",
+            "zam-plugins-4.5/ZamVerb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

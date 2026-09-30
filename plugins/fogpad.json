@@ -1,0 +1,48 @@
+{
+  "id": "fogpad",
+  "name": "fogpad",
+  "developer": "Igor Zinken",
+  "description": "Reverb whose reflections can be frozen, filtered, pitch-shifted and bit-crushed.",
+  "homepage": "https://www.igorski.nl/download/fogpad",
+  "repo": "https://github.com/igorski/fogpad",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "cho",
+    "cplusplus",
+    "reverb",
+    "steinberg",
+    "vst2-vst3",
+    "vst3-sdk"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "FogPad"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_macos.zip",
+          "sha256": "206bfe64ea8b26067f3d550d24ba6e93f5550c1f588e92c2b3d3128c8ba1dc0a",
+          "size": 9472202,
+          "bundles": [
+            "AU/Fogpad AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/fogpad.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_windows.zip",
+          "sha256": "3c1bb2f8ca87966a3047a73c2bab4ea9af629af0d7356103bd6ff940de2da45c",
+          "size": 2428873,
+          "bundles": [
+            "Windows 64-Bit/VST3/fogpad.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "penare",
+  "name": "Penare",
+  "developer": "azur1s",
+  "description": "Wonky distortion.",
+  "repo": "https://github.com/azur1s/penare",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Penare"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-ubuntu-20.04.zip",
+          "sha256": "b25cc469ab8c7a5e259381368d549cd5f66291ae63cb2b1e1cb610991dd5a20f",
+          "size": 4390670,
+          "bundles": [
+            "Penare.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-macos-universal.zip",
+          "sha256": "7c56146ca466183e29f547255723c1691ce9ad348bea97f6cd516925c0ad2ae1",
+          "size": 3710572,
+          "bundles": [
+            "Penare.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-windows.zip",
+          "sha256": "07e446ac0c4f17fa8b02cb69377c2865d3c1cfe95cadf2c9ea4f9f2c13a3e27e",
+          "size": 3772316,
+          "bundles": [
+            "Penare.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

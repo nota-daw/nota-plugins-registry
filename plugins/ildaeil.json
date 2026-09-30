@@ -1,0 +1,74 @@
+{
+  "id": "ildaeil",
+  "name": "Ildaeil",
+  "developer": "DISTRHO",
+  "description": "A mini plugin host inside a plugin: load LV2, VST and CLAP plugins in any DAW.",
+  "repo": "https://github.com/DISTRHO/Ildaeil",
+  "license": "GPL-2.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Ildaeil-FX"
+    },
+    {
+      "format": "VST3",
+      "name": "Ildaeil-Synth"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/DISTRHO/Ildaeil/releases/download/v1.3/Ildaeil-linux-aarch64-v1.3.zip",
+          "sha256": "9de4513102de9e805b526564878e722842c8a8cf02b72fe445578a280e2952e7",
+          "size": 61461879,
+          "bundles": [
+            "Ildaeil-FX.vst3",
+            "Ildaeil-Synth.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/DISTRHO/Ildaeil/releases/download/v1.3/Ildaeil-linux-x86_64-v1.3.zip",
+          "sha256": "367e43ae7c36db3feb740f059b704980c8fc5376f93114a7c03c353c8db67f34",
+          "size": 75458065,
+          "bundles": [
+            "Ildaeil-FX.vst3",
+            "Ildaeil-Synth.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/DISTRHO/Ildaeil/releases/download/v1.3/Ildaeil-macOS-universal-v1.3.zip",
+          "sha256": "5b1424202d5b583772809712a090f7971b30d09ca36b6b5124a3f948fc920535",
+          "size": 148892899,
+          "inner": "Ildaeil-macOS.pkg",
+          "bundles": [
+            "dpf-Ildaeil-vst3bundles.pkg/Payload/Ildaeil-FX.vst3",
+            "dpf-Ildaeil-vst3bundles.pkg/Payload/Ildaeil-Synth.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/DISTRHO/Ildaeil/releases/download/v1.3/Ildaeil-macOS-intel-v1.3.zip",
+          "sha256": "27827c0725d1544372d899e9255c9230696108facd048c83f1043c1a51ed765a",
+          "size": 76496789,
+          "inner": "Ildaeil-macOS.pkg",
+          "bundles": [
+            "dpf-Ildaeil-vst3bundles.pkg/Payload/Ildaeil-FX.vst3",
+            "dpf-Ildaeil-vst3bundles.pkg/Payload/Ildaeil-Synth.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/DISTRHO/Ildaeil/releases/download/v1.3/Ildaeil-win64-v1.3.zip",
+          "sha256": "1d7cfe9d06d50b091b7dc649f295beb50b4ffff5f493ddaa07c160e35741b7f0",
+          "size": 79282677,
+          "bundles": [
+            "Ildaeil-FX.vst3",
+            "Ildaeil-Synth.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

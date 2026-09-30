@@ -1,0 +1,43 @@
+{
+  "id": "kholorsstation",
+  "name": "Kholors",
+  "developer": "Quentin FAIDIDE",
+  "description": "Colour-coded spectrogram of several tracks at once, in a single window.",
+  "repo": "https://github.com/QuentinFAIDIDE/KholorsStation",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-analyzer",
+    "linux-audio",
+    "mixing-and-mastering"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "KholorsSink"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.27.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/QuentinFAIDIDE/KholorsStation/releases/download/v1.27.1/kholors-v1.27.1.deb",
+          "sha256": "0b4d513de6d32a9fae65623ec1c3bb230bdba155da69951362292bcd42014d8f",
+          "size": 12771344,
+          "bundles": [
+            "usr/lib/vst3/KholorsSink.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/QuentinFAIDIDE/KholorsStation/releases/download/v1.27.1/kholors_macos_v1.27.1.zip",
+          "sha256": "f5bc3f3497618b78fd24d7ebcf39e85d6db330ff80adfd5db50a7b82a81f1d6a",
+          "size": 15066167,
+          "bundles": [
+            "Library/Audio/Plug-Ins/VST3/KholorsSink.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

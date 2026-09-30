@@ -1,0 +1,58 @@
+{
+  "id": "warpcore",
+  "name": "WarpCore",
+  "developer": "ManasWolrd",
+  "description": "Multiband spectral inversion, in the spirit of PiWarp and Wormhole.",
+  "homepage": "https://manaswolrd.github.io/index.html#warpcore",
+  "repo": "https://github.com/ManasWolrd/WarpCore",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "negative-harmony"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "WarpCore"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.12",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-linux-v0.0.12.zip",
+          "sha256": "01be5dcdea7212932eecaf0669820f649c798b7948ecaec922bd62c4f6e32592",
+          "size": 6958178,
+          "bundles": [
+            "VST3/WarpCore.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-macos-arm64-v0.0.12.zip",
+          "sha256": "1442fd6d8acc38d48b42b0d2cc339dddb44976e143e36d1217bb48fd6470daca",
+          "size": 3887318,
+          "bundles": [
+            "VST3/WarpCore.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-macos-x64-v0.0.12.zip",
+          "sha256": "0237bf84e2646c4bcb7a59e74bfbc4dfed318058d475164b4ab481b0f42e870d",
+          "size": 5242417,
+          "bundles": [
+            "VST3/WarpCore.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-win-v0.0.12.zip",
+          "sha256": "bcc4b5d4c8c068f6795e49050336cc269d4c135a8cb62e34f9f11d1cc91d4867",
+          "size": 3011636,
+          "bundles": [
+            "VST3/WarpCore.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "crushclone",
+  "name": "CrushClone",
+  "developer": "doxiedevops",
+  "description": "Recreation of the CamelCrusher distortion and compressor.",
+  "repo": "https://github.com/doxiedevops/CrushClone",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "flstudio",
+    "intel"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "CrushClone"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/doxiedevops/CrushClone/releases/download/v1.0.1/CrushClone-v1.0.1-macOS.pkg",
+          "sha256": "8f7aa8995adba3eea74c51554bee80fac3dc7608422bd4c5a86674a997317da4",
+          "size": 7200064,
+          "bundles": [
+            "CrushClone-VST3.pkg/Payload/CrushClone.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

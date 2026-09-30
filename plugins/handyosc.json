@@ -1,0 +1,34 @@
+{
+  "id": "handyosc",
+  "name": "HandyOsc",
+  "developer": "eulmour",
+  "description": "Turns any audio into a playable synth oscillator.",
+  "repo": "https://github.com/eulmour/HandyOsc",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "synth",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "HandyOsc"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/eulmour/HandyOsc/releases/download/1.0.0/HandyOsc-VST3-Windows.zip",
+          "sha256": "d8fe72295c6ba4ba0ec481fa1a33e130e9bf238f52e03a312cfa33aba4e46832",
+          "size": 2438815,
+          "bundles": [
+            "HandyOsc.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

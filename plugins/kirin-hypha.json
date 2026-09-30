@@ -1,0 +1,41 @@
+{
+  "id": "kirin-hypha",
+  "name": "Kirin Hypha",
+  "developer": "heyalohaloha",
+  "description": "Psychoacoustic meter: loudness, roughness and more while you work.",
+  "homepage": "https://kirinmastering.com/hypha",
+  "repo": "https://github.com/heyalohaloha/kirin_hypha",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-analysis",
+    "loudness",
+    "psychoacoustics"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "POST Kirin Hypha"
+    },
+    {
+      "format": "VST3",
+      "name": "PRE Kirin Hypha"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.50",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/heyalohaloha/kirin_hypha/releases/download/v1.1.50/Kirin-Hypha-1.1.50-macOS-Universal.pkg",
+          "sha256": "3c01046b645933d5cfee87eb6429d73f6533d83f24c8b62119cce705d221bd27",
+          "size": 76174922,
+          "bundles": [
+            "KirinHyphaPlugins.pkg/Payload/Library/Audio/Plug-Ins/VST3/POST Kirin Hypha.vst3",
+            "KirinHyphaPlugins.pkg/Payload/Library/Audio/Plug-Ins/VST3/PRE Kirin Hypha.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

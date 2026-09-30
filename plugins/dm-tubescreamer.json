@@ -1,0 +1,47 @@
+{
+  "id": "dm-tubescreamer",
+  "name": "dm-TubeScreamer",
+  "developer": "Dave Mollen",
+  "description": "Emulation of the Ibanez Tube Screamer overdrive pedal.",
+  "repo": "https://github.com/davemollen/dm-TubeScreamer",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "TubeScreamer"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.9",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-ubuntu.zip",
+          "sha256": "ce384e0a3838cccd306907437aefedb3fec39b6e87c7821b205048cc72c79f31",
+          "size": 8018391,
+          "bundles": [
+            "dm-TubeScreamer-ubuntu/dm-TubeScreamer.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-macos.zip",
+          "sha256": "05fdbcdfbf3179ff29e55273e85e9f42fc3918e36a53a1c7bde6ef876679ac48",
+          "size": 21258826,
+          "bundles": [
+            "dm-TubeScreamer-macos/dm-TubeScreamer.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-windows.zip",
+          "sha256": "542249095b6fc8970ac88771f100b4d3a08b65321b539a92a5c631275244bf15",
+          "size": 7210139,
+          "bundles": [
+            "dm-TubeScreamer-windows/dm-TubeScreamer.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

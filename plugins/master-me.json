@@ -1,0 +1,62 @@
+{
+  "id": "master-me",
+  "name": "master_me",
+  "developer": "Klaus Scheuermann",
+  "description": "Automatic mastering for live streams, podcasts and internet radio.",
+  "repo": "https://github.com/trummerschlunk/master_me",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "mastering",
+    "podcast",
+    "radio",
+    "sound",
+    "streaming"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "master_me"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.1",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-arm64.tar.xz",
+          "sha256": "d93d4630f7d2eae1fff5912f89dcf13b810d2b1a3cc0cffa14a3514958da3ec9",
+          "size": 2136644,
+          "bundles": [
+            "master_me-1.3.1/master_me.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-x86_64.tar.xz",
+          "sha256": "09f41b4607ea66fd1d2f69c6b2e92ad4a36cd748c9e6da9a39b7e802c143d6a2",
+          "size": 2342208,
+          "bundles": [
+            "master_me-1.3.1/master_me.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-macos-universal.dmg",
+          "sha256": "8c092dce8afcb462e573c88fcda184797967fa82ecd839372509d2916da014b5",
+          "size": 12811088,
+          "inner": "master_me-AudioPlugins.pkg",
+          "bundles": [
+            "dpf-master_me-vst3bundles.pkg/Payload/master_me.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-win64.zip",
+          "sha256": "0122b72259fd54f99854d038cd7f850f06f6f62d68495f6cc15f57251938fd72",
+          "size": 13178088,
+          "bundles": [
+            "master_me-1.3.1/master_me.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

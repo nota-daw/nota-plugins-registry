@@ -1,0 +1,36 @@
+{
+  "id": "chasm",
+  "name": "Chasm",
+  "developer": "DirektDSP",
+  "description": "Something between a reverb and a delay: blurs the sound into a space.",
+  "homepage": "https://direktdsp.com",
+  "repo": "https://github.com/DirektDSP/Chasm",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "effect",
+    "music-production"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Chasm"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DirektDSP/Chasm/releases/download/v1.0.6/Chasm-1.0.6-Linux.zip.zip",
+          "sha256": "1ea53fa7c0863937b6108c0be19032b01bde50ec5442f1332affbd2674b0948c",
+          "size": 177926096,
+          "inner": "Chasm-1.0.6-Linux.zip",
+          "bundles": [
+            "VST3/Chasm.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

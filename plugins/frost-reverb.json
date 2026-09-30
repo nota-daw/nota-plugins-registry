@@ -1,0 +1,41 @@
+{
+  "id": "frost-reverb",
+  "name": "Frost Reverb",
+  "developer": "Resonatrics",
+  "description": "Shimmer reverb.",
+  "repo": "https://github.com/resonatrics/frost-reverb",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Frost Reverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/resonatrics/frost-reverb/releases/download/v0.1.1/FrostReverb-v0.1.1-macOS-Universal.zip",
+          "sha256": "09ced8d30ee4f28e9acf67eea872fd2fa66840d9510c14b16b527d987aa61e06",
+          "size": 10038443,
+          "bundles": [
+            "Frost Reverb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/resonatrics/frost-reverb/releases/download/v0.1.1/FrostReverb-v0.1.1-Windows-x64.zip",
+          "sha256": "b68c7385dfb68aadd5c8314be633b3ffc2c1da0dec20eb1691f811e372353dc6",
+          "size": 5168192,
+          "bundles": [
+            "Frost Reverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "node-sound",
+  "name": "Node Sound Effect",
+  "developer": "Blair Hines",
+  "description": "Node-based synthesizer and effect.",
+  "repo": "https://github.com/Lubba-64/node_sound",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Node Sound Effect"
+    }
+  ],
+  "versions": [
+    {
+      "version": "5.5.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Lubba-64/node_sound/releases/download/v5.5.0/node_sound_vst_effect_mac_arm.vst3.zip",
+          "sha256": "90009a9c89245885fce99e59a6edfdab795065c69f20a5cb9a62c77e13fd89a7",
+          "size": 3148000,
+          "bundles": [
+            "node_sound_vst_effect_mac_arm.vst3"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "The project is archived upstream; this is its last release."
+}

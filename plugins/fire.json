@@ -1,0 +1,52 @@
+{
+  "id": "fire",
+  "name": "Fire",
+  "developer": "Yifeng (Jerry)",
+  "description": "Multiband distortion with several saturation modes.",
+  "homepage": "https://jerryuhoo.github.io/Fire/",
+  "repo": "https://github.com/jerryuhoo/Fire",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "distortion-plugin",
+    "multiband"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Fire"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.5.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v1.5.0/Fire-1.5.0-Linux.zip",
+          "sha256": "774b75bc213ebb1728aebee2f51d7ee371f3cfd0eb103b4fc7faff8efc43ab8a",
+          "size": 7121884,
+          "bundles": [
+            "VST3/Fire.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v1.5.0/Fire-1.5.0-macOS.zip",
+          "sha256": "e4c63f6954ad89a4137d50de71dd9dd00486ad8afeca2f0ebaeb3b7c837e24b3",
+          "size": 17985506,
+          "bundles": [
+            "VST3/Fire.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v1.5.0/Fire-1.5.0-Windows.zip",
+          "sha256": "f47b578ff24684343966f36c3615357fbcca7c99e3c76116ea7dd4a494d46814",
+          "size": 6992022,
+          "bundles": [
+            "VST3/Fire.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "firefly-synth-2",
+  "name": "Firefly Synth 2",
+  "developer": "Sjoerd van Kreel",
+  "description": "Semi-modular synthesizer and effects.",
+  "homepage": "https://firefly-synth.com/",
+  "repo": "https://github.com/sjoerdvankreel/firefly-synth-2",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "software-synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Firefly Synth 2"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.1.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2FX-linux-vst3-Release.zip",
+          "sha256": "5344d6b2c35fc8839dafc754d972910e11065ba91f9796c8ae55bacdaec9e521",
+          "size": 10017438,
+          "bundles": [
+            "FireflySynth2FX.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
+          "sha256": "2edf1ca7c77c1044b0dfda8d1b0a3df8113e5ed0aa363cae5514663311484dc7",
+          "size": 13267257,
+          "bundles": [
+            "FireflySynth2.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-windows-vst3-Release.zip",
+          "sha256": "40a5d4f1d94e3f644bc59985b22432f8de4c71491af6ba47dec2401bcae7d9a3",
+          "size": 9486339,
+          "bundles": [
+            "FireflySynth2.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

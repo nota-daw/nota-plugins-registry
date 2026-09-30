@@ -1,0 +1,45 @@
+{
+  "id": "zlequalizer",
+  "name": "ZL Equalizer 2",
+  "developer": "ZL Audio",
+  "description": "Dynamic equalizer.",
+  "homepage": "https://zl-audio.github.io/plugins/zlequalizer2/",
+  "repo": "https://github.com/ZL-Audio/ZLEqualizer",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "aax",
+    "audio-effect",
+    "equalizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Equalizer 2"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.0/ZL.Equalizer.2-1.4.0-Linux-arm64.zip",
+          "sha256": "e4936b85fbeef823e5f499dc6d90b12317f22df3419831d4b3ac3cc68fd1d27c",
+          "size": 10312218,
+          "bundles": [
+            "VST3/ZL Equalizer 2.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.0/ZL.Equalizer.2-1.4.0-macOS-arm64.dmg",
+          "sha256": "15e8a2d951b446ed7d39ffeeb7b83a2fd0b41de95f0f1e0b84b198cb1ddc1bd9",
+          "size": 11133805,
+          "inner": "ZL Equalizer 2-1.4.0-macOS-arm64.pkg",
+          "bundles": [
+            "ZL_Equalizer_2.vst3.pkg/Payload/ZL Equalizer 2.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

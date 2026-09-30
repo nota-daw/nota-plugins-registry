@@ -1,0 +1,44 @@
+{
+  "id": "shapey",
+  "name": "Shapey",
+  "developer": "Modular Samples",
+  "description": "Unusual wavetable synthesizer.",
+  "repo": "https://github.com/publicsamples/Shapey",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "audounit",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Shapey"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.7",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/publicsamples/Shapey/releases/download/0.4.7/Shapey_Mac.zip",
+          "sha256": "b722c9c386a42ce767bfdd7e3d99da0d0efa91cf0c511b1c9ab0c9634ac78072",
+          "size": 52193521,
+          "inner": "Shapey_VST3.pkg",
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/Shapey.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/publicsamples/Shapey/releases/download/0.4.7/Shapey.win.zip",
+          "sha256": "a76498f9e255748c015621a499df4d51813422435dbd5afbe7b024de90659819",
+          "size": 16584554,
+          "bundles": [
+            "Shapey.vst3"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "The project is archived upstream; this is its last release."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "plugincollider",
+  "name": "PluginCollider",
+  "developer": "Pascal Gauthier",
+  "description": "Runs SuperCollider inside a plugin.",
+  "repo": "https://github.com/asb2m10/plugincollider",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "supercollider"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PluginCollider"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.5.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.0/PluginCollider-0.5.0-lnx.zip",
+          "sha256": "22a86a2c824d417ace494436090f67b3258b601ed92ed71e415b8013be5c15ac",
+          "size": 6573666,
+          "bundles": [
+            "PluginCollider.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.0/PluginCollider-0.5.0-macOS.zip",
+          "sha256": "58dd45d7c1d8186c3b3b5605215bebf7ff4d3603d7c16e3eafbc929f4932b1de",
+          "size": 5098279,
+          "bundles": [
+            "PluginCollider.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.0/PluginCollider-0.5.0-win.zip",
+          "sha256": "219cfa97a0d6bc89cd0b76218a7bcf0631e97803d48b48279d2a5a54015b1210",
+          "size": 7613998,
+          "bundles": [
+            "PluginCollider.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

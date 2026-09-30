@@ -1,0 +1,34 @@
+{
+  "id": "visimusic",
+  "name": "VisiMusic",
+  "developer": "Darek Rudiš",
+  "description": "Controls audio effects with movement seen by your camera.",
+  "homepage": "https://darilin98.github.io/visimusic/",
+  "repo": "https://github.com/darilin98/visimusic",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "vst3-sdk"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VisiMusic"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/darilin98/visimusic/releases/download/v1.0.1/mac_arm64_visimusic-v1.0.dmg",
+          "sha256": "b2ead56a743bdfba3cd03d260992b78fb6f70bcf62e32b5ccf987cc2344756b2",
+          "size": 25693956,
+          "bundles": [
+            "visimusic.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

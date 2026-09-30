@@ -1,0 +1,42 @@
+{
+  "id": "neuralnote",
+  "name": "NeuralNote",
+  "developer": "Damien Ronssin",
+  "description": "Transcribes audio to MIDI with a neural network, then drag the notes into your track.",
+  "repo": "https://github.com/DamRsn/NeuralNote",
+  "license": "Apache-2.0",
+  "kind": "midi",
+  "tags": [
+    "machine-learning",
+    "midi"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "NeuralNote"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_VST3_Linux.zip",
+          "sha256": "0c2c1fa2a407d69a0151bb5f16187f0626867c1c2f97a456567eb24faa60951c",
+          "size": 5876490,
+          "bundles": [
+            "NeuralNote.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
+          "sha256": "67e6d08ffd6691cdb346ec49866b3765f83725e8bbc7f8470c5d26669c98ef74",
+          "size": 27549300,
+          "bundles": [
+            "NeuralNote_VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/NeuralNote.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

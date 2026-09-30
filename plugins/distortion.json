@@ -1,0 +1,52 @@
+{
+  "id": "distortion",
+  "name": "Sledge Distortion",
+  "developer": "Boris Miscenco",
+  "description": "Distortion where you draw the EQ curve straight onto the oscilloscope.",
+  "homepage": "https://monolitbeatz.com",
+  "repo": "https://github.com/elarmuzik1993/Distortion",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "gpl",
+    "music-production"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Sledge Distortion"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.3.0/SledgeDistortion-2.3.0-Linux.tar.gz",
+          "sha256": "1a5bf5b1412d4fcf53d1068ac33b4501a065aceb05c8778cacf2c5b662c69abb",
+          "size": 3537635,
+          "bundles": [
+            "SledgeDistortion-2.3.0-Linux/Sledge Distortion.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.3.0/SledgeDistortion-2.3.0-macOS.zip",
+          "sha256": "3f27e8f27a21c773c1800406f9d9c0ac41d23c075b6fef25213eb30df145699f",
+          "size": 12534846,
+          "bundles": [
+            "SledgeDistortion-2.3.0-macOS/Sledge Distortion.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.3.0/SledgeDistortion-2.3.0-Windows.zip",
+          "sha256": "3444aa4163e9ae2d3b13ea7673c991df121dbfe9fd3d348e1ca23a06f3d62ae6",
+          "size": 29436439,
+          "bundles": [
+            "Sledge Distortion.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

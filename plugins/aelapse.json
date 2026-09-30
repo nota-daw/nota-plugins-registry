@@ -1,0 +1,40 @@
+{
+  "id": "aelapse",
+  "name": "ÆLAPSE",
+  "developer": "smiarx",
+  "description": "Tape delay and spring reverb, modelled on the mechanics of tape echoes and spring tanks.",
+  "repo": "https://github.com/smiarx/aelapse",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Aelapse"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-Linux.zip",
+          "sha256": "9e6726d09c2d0cd49d8d4a9f45757dec2913e0ec4003ebd5aa4a0bef149cec77",
+          "size": 3257006,
+          "bundles": [
+            "VST3/Aelapse.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-macOS.dmg",
+          "sha256": "4e3b6f0b53c60f78e727cdcffc38bd8e8a446b049a0800f1420966def26352f0",
+          "size": 5898165,
+          "inner": "Aelapse.pkg",
+          "bundles": [
+            "Aelapse.vst3.pkg/Payload/Aelapse.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

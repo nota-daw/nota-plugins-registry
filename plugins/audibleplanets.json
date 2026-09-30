@@ -1,0 +1,47 @@
+{
+  "id": "audibleplanets",
+  "name": "Audible Planets",
+  "developer": "Greg Recco",
+  "description": "Expressive semi-modular synth whose oscillators orbit like planets in a Ptolemaic model.",
+  "repo": "https://github.com/gregrecco67/AudiblePlanets",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Audible Planets"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.3/Audible.Planets-1.2.3a-Linux.vst3.zip",
+          "sha256": "19fcbb55f59ed373b49e968a3a66f46c8a16541fdfd6dfeb76df32cd928393d0",
+          "size": 2974976,
+          "bundles": [
+            "Audible Planets.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.3/Audible.Planets-1.2.3a-MacOS.vst3.zip",
+          "sha256": "1965a71e960f681f7ae1dbc127df5742ae80af9b79477fe032352d1ce2e4f447",
+          "size": 2388199,
+          "bundles": [
+            "Audible Planets.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.3/Audible.Planets-1.2.3a-Windows.vst3.zip",
+          "sha256": "d0716cf363587b07b626270992c8e60b7bdd727290b1f9e18f52d6a54aa6f652",
+          "size": 4064810,
+          "bundles": [
+            "Audible Planets.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

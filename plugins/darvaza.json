@@ -1,0 +1,47 @@
+{
+  "id": "darvaza",
+  "name": "Darvaza",
+  "developer": "Igor Zinken",
+  "description": "Multichannel gate that, when it closes, plays back a transformed snapshot of the input.",
+  "homepage": "https://www.igorski.nl/download/darvaza",
+  "repo": "https://github.com/igorski/darvaza",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "cplusplus",
+    "gate",
+    "steinberg",
+    "tremolo",
+    "vst3-sdk"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Darvaza"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_macos.zip",
+          "sha256": "456f6b1c5216e290dbfcdb6b0c1e8f38ce499479deffb4f146bdc3b1253e843e",
+          "size": 9695869,
+          "bundles": [
+            "AU/Darvaza AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/Darvaza.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip",
+          "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
+          "size": 2606227,
+          "bundles": [
+            "Windows 64-Bit/VST3/Darvaza.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

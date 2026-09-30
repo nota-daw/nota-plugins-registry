@@ -1,0 +1,35 @@
+{
+  "id": "bitdos-vst",
+  "name": "BitDOS",
+  "developer": "_astriid_",
+  "description": "Bit-inverting industrial distortion.",
+  "repo": "https://github.com/astriiddev/BitDOS-VST",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "au-plugin",
+    "audio-units",
+    "distortion"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BitDOS"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/astriiddev/BitDOS-VST/releases/download/1.2/BitDOS_macOS.pkg",
+          "sha256": "9c7f9c38645505aedb0ffe65a5869d34f59ded8f7965f46317602ea85afb4983",
+          "size": 21068608,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/BitDOS.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

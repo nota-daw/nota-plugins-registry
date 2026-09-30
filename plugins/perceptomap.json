@@ -1,0 +1,54 @@
+{
+  "id": "perceptomap",
+  "name": "PerceptoMap",
+  "developer": "Qirui Huang",
+  "description": "Perceptual spectrum analyzer that maps frequencies to how loud they feel.",
+  "repo": "https://github.com/hqrrr/PerceptoMap",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-analysis",
+    "juce-plugins",
+    "melspectrogram",
+    "mfcc",
+    "psychoacoustics",
+    "spectrogram"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PerceptoMap"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.18.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+          "sha256": "7fb9cf86e8f1a812d0f860295cde6a2ce7750f40b3e63477a18ac5478f420db9",
+          "size": 2104447,
+          "bundles": [
+            "PerceptoMap.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+          "sha256": "23ec4e9e0b9492dfdfbd984dd99db8414e05c37e363abdaae42cdcf52f9517be",
+          "size": 1501920,
+          "bundles": [
+            "PerceptoMap.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+          "sha256": "3b8ad6f0def5da7dc54fe66777e80c86e9ddd70c1c509351afed7d3acd223d81",
+          "size": 2717837,
+          "bundles": [
+            "PerceptoMap.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

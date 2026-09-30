@@ -1,0 +1,35 @@
+{
+  "id": "equinox",
+  "name": "Equinox",
+  "developer": "Oliver Rasmussen",
+  "description": "Subtractive synthesizer and sampler.",
+  "repo": "https://github.com/OliverRasmussen/Equinox",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "sampler-instrument",
+    "synthesizer",
+    "virtual-instrument"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Equinox"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/OliverRasmussen/Equinox/releases/download/v1.2.0/Equinox-macOS-v1.2.0.zip",
+          "sha256": "9189e06a2fd306ed221fe0a223e8fd4213c84c93e30c5f579c43fb370d998b45",
+          "size": 16862211,
+          "bundles": [
+            "Equinox-macOS-v1.2.0/VST3/Equinox.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

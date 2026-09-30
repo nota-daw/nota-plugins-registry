@@ -1,0 +1,31 @@
+{
+  "id": "microbiome",
+  "name": "Microbiome",
+  "developer": "Darwin Do",
+  "description": "Delay-based effect that grows textures from the input.",
+  "repo": "https://github.com/dsmaugy/microbiome",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Microbiome"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/dsmaugy/microbiome/releases/download/v1.0.0/Microbiome_Win_VST3_v1.0.0.zip",
+          "sha256": "3efc5a2ff5ca4fe957647035dcedb16142d5d484d25236dc082171d29e388ae4",
+          "size": 2294242,
+          "bundles": [
+            "Microbiome.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

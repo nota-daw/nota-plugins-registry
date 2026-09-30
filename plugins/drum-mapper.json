@@ -1,0 +1,42 @@
+{
+  "id": "drum-mapper",
+  "name": "Drum Mapper",
+  "developer": "insomnimus",
+  "description": "Remaps drum MIDI between the layouts of popular drum libraries.",
+  "repo": "https://github.com/insomnimus/drum-mapper",
+  "license": "MIT",
+  "kind": "midi",
+  "tags": [
+    "drums",
+    "midi"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Drum Mapper"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/insomnimus/drum-mapper/releases/download/v0.3.0/drum-mapper-x86_64-linux.tar.xz",
+          "sha256": "572273e9c1a73f9c06807e51aaa31e1109b0557a54a16c6b5106c83ffe07b335",
+          "size": 2133376,
+          "bundles": [
+            "Drum Mapper.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/insomnimus/drum-mapper/releases/download/v0.3.0/drum-mapper-x86_64-windows.zip",
+          "sha256": "30a17d1706c3dde2555f0dd3e65d56f9da8787e2a76bbdd8cd868764d6aa01dc",
+          "size": 3279830,
+          "bundles": [
+            "Drum Mapper.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

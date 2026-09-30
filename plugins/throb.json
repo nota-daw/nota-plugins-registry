@@ -1,0 +1,34 @@
+{
+  "id": "throb",
+  "name": "throb",
+  "developer": "Vincenzo Pacella",
+  "description": "Clock and reset generator.",
+  "repo": "https://github.com/shaduzlabs/throb",
+  "license": "MIT",
+  "kind": "midi",
+  "tags": [
+    "clock",
+    "eurorack"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "throb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/shaduzlabs/throb/releases/download/v1.1.1/osx.zip",
+          "sha256": "1723fc045829bcce8b13541d89f9fd9fbc236eb119730d94b5f8b45f8c42607f",
+          "size": 16564031,
+          "bundles": [
+            "osx/throb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "entropictron",
+  "name": "Entropictron",
+  "developer": "Quamplex",
+  "description": "Texture generator and effect built on chaotic, entropy-driven processes.",
+  "homepage": "https://quamplex.com/entropictron",
+  "repo": "https://github.com/quamplex/entropictron",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "glitch-effect",
+    "noise-generator",
+    "synthesizers"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Entropictron"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/quamplex/entropictron/releases/download/v1.2.0/GNULinux_binaries_v1.2.0.zip",
+          "sha256": "2241aa5b00e46d76503793dd286fbf4e2bc5f57c46a79a1f9d5229c6811892f3",
+          "size": 491620,
+          "bundles": [
+            " GNULinux_binaries_v1.2.0 /lib/vst3/Entropictron.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

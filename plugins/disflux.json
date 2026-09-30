@@ -1,0 +1,47 @@
+{
+  "id": "disflux",
+  "name": "Disflux",
+  "developer": "Dimethoxy",
+  "description": "Phase dispersion: smears transients by passing audio through chains of all-pass filters.",
+  "homepage": "https://dimethoxy.com",
+  "repo": "https://github.com/Dimethoxy/Disflux",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "drums",
+    "hardcore",
+    "hardstyle",
+    "music-production",
+    "sound-design"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Disflux"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-linux-vanilla.tar.gz",
+          "sha256": "a9fed3bcbc8356283ded649ac363bd9c763ff449ba368a86838d56d97bec5287",
+          "size": 8168965,
+          "bundles": [
+            "Disflux.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-macos.pkg",
+          "sha256": "69d883ca5f568576a9308ce4ede7ff4471ce111ddd5c47cb261d2eec80030ad4",
+          "size": 13389887,
+          "bundles": [
+            "Disflux.vst3.pkg/Payload/Disflux.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

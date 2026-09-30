@@ -1,0 +1,59 @@
+{
+  "id": "tear",
+  "name": "TeAr",
+  "developer": "Olivier Doaré",
+  "description": "Text arpeggiator: type a pattern as text and it plays it as MIDI.",
+  "homepage": "https://fx-mechanics.com/",
+  "repo": "https://github.com/odoare/TeAr",
+  "license": "LGPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "arpeggiator",
+    "midi"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "TeAr"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.4.2",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.4.2/TeAr-VST3-Linux-arm64.zip",
+          "sha256": "1ff96dcbde6589daed87a25138e3a2128b8eb2088ae6e2da85332aa74e9730cd",
+          "size": 2975985,
+          "bundles": [
+            "VST3/TeAr.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.4.2/TeAr-VST3-Linux-x86_64.zip",
+          "sha256": "0970d971899253b3da52d0ac15451bc401b361fd5a67783ecda730791dc32173",
+          "size": 2931933,
+          "bundles": [
+            "VST3/TeAr.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.4.2/TeAr-VST3-macOS-universal.zip",
+          "sha256": "f9fee9ad522a88a31484c15342a877ced748934e346efa155e1fa34e5df60ecd",
+          "size": 4778619,
+          "bundles": [
+            "VST3/TeAr.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.4.2/TeAr-VST3-Windows-x86_64.zip",
+          "sha256": "02b6c4a7da5833800ec06bc2b431986422a4d4a1ca0a4ab5955419c4db8e596f",
+          "size": 3704809,
+          "bundles": [
+            "VST3/TeAr.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

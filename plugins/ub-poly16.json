@@ -1,0 +1,35 @@
+{
+  "id": "ub-poly16",
+  "name": "UB Poly16",
+  "developer": "PPsRetroVault",
+  "description": "Sixteen-voice virtual analog polysynth inspired by the Juno-106.",
+  "repo": "https://github.com/gPTPPs/UB_Poly16",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "juno-106",
+    "synthesizer",
+    "synthwave"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "UB_Poly16"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.8.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/gPTPPs/UB_Poly16/releases/download/v0.8.0/UB_Poly16-0.8.0-win64.zip",
+          "sha256": "da2c699731586b0d794fbc797eecf1f19752a21980f2eaebed62b71c93339a7f",
+          "size": 7112619,
+          "bundles": [
+            "UB_Poly16.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

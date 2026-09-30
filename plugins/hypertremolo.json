@@ -1,0 +1,51 @@
+{
+  "id": "hypertremolo",
+  "name": "HyperTremolo",
+  "developer": "Marco Tiraboschi",
+  "description": "Dual amplitude modulator: a harmonic tremolo that stretches into much more.",
+  "repo": "https://github.com/ChromaticIsobar/HyperTremolo",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "harmonic",
+    "modulation",
+    "tremolo"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "HyperTremolo"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ChromaticIsobar/HyperTremolo/releases/download/v1.0.3/HyperTremolo_linux_vst3_v1.0.3.zip",
+          "sha256": "d38fe7160b65ff85d0705d1447857fc7ea274db6c3827f71a33e2c1fc8ca17bb",
+          "size": 3994621,
+          "bundles": [
+            "HyperTremolo.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/ChromaticIsobar/HyperTremolo/releases/download/v1.0.3/HyperTremolo_macos_vst3_v1.0.3.zip",
+          "sha256": "23bf338f110b3442a368f578fceef3521c7342e57d306583dd4480ebc81067bc",
+          "size": 1849677,
+          "bundles": [
+            "HyperTremolo.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ChromaticIsobar/HyperTremolo/releases/download/v1.0.3/HyperTremolo_win64_vst3_v1.0.3.zip",
+          "sha256": "be74a620164553ffa8bc7deb1a284226d5b41650a677684008e2e23c4437eae2",
+          "size": 1879859,
+          "bundles": [
+            "HyperTremolo.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "peakeater",
+  "name": "PeakEater",
+  "developer": "Vladyslav Voinov",
+  "description": "Waveshaper and clipper for taming peaks, with several curves.",
+  "repo": "https://github.com/vvvar/PeakEater",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-units",
+    "distortion",
+    "gain",
+    "meters",
+    "waveshaper"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "peakeater"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.8.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Linux-x86_64.zip",
+          "sha256": "0ddf7d839fa436e62c2e9d5b1f188d695424d5aba2f242ad0a89bb8634f299b9",
+          "size": 4586800,
+          "bundles": [
+            "peakeater_artefacts/Release/VST3/peakeater.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-macOS-universal.dmg",
+          "sha256": "0df88ee26481843d0cc7762377bfefbb489a147a96fe6a9f2b9962834b92ba06",
+          "size": 10279669,
+          "bundles": [
+            "peakeater.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip",
+          "sha256": "6bae14feb7ea19beed6faf4a6984168521d2deb1351db9da5c208d274254e075",
+          "size": 3727973,
+          "bundles": [
+            "peakeater_artefacts/Release/VST3/peakeater.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

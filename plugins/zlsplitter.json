@@ -1,0 +1,45 @@
+{
+  "id": "zlsplitter",
+  "name": "ZL Splitter",
+  "developer": "ZL Audio",
+  "description": "Splits audio into bands, mid/side or left/right.",
+  "homepage": "https://zl-audio.github.io/plugins/zlsplitter/",
+  "repo": "https://github.com/ZL-Audio/ZLSplitter",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-effect",
+    "crossover",
+    "transient"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Splitter"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
+          "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
+          "size": 5505594,
+          "bundles": [
+            "VST3/ZL Splitter.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+          "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
+          "size": 5201749,
+          "inner": "ZL Splitter-0.3.0-macOS-arm.pkg",
+          "bundles": [
+            "ZL_Splitter.vst3.pkg/Payload/ZL Splitter.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

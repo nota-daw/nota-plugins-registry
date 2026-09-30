@@ -1,0 +1,44 @@
+{
+  "id": "praatplugin",
+  "name": "PraatPlugin",
+  "developer": "Ron",
+  "description": "Runs Praat scripts on audio from inside the DAW (needs Praat installed).",
+  "homepage": "https://praatplugin.netlify.app",
+  "repo": "https://github.com/Ron-312/PraatPlugin",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "praat",
+    "react",
+    "speech-processing"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PraatPlugin"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.5.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Ron-312/PraatPlugin/releases/download/v1.5.0/PraatPlugin_VST3_macOS.zip",
+          "sha256": "fc7f6e45c7e3d9edd861e6b9e72c906c03960127fc1c71d6fb446e8101acc84d",
+          "size": 2192449,
+          "bundles": [
+            "Users/ronhershkovitz/Desktop/Projects/PraatPlugin/build/PraatPlugin_artefacts/Release/VST3/PraatPlugin.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Ron-312/PraatPlugin/releases/download/v1.5.0/PraatPlugin_VST3_windows.zip",
+          "sha256": "e284b8b5beb99070c002c5d0a15a0c11afae6acf377a2962c5fb6b95a5861d15",
+          "size": 2992305,
+          "bundles": [
+            "PraatPlugin.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

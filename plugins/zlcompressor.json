@@ -1,0 +1,46 @@
+{
+  "id": "zlcompressor",
+  "name": "ZL Compressor",
+  "developer": "ZL Audio",
+  "description": "Dynamic range processor.",
+  "homepage": "https://zl-audio.github.io/plugins/zlcompressor/",
+  "repo": "https://github.com/ZL-Audio/ZLCompressor",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "aax",
+    "audio-effect",
+    "compressor",
+    "expander"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Compressor"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.6.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.0/ZL.Compressor-0.6.0-Linux-arm64.zip",
+          "sha256": "dfbdcaead95311c9d0c4bda8583de66c973fe322478486f8083f4f9689e91d30",
+          "size": 8639924,
+          "bundles": [
+            "VST3/ZL Compressor.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.0/ZL.Compressor-0.6.0-macOS-arm64.dmg",
+          "sha256": "987f6195b97f49d752f4c953e76646cde11918e8d29237caf3d542c992c94c9f",
+          "size": 12469926,
+          "inner": "ZL Compressor-0.6.0-macOS-arm64.pkg",
+          "bundles": [
+            "ZL_Compressor.vst3.pkg/Payload/ZL Compressor.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

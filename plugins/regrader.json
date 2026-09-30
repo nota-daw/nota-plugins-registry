@@ -1,0 +1,48 @@
+{
+  "id": "regrader",
+  "name": "regrader",
+  "developer": "Igor Zinken",
+  "description": "Delay whose repeats degrade in resolution.",
+  "homepage": "https://www.igorski.nl/download/regrader",
+  "repo": "https://github.com/igorski/regrader",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "bitcrusher",
+    "cplusplus",
+    "decimation",
+    "delay",
+    "echo",
+    "steinberg"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Regrader"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.5",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_macos.zip",
+          "sha256": "d3b77b466f270888fb866e67c86fafcdfafc9ff781420ca9ab77da7c7987f356",
+          "size": 9870628,
+          "bundles": [
+            "AU/Regrader AUV3.app/Contents/PlugIns/auv3.appex/Contents/PlugIns/plugin.vst3",
+            "VST3/regrader.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_windows.zip",
+          "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
+          "size": 2858396,
+          "bundles": [
+            "Windows 64-Bit/VST3/regrader.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

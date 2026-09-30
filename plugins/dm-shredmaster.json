@@ -1,0 +1,47 @@
+{
+  "id": "dm-shredmaster",
+  "name": "dm-Shredmaster",
+  "developer": "Dave Mollen",
+  "description": "Emulation of the Marshall Shredmaster distortion pedal.",
+  "repo": "https://github.com/davemollen/dm-Shredmaster",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Shredmaster"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-ubuntu.zip",
+          "sha256": "b967058d733c0e0be15ceadb2c7b523e2203ddfa571653cb4a53b2758b73c851",
+          "size": 7997156,
+          "bundles": [
+            "dm-Shredmaster-ubuntu/dm-Shredmaster.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-macos.zip",
+          "sha256": "fe09e1439109c5eb5ae14fa8c72d276b7ce811d0bcb543243008180a96632f2e",
+          "size": 21317217,
+          "bundles": [
+            "dm-Shredmaster-macos/dm-Shredmaster.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-windows.zip",
+          "sha256": "68f8491b92b1a424e47b8ae3129f9376a3195195b201a3551773e7abab4b2736",
+          "size": 7178562,
+          "bundles": [
+            "dm-Shredmaster-windows/dm-Shredmaster.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

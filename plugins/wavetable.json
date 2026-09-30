@@ -1,0 +1,42 @@
+{
+  "id": "wavetable",
+  "name": "Wavetable",
+  "developer": "Roland Rabien",
+  "description": "Wavetable synthesizer with two oscillators, filters, effects and modulation.",
+  "homepage": "https://socalabs.com/synths/wavetable/",
+  "repo": "https://github.com/FigBug/Wavetable",
+  "license": "BSD-3-Clause",
+  "kind": "instrument",
+  "tags": [
+    "wavetable-synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Wavetable"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.36",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.36/Wavetable.deb",
+          "sha256": "49f8726a915a74d4af3897e69559463ebc2f566336aa251ed874138aaa6321d4",
+          "size": 80782550,
+          "bundles": [
+            "usr/lib/vst3/Wavetable.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.36/Wavetable.pkg",
+          "sha256": "5e8f50ff10d40b2dab09c900ae35fdc617d30c4459a2f54575ffa8c0977fee63",
+          "size": 96180054,
+          "bundles": [
+            "vst3.pkg/Payload/Wavetable.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ovni",
+  "name": "OVNI Spatial",
+  "developer": "OVNI Audio",
+  "description": "Spatial audio plugins.",
+  "homepage": "https://ovniaudio.com",
+  "repo": "https://github.com/ovniaudio/ovni",
+  "license": "AGPL-3.0",
+  "kind": "bundle",
+  "tags": [
+    "agplv3",
+    "binaural",
+    "spatial-audio"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "TELESCOPE"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ovniaudio/ovni/releases/download/telescope-v0.1.0/OVNI-TELESCOPE-v0.1.0.pkg",
+          "sha256": "af2fbeec066848ba21e701dcadf3ad35b050fa289f6d5180fa8d5c2741b9d3af",
+          "size": 11531384,
+          "bundles": [
+            "pkg-telescope-vst3.pkg/Payload/Library/Audio/Plug-Ins/VST3/TELESCOPE.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ovniaudio/ovni/releases/download/telescope-v0.1.0/OVNI-TELESCOPE-v0.1.0-Windows.zip",
+          "sha256": "4bff669426c1ecf950d2ede7ad3896c02452ec5b838335dfd638fc0ccba60426",
+          "size": 3311640,
+          "bundles": [
+            "OVNI-TELESCOPE-v0.1.0-Windows/VST3/TELESCOPE.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

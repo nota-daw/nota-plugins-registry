@@ -1,0 +1,31 @@
+{
+  "id": "pulp-fiction",
+  "name": "Pulp Fiction",
+  "developer": "CoconutAudio",
+  "description": "Multi-effect rack.",
+  "repo": "https://github.com/CoconutAudio/Pulp-Fiction",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Pulp fiction"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/CoconutAudio/Pulp-Fiction/releases/download/tremolo/Pulp_fiction_linux_vst3.zip",
+          "sha256": "101d5cd7bb53706ec4d27a377be9f61a11719cfd7a5acdb26f5e33202a95d2e1",
+          "size": 15457762,
+          "bundles": [
+            "Pulp fiction.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

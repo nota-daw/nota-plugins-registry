@@ -1,0 +1,35 @@
+{
+  "id": "kandvst",
+  "name": "KandVST",
+  "developer": "Raven",
+  "description": "Synthesizer.",
+  "repo": "https://github.com/VirtualRaven/KandVST",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "sound",
+    "synth",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "KandVST"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/VirtualRaven/KandVST/releases/download/v1.0.0/KandVST-Windows-x64.zip",
+          "sha256": "48f22aa8c67eeb93848eaa417be155fbaa9048d8af769254887526df6bf2eaa1",
+          "size": 18209686,
+          "bundles": [
+            "KandVST-Windows-x64/KandVST.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}
