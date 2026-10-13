@@ -1,0 +1,47 @@
+{
+  "id": "ostinato",
+  "name": "Ostinato",
+  "developer": "Jacob Weber",
+  "description": "A MIDI arpeggiator plugin.",
+  "repo": "https://github.com/jacobweber/ostinato",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Ostinato"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.13",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-Linux.zip",
+          "sha256": "4689449c431b68252b40200b1f6c1afe7d06246d77c767ba17da7bb597e3b5df",
+          "size": 3902076,
+          "bundles": [
+            "ostinato-Linux/VST3/Ostinato.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-macOS.zip",
+          "sha256": "a1453e8cc908e36496ed7c60a0ee6c0658536e4f0e4235ecbe9252158d17d537",
+          "size": 4802185,
+          "bundles": [
+            "ostinato-macOS/VST3/Ostinato.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-Windows.zip",
+          "sha256": "5dde171aa0309d7e2b88e7cbbd53cb4d20c9cfcceb36a196bb91012f6c655495",
+          "size": 4369710,
+          "bundles": [
+            "ostinato-Windows/VST3/Ostinato.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

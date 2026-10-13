@@ -1,0 +1,39 @@
+{
+  "id": "demucs-rs",
+  "name": "Demucs",
+  "developer": "Nikhil Unni",
+  "description": "Rust powered waveform source separation",
+  "homepage": "https://nikhilunni.github.io/demucs-rs/",
+  "repo": "https://github.com/nikhilunni/demucs-rs",
+  "license": "Apache-2.0",
+  "kind": "instrument",
+  "tags": [
+    "audio-splitter",
+    "audio-splitting",
+    "burn",
+    "demucs",
+    "digital-signal-processing",
+    "gpu"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Demucs"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.4",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/Demucs-vst3-aarch64-apple-darwin.zip",
+          "sha256": "9d61ce5f67a1973563548942a0e1b5f4e4a2071c51b8b8463d45c5d4041060a0",
+          "size": 10823375,
+          "bundles": [
+            "Demucs.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

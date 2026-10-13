@@ -1,0 +1,61 @@
+{
+  "id": "kpp-vst3",
+  "name": "KPP-VST3",
+  "developer": "olegkapitonov",
+  "description": "Kapitonov Plugins Pack: guitar tube amp, distortion, fuzz, octaver, noise gate and pickup simulator.",
+  "repo": "https://github.com/olegkapitonov/KPP-VST3",
+  "license": "GPL-3.0",
+  "kind": "bundle",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "kpp_bluedream"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_deadgate"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_distruction"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_fuzz"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_octaver"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_single2humbucker"
+    },
+    {
+      "format": "VST3",
+      "name": "kpp_tubeamp"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/olegkapitonov/KPP-VST3/releases/download/1.2.1/KPP-VST3-1.2.1-binary-ubuntu-bionic.tar.bz2",
+          "sha256": "0ab4ab27650ae6be77226b6711840f199f519882a4955a6dd03a4edf17997e24",
+          "size": 7298821,
+          "bundles": [
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_bluedream.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_deadgate.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_distruction.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_fuzz.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_octaver.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_single2humbucker.vst3",
+            "KPP-VST3-1.2.1-binary-ubuntu-bionic/kpp_tubeamp.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "jdrummer",
+  "name": "jdrummer",
+  "developer": "Justin Ehrlichman",
+  "description": "An open source drum plugin that is inspired by commercial plugins such as EZDrummer3 and the Logic Pro/GarageBand Drummer",
+  "repo": "https://github.com/jmantra/jdrummer",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "jdrummer"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_VST3_old.Debian.zip",
+          "sha256": "4ee7bc854cf3f0891faad6d086fa1beabbb64c2bbd718605ab900782964e4571",
+          "size": 232911438,
+          "bundles": [
+            "old_debian/jdrummer.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_mac_vst3.zip",
+          "sha256": "f732671f74bb3ac8c5c0ead22b716719b7bc27ab7ef8a1dfc4c2026bb2d2f548",
+          "size": 232995642,
+          "bundles": [
+            "jdrummer.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_vst3_Windows.zip",
+          "sha256": "8832802c9f3936be7ffa7bbffe4375a5748d637ae3c667959f6863350055704d",
+          "size": 233033210,
+          "bundles": [
+            "jdrummer.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

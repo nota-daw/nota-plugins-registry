@@ -1,0 +1,31 @@
+{
+  "id": "dicefx",
+  "name": "DiceFX",
+  "developer": "RSK21",
+  "description": "DiceFX is a VST3 plugin built around one idea: press the dice, randomize unlocked parameters, and turn a clean input into a playable accident.",
+  "repo": "https://github.com/RSK21X/DiceFx",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DiceFX"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/RSK21X/DiceFx/releases/download/v1.1.1/DiceFX-1.1.1-macOS-universal-VST3.zip",
+          "sha256": "cfef570563562211f7eab1c7cd734676358a11ec93582f84a628c82089e1237d",
+          "size": 7888921,
+          "bundles": [
+            "DiceFX.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

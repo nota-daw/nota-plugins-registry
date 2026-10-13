@@ -1,0 +1,31 @@
+{
+  "id": "zlwarm",
+  "name": "ZL Warm",
+  "developer": "ZL Audio",
+  "description": "distortion/saturation plugin",
+  "repo": "https://github.com/ZL-Audio/ZLWarm",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Warm"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
+          "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
+          "size": 6115643,
+          "bundles": [
+            "ZL Warm.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

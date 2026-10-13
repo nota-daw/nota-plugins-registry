@@ -1,0 +1,31 @@
+{
+  "id": "midipad",
+  "name": "MidiPad",
+  "developer": "whoadrian",
+  "description": "MidiPad is a free open-source VST3 / AU plugin built for Windows & Mac. Turn your trackpad or mouse into an expressive Midi CC controller",
+  "repo": "https://github.com/whoadrian/MidiPad",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MidiPad"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_VST3.zip",
+          "sha256": "ec1ff30e347357184ba223946f00f83a4c5b0405996b68fbc34576302b36f8cf",
+          "size": 1645585,
+          "bundles": [
+            "vst3_mac/MidiPad.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

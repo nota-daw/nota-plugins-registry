@@ -1,0 +1,48 @@
+{
+  "id": "ft2-plugin",
+  "name": "Fasttracker II",
+  "developer": "juho",
+  "description": "Fasttracker II as a plugin: the full tracker, synced to the host, with modules saved in the project.",
+  "homepage": "https://blamstrain.com",
+  "repo": "https://github.com/juho/ft2-plugin",
+  "license": "BSD-3-Clause",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Fasttracker II"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.4",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Linux.zip",
+          "sha256": "0014eb03cf16add0f9e53582d2299b00c7de28936caa6bfae196fc0a511180be",
+          "size": 2898101,
+          "bundles": [
+            "FT2-Plugin-1.1.4-VST3-Linux/Fasttracker II.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-macOS-Legacy.zip",
+          "sha256": "1450065f64c125bcbda01d0e9ecefa295e7105f98092239f38fad4e26df41912",
+          "size": 2361738,
+          "bundles": [
+            "FT2-Plugin-1.1.4-VST3-macOS-Legacy/Fasttracker II.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Windows.zip",
+          "sha256": "1392660e4fee984b945b6a79815b4f126ae5f3edad06dac73941ee734c151c0b",
+          "size": 2901938,
+          "bundles": [
+            "FT2-Plugin-1.1.4-VST3-Windows/Fasttracker II.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "recall-sampler",
+  "name": "Recall-Sampler",
+  "developer": "ummshsh",
+  "description": "VST plugin that records everything, you can drag recoreded parts anywhere",
+  "repo": "https://github.com/ummshsh/Recall-Sampler",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Recall Sampler"
+    },
+    {
+      "format": "VST3",
+      "name": "RecallSampler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/Recall.Sampler.vst3_linux64.zip",
+          "sha256": "3ad5b65df6a278ff5335634460a2e3f7e6defc95f5c37f0f3f886f4230f9e1e0",
+          "size": 25238609,
+          "bundles": [
+            "Recall Sampler.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/RecallSampler_win64_vst3_standalone_1.0.zip",
+          "sha256": "48a1b48ce03384d4f640fc52912275963d8f293601763868dcff7b1e83de6aad",
+          "size": 5287170,
+          "bundles": [
+            "RecallSampler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "funky-moose-rootflow-synth",
+  "name": "Funky Moose Rootflow Synth",
+  "developer": "Uwe Arthur Felchle",
+  "description": "Organic JUCE synth with bio-sequencing, reactive visuals and ambient modulation for evolving textures, pulses and plant-like motion.",
+  "homepage": "https://www.uwefelchle.at",
+  "repo": "https://github.com/blubass/funky-moose-rootflow-synth",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Funky Moose Rootflow Synth"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/blubass/funky-moose-rootflow-synth/releases/download/v1.3.0/funky-moose-rootflow-synth-v1.3.0-macos.zip",
+          "sha256": "cce3ee9b5098a3573d0ac87feb75eba6753c3f71fb09b23d30caf67440c1fb69",
+          "size": 17531097,
+          "bundles": [
+            "Funky Moose Rootflow Synth.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/blubass/funky-moose-rootflow-synth/releases/download/v1.3.0/funky-moose-rootflow-synth-v1.3.0-windows.zip",
+          "sha256": "b9cc0e96c742e4f8837da3580421994427761a682d6d207cc66b9d8604b514dd",
+          "size": 4754377,
+          "bundles": [
+            "Funky Moose Rootflow Synth.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

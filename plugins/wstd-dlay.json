@@ -1,0 +1,67 @@
+{
+  "id": "wstd-dlay",
+  "name": "wstd-dlay",
+  "developer": "Wasted Audio",
+  "description": "Simple Delay Audio Plugin",
+  "repo": "https://github.com/Wasted-Audio/wstd-dlay",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "WSTD DLAY"
+    },
+    {
+      "format": "VST3",
+      "name": "WSTD_DLAY"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz",
+          "sha256": "703cff530fc8d23ca0747787ef5cf7f8229d24420f4c598ebcc328eb2678f744",
+          "size": 914856,
+          "bundles": [
+            "wstd-dlay-v1.1.1/WSTD_DLAY.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz",
+          "sha256": "211b881e16b9a2c60af9f08a7ce277a38faa6f875d39abd880e134b6e2a68a49",
+          "size": 996176,
+          "bundles": [
+            "wstd-dlay-v1.1.1/WSTD_DLAY.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg",
+          "sha256": "ee69f6bec1714ea1768628178f5778c5435507fa0a8e7aebb6cbcbc97cb6e3d2",
+          "size": 5823000,
+          "bundles": [
+            "dpf-WSTD-DLAY-vst3bundles.pkg/Payload/WSTD_DLAY.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg",
+          "sha256": "86a36de8c5bf2644f6e4c7143189491ea14d5d869f310e3568e42779f7e51b9c",
+          "size": 3144710,
+          "bundles": [
+            "dpf-WSTD-DLAY-vst3bundles.pkg/Payload/WSTD_DLAY.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip",
+          "sha256": "0d9ca539d710b3c7edf97a5f9f1aa38cf2969141555166e7fc7f04411146ffee",
+          "size": 5288107,
+          "bundles": [
+            "wstd-dlay-v1.1.1/WSTD_DLAY.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

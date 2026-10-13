@@ -1,0 +1,32 @@
+{
+  "id": "jcbreverb",
+  "name": "JCBReverb",
+  "developer": "cjitter",
+  "description": "Plugin de reverberación hecho con gen~, Plugin Export y JUCE",
+  "repo": "https://github.com/cjitter/JCBReverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JCBReverb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/cjitter/JCBReverb/releases/download/v1.0.2/JCBReverb-Installer.dmg",
+          "sha256": "604d00333d5307a893c5dac4aab139027f62999543bba8765bd7b58b40b744cd",
+          "size": 34589322,
+          "inner": "JCBReverb-v1.0.2.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/JCBReverb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

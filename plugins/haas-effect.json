@@ -1,0 +1,49 @@
+{
+  "id": "haas-effect",
+  "name": "haas_effect",
+  "developer": "tetra",
+  "description": "a haas effect with extra steps",
+  "repo": "https://github.com/tetra-fox/haas_effect",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "rust-audio"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "haas_effect"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tetra-fox/haas_effect/releases/download/v1.0.0/haas_effect-v1.0.0-linux-amd64.zip",
+          "sha256": "8de795a3171c13e7826d3ca73c9127b30e8f00b8d54f714871acb11dd100235f",
+          "size": 2118880,
+          "bundles": [
+            "haas_effect.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tetra-fox/haas_effect/releases/download/v1.0.0/haas_effect-v1.0.0-macos-universal.zip",
+          "sha256": "54c6db57757b0bd226185b554caf011e5593f4f414e84e1637c7f5990b3ff8d2",
+          "size": 4099970,
+          "bundles": [
+            "haas_effect.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tetra-fox/haas_effect/releases/download/v1.0.0/haas_effect-v1.0.0-windows-amd64.zip",
+          "sha256": "ab50aee35c6a354592d51133a5c6bcb2409325afd3e8755c3cac1027085720f9",
+          "size": 1802796,
+          "bundles": [
+            "haas_effect.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

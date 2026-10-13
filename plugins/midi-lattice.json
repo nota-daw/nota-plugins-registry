@@ -1,0 +1,31 @@
+{
+  "id": "midi-lattice",
+  "name": "MIDI Lattice",
+  "developer": "Yan Han",
+  "description": "MIDI visualizer VST with flexible tuning options",
+  "repo": "https://github.com/yan-h/midi_lattice",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MIDI Lattice"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/yan-h/midi_lattice/releases/download/v0.1.1/OSX.zip",
+          "sha256": "b540947d25f4ea192dd74c62f4badeb17d04ff4adcc71652e7dd8c0e014ac593",
+          "size": 7053748,
+          "bundles": [
+            "Midi Lattice.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

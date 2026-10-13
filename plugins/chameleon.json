@@ -1,0 +1,45 @@
+{
+  "id": "chameleon",
+  "name": "Chameleon",
+  "developer": "Keith Bloemer",
+  "description": "Vintage guitar amp using neural networks.",
+  "homepage": "https://guitarml.com/",
+  "repo": "https://github.com/GuitarML/Chameleon",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "guitar",
+    "machinelearning",
+    "neural-network"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Chameleon"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb",
+          "sha256": "06b2ba4d8438fc90376485aff6ed3c732868c6bfb1b773a2c348c0e6ad6d1352",
+          "size": 2703980,
+          "bundles": [
+            "usr/local/lib/vst3/Chameleon.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Install-Chameleon-v1.2-Mac.dmg",
+          "sha256": "9387fb1f0d5f4efe26dcb7d179dbd0a29ec96f976643be0b551dc0a56125739e",
+          "size": 14747494,
+          "inner": "Chameleon-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Chameleon.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

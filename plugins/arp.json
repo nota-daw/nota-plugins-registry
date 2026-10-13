@@ -1,0 +1,39 @@
+{
+  "id": "arp",
+  "name": "solidArp",
+  "developer": "SolidFuel",
+  "description": "Stable Random Arpeggiator VST",
+  "repo": "https://github.com/SolidFuel/Arp",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "solidArp"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidArp-V0.3.0-linux-vst3.zip",
+          "sha256": "80c96149a438c5154dc771b948facfa9265cd9b40db86aed88a88d86978791fd",
+          "size": 1610952,
+          "bundles": [
+            "solidArp.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidArp-V0.3.0-macos-universal.pkg",
+          "sha256": "e90551444ccf1e7c23db7ccd088164dc5fede7768d46b9dad090538d9489926c",
+          "size": 2744927,
+          "bundles": [
+            "solidArp-unsigned.pkg/Payload/solidArp.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

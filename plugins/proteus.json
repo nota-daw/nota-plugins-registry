@@ -1,0 +1,44 @@
+{
+  "id": "proteus",
+  "name": "Proteus",
+  "developer": "Keith Bloemer",
+  "description": "Guitar amp and pedal capture plugin using neural networks.",
+  "repo": "https://github.com/GuitarML/Proteus",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "guitar",
+    "machine-learning",
+    "neural-networks"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Proteus"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Proteus-Linux-x64-1.2.deb",
+          "sha256": "d3bf5a11127da6cf53af183390dc20350c15543617a8743b166c73f6a1a08e90",
+          "size": 12403836,
+          "bundles": [
+            "usr/local/lib/vst3/Proteus.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Install-Proteus-v1.2-Mac.dmg",
+          "sha256": "7194c26d4b04f40811295ad4ebe1ef3d1bb033a9976f6789ebf3ec021430e7d0",
+          "size": 34119901,
+          "inner": "Proteus-signed.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Proteus.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

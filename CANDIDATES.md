@@ -3,7 +3,7 @@
 Repositories checked for the registry that are **not** listed yet, and why. Re-check one with
 `python3 scripts/add.py owner/repo` when its situation changes (a license file, a VST3 archive, a stable release).
 
-## No OSI license detected (84)
+## No OSI license detected (103)
 
 - [akustikrausch/FXChainPlayer-Releases](https://github.com/akustikrausch/FXChainPlayer-Releases) — None
 - [ameyakakade/drummock](https://github.com/ameyakakade/drummock) — None
@@ -89,8 +89,27 @@ Repositories checked for the registry that are **not** listed yet, and why. Re-c
 - [vult-dsp/vult](https://github.com/vult-dsp/vult) — NOASSERTION
 - [Yusufmolla/betterarchetype](https://github.com/Yusufmolla/betterarchetype) — NOASSERTION
 - [zrythm/zrythm](https://github.com/zrythm/zrythm) — NOASSERTION
+- [008takeshi/drawwave-vocoder](https://github.com/008takeshi/drawwave-vocoder) — NOASSERTION
+- [altinus/alt-denoiser](https://github.com/altinus/alt-denoiser) — None
+- [a2aaron/nyasynth](https://github.com/a2aaron/nyasynth) — None
+- [anaremore/chipper](https://github.com/anaremore/chipper) — NOASSERTION
+- [ardura/gladedesk](https://github.com/ardura/gladedesk) — None
+- [ardura/scrollscope](https://github.com/ardura/scrollscope) — None
+- [ardura/subhoofer](https://github.com/ardura/subhoofer) — None
+- [dlarseninclusive/uhbikwrapper](https://github.com/dlarseninclusive/uhbikwrapper) — None
+- [essej/paulxstretch](https://github.com/essej/paulxstretch) — NOASSERTION
+- [iamlamprey/altar](https://github.com/iamlamprey/altar) — None
+- [icebreakeraudio/crystal-bowie](https://github.com/icebreakeraudio/crystal-bowie) — NOASSERTION
+- [intoetherion/drumgroovepro](https://github.com/intoetherion/drumgroovepro) — NOASSERTION
+- [jthwho/sickbeatbetty](https://github.com/jthwho/sickbeatbetty) — NOASSERTION
+- [masseyis/plaits-vst](https://github.com/masseyis/plaits-vst) — None
+- [minburg/vst-kick-synth](https://github.com/minburg/vst-kick-synth) — NOASSERTION
+- [n0emo/hyperclip](https://github.com/n0emo/hyperclip) — NOASSERTION
+- [subhankardas15071992-cloud/protoplug](https://github.com/subhankardas15071992-cloud/protoplug) — NOASSERTION
+- [surge-synthesizer/b-step](https://github.com/surge-synthesizer/b-step) — NOASSERTION
+- [torsion-audio/scyclone](https://github.com/torsion-audio/scyclone) — NOASSERTION
 
-## No VST3 in the release archives (55)
+## No VST3 in the release archives (57)
 
 - [alexanderwanyoike/vibez](https://github.com/alexanderwanyoike/vibez) — CLAP/LV2/VST2 only, or installer
 - [alexwest1981/sonix](https://github.com/alexwest1981/sonix) — CLAP/LV2/VST2 only, or installer
@@ -147,8 +166,10 @@ Repositories checked for the registry that are **not** listed yet, and why. Re-c
 - [valsteen/note_effects_vst](https://github.com/valsteen/note_effects_vst) — CLAP/LV2/VST2 only, or installer
 - [wolf-plugins/wolf-spectrum](https://github.com/wolf-plugins/wolf-spectrum) — CLAP/LV2/VST2 only, or installer
 - [zynaddsubfx/zynaddsubfx](https://github.com/zynaddsubfx/zynaddsubfx) — CLAP/LV2/VST2 only, or installer
+- [mikeoliphant/stompbox](https://github.com/mikeoliphant/stompbox) — no VST3 bundle inside
+- [synthesis/ftmsynth](https://github.com/synthesis/ftmsynth) — no VST3 bundle inside
 
-## Pre-releases only (70)
+## Pre-releases only (87)
 
 - [AkiyukiOkayasu/ImpulseResponseMeasurement](https://github.com/AkiyukiOkayasu/ImpulseResponseMeasurement)
 - [ales-tsurko/kotoist](https://github.com/ales-tsurko/kotoist)
@@ -220,6 +241,23 @@ Repositories checked for the registry that are **not** listed yet, and why. Re-c
 - [xivilay/scale-remapper](https://github.com/xivilay/scale-remapper)
 - [yamadapc/augmented-audio](https://github.com/yamadapc/augmented-audio)
 - [zmann-org/zmann](https://github.com/zmann-org/zmann)
+- [butchwarns/utilities](https://github.com/butchwarns/utilities)
+- [colinraab/modern-distortion-synth](https://github.com/colinraab/modern-distortion-synth)
+- [drlight-code/osccontrol-light](https://github.com/drlight-code/osccontrol-light)
+- [giulioz/smol-rack](https://github.com/giulioz/smol-rack)
+- [gnuoyohes/key-detect](https://github.com/gnuoyohes/key-detect)
+- [herzplatinedurchgebrannt/juce-crispy-linux](https://github.com/herzplatinedurchgebrannt/juce-crispy-linux)
+- [illdynamics/ultraglitch-bitfucker](https://github.com/illdynamics/ultraglitch-bitfucker)
+- [joepvanlier/ysfx](https://github.com/joepvanlier/ysfx)
+- [juanmalopezg/de-lio](https://github.com/juanmalopezg/de-lio)
+- [lbartoletti/beatit](https://github.com/lbartoletti/beatit)
+- [mikerodd/june-21](https://github.com/mikerodd/june-21)
+- [paynebc/tunefish](https://github.com/paynebc/tunefish)
+- [prg318/ripchord](https://github.com/prg318/ripchord)
+- [samplaman/layerengine](https://github.com/samplaman/layerengine)
+- [surge-synthesizer/tuning-workbench-synth](https://github.com/surge-synthesizer/tuning-workbench-synth)
+- [titanchariotsbb/glorious](https://github.com/titanchariotsbb/glorious)
+- [webprofusion/soundshed-guitar](https://github.com/webprofusion/soundshed-guitar)
 
 ## Installers only (23)
 
@@ -254,7 +292,7 @@ Repositories checked for the registry that are **not** listed yet, and why. Re-c
 - [Kanebos9/BASAMAK](https://github.com/Kanebos9/BASAMAK) — BASAMAK-1.6.0-Linux.zip, BASAMAK-1.6.0-macOS.zip, BASAMAK-1.6.0-Windows.zip
 - [VASTDynamics/Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) — Vaporizer2_installer_OSX64_3.5.0.zip, Vaporizer2_installer_win_3.5.0.zip
 
-## Curated out (29)
+## Curated out (30)
 
 Templates, games, hardware-specific editors, and plugins that need an external app, server or API.
 
@@ -287,8 +325,16 @@ Templates, games, hardware-specific editors, and plugins that need an external a
 - [sudara/pamplejuce](https://github.com/sudara/pamplejuce) — plugin template
 - [Torsion-Audio/nn-inference-template](https://github.com/Torsion-Audio/nn-inference-template) — code template
 - [valeriorlandini/theinformer](https://github.com/valeriorlandini/theinformer) — framework, needs its broadcast app
+- [tone-3000/tone3000-plugin](https://github.com/tone-3000/tone3000-plugin) — loads tones from a TONE3000 account
 
-## Release has no archive for macOS/Windows/Linux (177)
+## Duplicates (2)
+
+The same plugin is listed already: its VST3 name or its repo.
+
+- [martindylan/granola](https://github.com/martindylan/granola) — duplicate of camomile (provides 'Camomile')
+- [erosmarcello/the-kiss-of-shame-rev2](https://github.com/erosmarcello/the-kiss-of-shame-rev2) — duplicate of thekissofshame (provides 'The Kiss Of Shame')
+
+## Release has no archive for macOS/Windows/Linux (208)
 
 Mostly libraries, apps or plugins that publish no binaries.
 
@@ -469,3 +515,34 @@ Mostly libraries, apps or plugins that publish no binaries.
 - [yonie/WetDelay](https://github.com/yonie/WetDelay)
 - [yonie/WetEQ](https://github.com/yonie/WetEQ)
 - [yonie/WetReverb](https://github.com/yonie/WetReverb)
+- [0x07dc/declicker](https://github.com/0x07dc/declicker)
+- [calgoheen/crasshhfy](https://github.com/calgoheen/crasshhfy)
+- [danielwray/neampmod-the-victor](https://github.com/danielwray/neampmod-the-victor)
+- [everither/dust-saturator](https://github.com/everither/dust-saturator)
+- [guitarml/smartamppro](https://github.com/guitarml/smartamppro)
+- [hergezod/termenflux](https://github.com/hergezod/termenflux)
+- [interspectral6/erode](https://github.com/interspectral6/erode)
+- [isaiahdoyle/moorerreverb](https://github.com/isaiahdoyle/moorerreverb)
+- [je3928/re201models](https://github.com/je3928/re201models)
+- [juansetarros/breakdowner](https://github.com/juansetarros/breakdowner)
+- [lluisestape-upc/synth1.0](https://github.com/lluisestape-upc/synth1.0)
+- [lsp-plugins/lsp-plugins](https://github.com/lsp-plugins/lsp-plugins)
+- [michaelhurst97/noizier](https://github.com/michaelhurst97/noizier)
+- [mrmatch246/midistrummer](https://github.com/mrmatch246/midistrummer)
+- [mrugalla/adsr](https://github.com/mrugalla/adsr)
+- [mrugalla/manta](https://github.com/mrugalla/manta)
+- [mrugalla/midiwrap](https://github.com/mrugalla/midiwrap)
+- [mrugalla/perlinnoisemod](https://github.com/mrugalla/perlinnoisemod)
+- [mxncmrchnd/waddle](https://github.com/mxncmrchnd/waddle)
+- [otodesk4193/basslinematrix](https://github.com/otodesk4193/basslinematrix)
+- [otodesk4193/basssynth](https://github.com/otodesk4193/basssynth)
+- [otodesk4193/chordmatrix](https://github.com/otodesk4193/chordmatrix)
+- [otodesk4193/glitchnexus](https://github.com/otodesk4193/glitchnexus)
+- [otodesk4193/lumina](https://github.com/otodesk4193/lumina)
+- [otodesk4193/multi-oto](https://github.com/otodesk4193/multi-oto)
+- [otodesk4193/otodesksampler](https://github.com/otodesk4193/otodesksampler)
+- [potatoteto/dpcm_bitcrusher](https://github.com/potatoteto/dpcm_bitcrusher)
+- [rudro085/facemelter](https://github.com/rudro085/facemelter)
+- [rudro085/proco-rat](https://github.com/rudro085/proco-rat)
+- [sout233/folder](https://github.com/sout233/folder)
+- [sout233/im_disperser](https://github.com/sout233/im_disperser)

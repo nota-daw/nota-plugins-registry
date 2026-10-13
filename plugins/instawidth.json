@@ -1,0 +1,47 @@
+{
+  "id": "instawidth",
+  "name": "InstaWidth",
+  "developer": "Ariel Hartung",
+  "description": "Free, open-source M/S stereo width plugin (3-band + Monomaker + side tilt + side de-esser, switchable min/linear phase). VST3/AU/LV2 via JUCE.",
+  "repo": "https://github.com/hariel1985/InstaWidth",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "InstaWidth"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-Linux-x64.zip",
+          "sha256": "eef89f2efb14b39d296e17a1576b1aa3bb1266822f8e5dc4a26ddbe3f07a1c8e",
+          "size": 5347166,
+          "bundles": [
+            "VST3/InstaWidth.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-macOS.zip",
+          "sha256": "8db7a5632b6c45eb4a13cc3fcbbdedabd88efd3993688af2daa26075e861cd7d",
+          "size": 8714081,
+          "bundles": [
+            "VST3/InstaWidth.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-Win64.zip",
+          "sha256": "3458bb625b24910a0d03c59671b8aa0dc8b8a31961814fcf98c5bf0394ac15a1",
+          "size": 3717538,
+          "bundles": [
+            "InstaWidth.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

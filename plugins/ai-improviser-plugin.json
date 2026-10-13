@@ -1,0 +1,39 @@
+{
+  "id": "ai-improviser-plugin",
+  "name": "MIDI Markov Rebuilt",
+  "developer": "Matthew Yee-King",
+  "description": "A VST plugin that learns from an incoming MIDI stream and improvises with what it has learnt",
+  "repo": "https://github.com/yeeking/ai-improviser-plugin",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MIDI Markov Rebuilt"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/yeeking/ai-improviser-plugin/releases/download/v4.0/mac_v4.zip",
+          "sha256": "bdaa73e27b8c09b6bc56707a69ea3a5ffdfed9ef104b5b2cf59d98a4a4e50031",
+          "size": 11278893,
+          "bundles": [
+            "mac/VST3/MIDI Markov Rebuilt.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/yeeking/ai-improviser-plugin/releases/download/v4.0/win_v4.zip",
+          "sha256": "efb90e64928e4003c316ba3abda86e99394737974f2f238c744f9a5de05d672a",
+          "size": 5855219,
+          "bundles": [
+            "win/VST3/MIDI Markov Rebuilt.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

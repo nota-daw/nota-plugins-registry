@@ -1,0 +1,41 @@
+{
+  "id": "omniamp",
+  "name": "OmniAmp",
+  "developer": "ArborealAudio",
+  "description": "Multi-purpose audio tool. Distortion, compression, reverb, guitar, bass",
+  "homepage": "https://arborealaudio.com/plugins/omniamp",
+  "repo": "https://github.com/ArborealAudio/OmniAmp",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "OmniAmp"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-linux.tar.xz",
+          "sha256": "4cbe8a81ce4e522b1e9aacea5ec35cf9d20a441d583cd8bbd790c1f35a602986",
+          "size": 2359408,
+          "bundles": [
+            "OmniAmp-linux/VST3/OmniAmp.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-mac.dmg",
+          "sha256": "cadd025c0d341f19b3672699aa6349f62306919ab6a8819304b5229da63b8b11",
+          "size": 9884682,
+          "inner": "OmniAmp.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/OmniAmp.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

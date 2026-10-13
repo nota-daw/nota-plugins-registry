@@ -1,0 +1,48 @@
+{
+  "id": "two-filters",
+  "name": "Two Filters",
+  "developer": "Paul",
+  "description": "Two Filters. Download the plugin here: https://github.com/baconpaul/two-filters/releases/tag/Nightly",
+  "repo": "https://github.com/baconpaul/two-filters",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Two Filters"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Linux-2026-07-03-b6d9bd3.zip",
+          "sha256": "157f56f6d0fa809fbfaf204d6de35a97780a9fd43ec7ebf699791055840c662e",
+          "size": 16077592,
+          "bundles": [
+            "two-filters_assets/Two Filters.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-macOS-2026-07-03-b6d9bd3.dmg",
+          "sha256": "3e023271218de19d58bf119ec1525aa33ea95c9fe414e9ce23b6b4a193f77ada",
+          "size": 33796914,
+          "inner": "two-filters-macOS-2026-07-03-b6d9bd3.pkg",
+          "bundles": [
+            "two-filters_VST3.pkg/Payload/Two Filters.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Windows-2026-07-03-b6d9bd3.zip",
+          "sha256": "2e0cdcfdcd922cba50cfe2ddfea25ca4f0c81c388fd64d88b1cd32e79902a75a",
+          "size": 7479362,
+          "bundles": [
+            "installer_copy/Two Filters.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

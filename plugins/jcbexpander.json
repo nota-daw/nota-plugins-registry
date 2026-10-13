@@ -1,0 +1,32 @@
+{
+  "id": "jcbexpander",
+  "name": "JCBExpander",
+  "developer": "cjitter",
+  "description": "Plugin expansor de audio hecho con gen~, Plugin Export y JUCE",
+  "repo": "https://github.com/cjitter/JCBExpander",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JCBExpander"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/cjitter/JCBExpander/releases/download/v1.0.1/JCBExpander-Installer.dmg",
+          "sha256": "4de58d154d68ffa150251f8739fcbfbbeb77fffa967693ab28f2a91f10c936e3",
+          "size": 32628014,
+          "inner": "JCBExpander-v1.0.1.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/JCBExpander.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

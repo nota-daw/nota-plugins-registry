@@ -1,0 +1,42 @@
+{
+  "id": "cycloscope",
+  "name": "Cycloscope",
+  "developer": "Eyal Delarea",
+  "description": "Cycloscope — a waveform / single-cycle / spectrum / stereo analyzer audio plugin for macOS (VST3 + AU), built in JUCE.",
+  "repo": "https://github.com/EyalDelarea/Cycloscope",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "gpl-3-0",
+    "oscilloscope"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Cycloscope"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.pkg",
+          "sha256": "9d6ac292b731ab17901289f47d84da6c99d053050c7f2e001b495050fb6bcf71",
+          "size": 17716690,
+          "bundles": [
+            "vst3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Cycloscope.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-Windows.zip",
+          "sha256": "dd66d28b6a4be0cbf1a0bb4e1bf002c671e0c528aa3bf33cb984578b2e1b7b11",
+          "size": 7179250,
+          "bundles": [
+            "Cycloscope.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

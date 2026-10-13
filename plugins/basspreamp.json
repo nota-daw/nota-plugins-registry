@@ -1,0 +1,39 @@
+{
+  "id": "basspreamp",
+  "name": "BassPreamp v1",
+  "developer": "Guillermo Moñino Cánovas",
+  "description": "A JUCE audio plugin that combines ideas from multiple bass effects in a single unit.",
+  "repo": "https://github.com/gmoican/BassPreamp",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BassPreamp v1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-macOS.zip",
+          "sha256": "e3395cf83d429b669f169d630730d889210de4a2ec76a6fd6ad3a3c4d2686aae",
+          "size": 10520408,
+          "bundles": [
+            "VST3/BassPreamp v1.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-Windows.zip",
+          "sha256": "986d5701507e989d0a35cdf3c39556e89735b3a713d1dd9b6da3747b7bc7c0f0",
+          "size": 3969790,
+          "bundles": [
+            "BassPreamp v1.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

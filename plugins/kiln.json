@@ -1,0 +1,31 @@
+{
+  "id": "kiln",
+  "name": "Kiln",
+  "developer": "Martin Morrell",
+  "description": "Kiln — a multiband linear-phase crossover plugin with per-band compression, limiting, and saturation. Built in JUCE/C++, it splits audio into phase-coherent bands so each can be independently…",
+  "repo": "https://github.com/mm-rnd/Kiln",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Kiln"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/mm-rnd/Kiln/releases/download/v0.0.1/Kiln_v0_0_1_macOS.zip",
+          "sha256": "2b63b6d1d21cf8d723e9d53eea4fad4db5302ae6eb0f2cf4df0723cfe6170565",
+          "size": 7118192,
+          "bundles": [
+            "VST3/Kiln.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

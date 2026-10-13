@@ -1,0 +1,47 @@
+{
+  "id": "audiorestorationvst",
+  "name": "Vinyl Restoration Suite v1.6.36",
+  "developer": "flarkAUDIO",
+  "description": "Audio restoration VST3/Standalone - Click removal, noise reduction, filters & EQ",
+  "repo": "https://github.com/flarkflarkflark/AudioRestorationVST",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Vinyl Restoration Suite v1.6.36"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.6.36",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-VST3.zip",
+          "sha256": "b3d970780ff9b7f8dd8524583924772d8c58368644e133c84ce176f494ee372b",
+          "size": 14225965,
+          "bundles": [
+            "AudioRestoration-Linux.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-Universal-Ventura-v1.6.36-VST3.zip",
+          "sha256": "240fcf64c15f477f328239e63c9e7e6df2c17ab7926f28fc5b5c625615b12eaf",
+          "size": 17722656,
+          "bundles": [
+            "AudioRestoration-macOS-Universal-Ventura.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip",
+          "sha256": "faaf5793d67c80b3ee4ad3b2f64bc832efda988d05803f2f9885b0cb6b248b0a",
+          "size": 13993020,
+          "bundles": [
+            "AudioRestoration-Windows.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

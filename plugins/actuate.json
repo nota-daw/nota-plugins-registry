@@ -1,0 +1,52 @@
+{
+  "id": "actuate",
+  "name": "Actuate",
+  "developer": "ardura",
+  "description": "Synthesizer, Sampler, Granulizer written in Rust with Nih-Plug and egui",
+  "repo": "https://github.com/ardura/Actuate",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "granular-synthesis",
+    "sampler",
+    "synthesis",
+    "synthesizer"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Actuate"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.5",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_linux_build.zip",
+          "sha256": "00fbd335884bad1b83189fb3b04c65c25ebd0736bff881d2914249f10863901a",
+          "size": 9391468,
+          "bundles": [
+            "Actuate.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_macos_m1_build.zip",
+          "sha256": "5770f2449ca3e9119ad969d6ca3204318505284c826d4462c172337b3dafebd4",
+          "size": 7852616,
+          "bundles": [
+            "Actuate.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_windows_build.zip",
+          "sha256": "cc841cd30e808e85ca8d91f0daefc8ada8d6be5b5f7f697e7bb7edd5739c3aac",
+          "size": 8334394,
+          "bundles": [
+            "Actuate.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

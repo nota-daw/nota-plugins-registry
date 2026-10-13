@@ -1,0 +1,57 @@
+{
+  "id": "contrast",
+  "name": "Contrast",
+  "developer": "James J",
+  "description": "A bundle of free, open-source audio plugins built with the JUCE framework.",
+  "repo": "https://github.com/ImJimmi/Contrast",
+  "license": "MIT",
+  "kind": "bundle",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Gate"
+    },
+    {
+      "format": "VST3",
+      "name": "Pitch"
+    },
+    {
+      "format": "VST3",
+      "name": "Press"
+    },
+    {
+      "format": "VST3",
+      "name": "Verb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0.3260179405",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_macOS.zip",
+          "sha256": "7d8399077baab9cf9c0b77123a6df56f7ecad32576337252ff99c954b1deec7e",
+          "size": 9166006,
+          "bundles": [
+            "Contrast_1.2.0_macOS/Gate.vst3",
+            "Contrast_1.2.0_macOS/Pitch.vst3",
+            "Contrast_1.2.0_macOS/Press.vst3",
+            "Contrast_1.2.0_macOS/Verb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_Windows.zip",
+          "sha256": "f7f58ed999bf2b5a5e8d817038dcf3558a88e637f422a88f352898f15d95e7d2",
+          "size": 6532691,
+          "bundles": [
+            "Contrast_1.2.0_Windows/Gate.vst3",
+            "Contrast_1.2.0_Windows/Pitch.vst3",
+            "Contrast_1.2.0_Windows/Press.vst3",
+            "Contrast_1.2.0_Windows/Verb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

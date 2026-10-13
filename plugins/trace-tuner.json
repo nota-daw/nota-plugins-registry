@@ -1,0 +1,51 @@
+{
+  "id": "trace-tuner",
+  "name": "trace-tuner",
+  "developer": "Simon Heimler",
+  "description": "Minimalistic Audio Tuner Plugin (CLAP, VST3) with a history of the tune.",
+  "repo": "https://github.com/Fannon/trace-tuner",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Trace Tuner"
+    },
+    {
+      "format": "VST3",
+      "name": "TraceTuner"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_linux.zip",
+          "sha256": "723dbb9740411e9d314c8856024c74db4c75f6a127bb53e792be00e961699df2",
+          "size": 4755704,
+          "bundles": [
+            "TraceTuner/TraceTuner.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_macos.zip",
+          "sha256": "27cb8320ff3b16f8db47c89cf39db13697c3a726d10b855986c4b67f9df0e177",
+          "size": 3705746,
+          "bundles": [
+            "TraceTuner/TraceTuner.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_windows.zip",
+          "sha256": "06bbc9cea7fdf130fa07a9c861b79eb997959e8e885c14bc56a59dc4fae52363",
+          "size": 4027397,
+          "bundles": [
+            "TraceTuner/TraceTuner.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

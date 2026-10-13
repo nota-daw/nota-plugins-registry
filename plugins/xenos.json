@@ -1,0 +1,39 @@
+{
+  "id": "xenos",
+  "name": "Xenos",
+  "developer": "Raphael Radna",
+  "description": "Xenos: Xenharmonic Stochastic Synthesizer",
+  "repo": "https://github.com/raphaelradna/xenos",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Xenos"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/raphaelradna/xenos/releases/download/v1.0.1/Xenos-1.0.1_MAC.dmg",
+          "sha256": "10dacac58d06a5048df8040fb0380abd8e37ac8ee80bfba74e74cefb7f02cb15",
+          "size": 3459391,
+          "bundles": [
+            "Xenos.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/raphaelradna/xenos/releases/download/v1.0.1/Xenos-1.0.1_WIN.zip",
+          "sha256": "fa357faf079ece8a86515464f790f71a06182f711ed2c0cf9914c3a6f50fe5e3",
+          "size": 2432084,
+          "bundles": [
+            "Xenos.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

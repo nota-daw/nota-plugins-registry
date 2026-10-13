@@ -1,0 +1,55 @@
+{
+  "id": "oi-grandad",
+  "name": "oi grandad",
+  "developer": "Modular Samples",
+  "description": "Four-voice granular synth for drones and textures.",
+  "repo": "https://github.com/publicsamples/Oi-Grandad",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "drones",
+    "granular",
+    "hise",
+    "synth"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "oi grandad"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.5.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.5.1/linux.zip",
+          "sha256": "011cd922e00e0f3529bb545e263aeb4b67d75fe8e9ecd6b22e0abd91360e3012",
+          "size": 54384860,
+          "inner": "oi grandad.vst3.zip",
+          "bundles": [
+            "oi grandad.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.5.1/mac.zip",
+          "sha256": "956215a6bf60f986853e9a258cc658e8fc555c75c3e2c00bb676cf70b6958a9a",
+          "size": 114788465,
+          "inner": "oi grandad.vst3.zip",
+          "bundles": [
+            "oi grandad.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.5.1/windows.zip",
+          "sha256": "2cc2e35a7ad39a578377709254223a271e402c0056bedf76d6bd736a9ce6cfc6",
+          "size": 42680195,
+          "inner": "oi grandad.vst3.zip",
+          "bundles": [
+            "oi grandad.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

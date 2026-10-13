@@ -1,0 +1,31 @@
+{
+  "id": "cphaser",
+  "name": "cPhaser",
+  "developer": "Cal Goheen",
+  "description": "Basic phaser audio effect made with JUCE, chowdsp_utils, and foleys_gui_magic",
+  "repo": "https://github.com/calgoheen/cPhaser",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "cPhaser"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/calgoheen/cPhaser/releases/download/1.0.1/cPhaser.v1.0.1.pkg",
+          "sha256": "740377526c69ed5ee16eef3cc5ba1e2a72e4977b1a8d99f440c5a420531f9317",
+          "size": 11060324,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/cPhaser.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

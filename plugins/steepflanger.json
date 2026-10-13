@@ -1,0 +1,56 @@
+{
+  "id": "steepflanger",
+  "name": "SteepFlanger",
+  "developer": "ManasWolrd",
+  "description": "barberpole FIR/IIR flanger plugin.",
+  "homepage": "https://manaswolrd.github.io/index.html#steepflanger",
+  "repo": "https://github.com/ManasWolrd/SteepFlanger",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SteepFlanger"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.1-separate",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-linux-v0.2.1-separate.zip",
+          "sha256": "b1ec1f2a9200d68fb46c92c890d5449eef532e5102a482338afbd205bde040d9",
+          "size": 8855322,
+          "bundles": [
+            "VST3/SteepFlanger.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-arm64-v0.2.1-separate.zip",
+          "sha256": "c209b00f66e03f421c8fc2fa61ce67d8ee341296e434bd931874ca3188a9ce31",
+          "size": 3828523,
+          "bundles": [
+            "VST3/SteepFlanger.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-x64-v0.2.1-separate.zip",
+          "sha256": "4c072dc642841456027869fb1f2fb35d192ad6e6b6385308571954635a949559",
+          "size": 4315707,
+          "bundles": [
+            "VST3/SteepFlanger.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-win-v0.2.1-separate.zip",
+          "sha256": "26328c52aa35200ae47332bfee9790751f76ffa0ca5694728e733e113c1e2beb",
+          "size": 3685410,
+          "bundles": [
+            "VST3/SteepFlanger.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

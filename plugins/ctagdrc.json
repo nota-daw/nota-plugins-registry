@@ -1,0 +1,39 @@
+{
+  "id": "ctagdrc",
+  "name": "CTAGDRC",
+  "developer": "Billy Messenger",
+  "description": "An audio compressor plugin created with JUCE",
+  "repo": "https://github.com/BillyDM/CTAGDRC",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "CTAGDRC"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip",
+          "sha256": "82eb11641479af6a2a9251886de99c6b0073442dec22e32001e8f93144c931a7",
+          "size": 7365964,
+          "bundles": [
+            "VST3/CTAGDRC.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg",
+          "sha256": "a1bba6d9b38573932019c005025820929df85c410d4c1ac2c708a750719b0529",
+          "size": 16501299,
+          "bundles": [
+            "CTAGDRC.vst3.pkg/Payload/CTAGDRC.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

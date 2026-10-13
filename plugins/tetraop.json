@@ -1,0 +1,47 @@
+{
+  "id": "tetraop",
+  "name": "TetraOP",
+  "developer": "TiagoLr",
+  "description": "Four-operator FM synth with wavetable oscillators.",
+  "repo": "https://github.com/tiagolr/tetraop",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "TetraOP"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-linux-v1.0.3.zip",
+          "sha256": "4f304e5ac4275ecfbcc625acfd8dc7a0f6a5ae3553389ecd5af00d27da34b540",
+          "size": 9680499,
+          "bundles": [
+            "tetraop-linux/VST3/TetraOP.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip",
+          "sha256": "63408008a2316d91435473e725be1e5958723873ab111a44eea51f24465b9b94",
+          "size": 14022185,
+          "bundles": [
+            "tetraop-macos/VST3/TetraOP.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
+          "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
+          "size": 7143966,
+          "bundles": [
+            "tetraop-win/VST3/TetraOP.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

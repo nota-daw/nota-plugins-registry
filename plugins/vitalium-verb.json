@@ -1,0 +1,47 @@
+{
+  "id": "vitalium-verb",
+  "name": "VitaliumVerb",
+  "developer": "Billy Messenger",
+  "description": "A Rust port of the reverb module from the Vital/Vitalium synthesizer",
+  "repo": "https://github.com/BillyDM/vitalium-verb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "VitaliumVerb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip",
+          "sha256": "4bb235588bea15af8756f11f35e05285b499a32390c57e21d5cbde932bc31792",
+          "size": 7784042,
+          "bundles": [
+            "vitaliumverb-2025-10-03-191034-ubuntu-22.04/VitaliumVerb.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-macos-universal.zip",
+          "sha256": "412ea5830515bad133944ed1bd8d9b1a9a53cbae83fbac35cce24f5d539c2ea8",
+          "size": 14316368,
+          "bundles": [
+            "vitaliumverb-2025-10-03-191028-macos-universal/VitaliumVerb.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-windows.zip",
+          "sha256": "58a744316dcbea42d0abd7a135f5c266592bb2a39646e930e5d5b2145b001391",
+          "size": 7071712,
+          "bundles": [
+            "vitaliumverb-2025-10-03-191057-windows/VitaliumVerb.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

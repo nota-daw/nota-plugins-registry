@@ -1,0 +1,40 @@
+{
+  "id": "funkymooseviz",
+  "name": "Funky Moose Viz",
+  "developer": "Uwe Arthur Felchle",
+  "description": "boutique-style JUCE audio visualizer plugin for spectrum, waveform, vectorscope and pitch detection",
+  "homepage": "https://www.uwefelchle.at",
+  "repo": "https://github.com/blubass/FunkyMooseViz",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Funky Moose Viz"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/blubass/FunkyMooseViz/releases/download/v1.0.0/FunkyMooseViz-v1.0.0-macOS.zip",
+          "sha256": "78f53b035b9cb8ccdbbb5ace20372c027eb2ed0d2b1516f02f43f444413fbe9c",
+          "size": 18175240,
+          "bundles": [
+            "release/Funky Moose Viz.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/blubass/FunkyMooseViz/releases/download/v1.0.0/FunkyMooseViz-v1.0.0-Windows.zip",
+          "sha256": "ea267eb5273e7b321ce4d94b9bc310789a630583ab8c079a25946a1dcd1e54c4",
+          "size": 10255473,
+          "bundles": [
+            "Funky Moose Viz.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

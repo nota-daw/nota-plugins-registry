@@ -1,0 +1,32 @@
+{
+  "id": "jcbtransient",
+  "name": "JCBTransient",
+  "developer": "cjitter",
+  "description": "Plugin de diseño de transitorios hecho con gen~, Plugin Export y JUCE",
+  "repo": "https://github.com/cjitter/JCBTransient",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JCBTransient"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/cjitter/JCBTransient/releases/download/v1.0.1/JCBTransient-Installer.dmg",
+          "sha256": "9a742290d54ee397480bad3269a75d0da396e0dd8169668550cd12576b7b0bab",
+          "size": 32719501,
+          "inner": "JCBTransient-v1.0.1.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/JCBTransient.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

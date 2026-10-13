@@ -1,0 +1,31 @@
+{
+  "id": "cflanger",
+  "name": "cFlanger",
+  "developer": "Cal Goheen",
+  "description": "Basic flanger audio effect made with JUCE, chowdsp_utils, and foleys_gui_magic",
+  "repo": "https://github.com/calgoheen/cFlanger",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "cFlanger"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/calgoheen/cFlanger/releases/download/1.0.1/cFlanger.v1.0.1.pkg",
+          "sha256": "f141b790c16f3a1ac6aa8c3a72867c51dd7410197d5895b55406b379ca6f49c8",
+          "size": 11069369,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/cFlanger.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -316,12 +316,25 @@ NOISE_TOPICS = {
 }
 
 
-def existing_id(repo_url: str) -> str | None:
-    """The id of the manifest already listing this repo, if any."""
-    for p in reg.PLUGINS.glob("*.json"):
-        m = json.loads(p.read_text(encoding="utf-8"))
-        if m.get("repo", "").lower().rstrip("/") == repo_url.lower().rstrip("/"):
-            return m["id"]
+def existing_id(*repos: str) -> str | None:
+    """The id of the manifest already listing one of these repos (as its source or its
+    releases repo), if any. Pass both the requested and the canonical name, so a renamed
+    or transferred repo still finds its manifest."""
+    by_repo, _ = reg.owners()
+    for r in repos:
+        if reg.repo_key(r) in by_repo:
+            return by_repo[reg.repo_key(r)]
+    return None
+
+
+def name_clash(pid: str, names: list[str]) -> str | None:
+    """'<id> (provides <name>)' when another manifest already provides one of these
+    plugin names: the same plugin from a fork, a mirror or a second implementation."""
+    _, by_name = reg.owners()
+    for n in names:
+        other = by_name.get(("VST3", n.casefold()))
+        if other and other != pid:
+            return f"{other} (provides '{n}')"
     return None
 
 
@@ -340,7 +353,11 @@ def slug(name: str) -> str:
 
 def add_repo(repo: str, tag: str | None, worker: str, max_size: int, id_override: str | None) -> dict:
     meta = gh(f"repos/{repo}")
-    repo = meta["full_name"]
+    asked, repo = repo, meta["full_name"]
+    listed = existing_id(asked, repo)
+    parent = (meta.get("parent") or {}).get("full_name")
+    if not listed and not id_override and parent and existing_id(parent):
+        raise Skip(f"duplicate: fork of {parent}, listed as {existing_id(parent)}")
     lic = (meta.get("license") or {}).get("spdx_id")
     if lic not in reg.LICENSES:
         raise Skip(f"license {lic}")
@@ -407,10 +424,14 @@ def add_repo(repo: str, tag: str | None, worker: str, max_size: int, id_override
     names = sorted(provides)
     instruments = [n for n in names if provides[n]]
     kind = "bundle" if len(names) >= 4 else ("instrument" if instruments else "effect")
-    pid = id_override or existing_id(meta["html_url"]) or free_slug(meta)
-    path = reg.PLUGINS / f"{pid}.json"
     status = "added"
     with _write_lock:
+        # Resolved under the lock: a parallel job may have just written this repo or id.
+        pid = id_override or existing_id(asked, repo) or free_slug(meta)
+        path = reg.PLUGINS / f"{pid}.json"
+        clash = name_clash(pid, names)
+        if clash:
+            raise Skip(f"duplicate of {clash}")
         if path.exists():
             m = json.loads(path.read_text(encoding="utf-8"))
             if m["versions"][0]["version"] == version:

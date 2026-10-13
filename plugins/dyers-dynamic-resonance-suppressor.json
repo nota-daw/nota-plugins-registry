@@ -1,0 +1,31 @@
+{
+  "id": "dyers-dynamic-resonance-suppressor",
+  "name": "DynamicEqualizer",
+  "developer": "Thiago Henrique Gomes Lobato",
+  "description": "DyERS is a dependency-free JUCE/C++ spectral-based Dynamic Equalizer/Resonance Suppressor",
+  "repo": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "DynamicEqualizer"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-VST-MacOS.zip",
+          "sha256": "acf25ca4d13a2a6d84686860e1769b08f51903c80daaafb847d38e42a6150ad0",
+          "size": 1535910,
+          "bundles": [
+            "DynamicEqualizer.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

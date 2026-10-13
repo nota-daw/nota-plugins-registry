@@ -1,0 +1,33 @@
+{
+  "id": "sub-orbit",
+  "name": "SUB ORBIT",
+  "developer": "ECHOES LAB",
+  "description": "Mono-safe low-end stereoizer — VST3 & AU plugin",
+  "repo": "https://github.com/echoeslabmusic/Sub-Orbit",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "stereo-imaging"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SUB ORBIT"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/SubOrbit-Linux-VST3.tar.gz",
+          "sha256": "b10fe67dd684494249f0ba4f532098db031c13765fbd8e2405e308af2e1cd222",
+          "size": 4980196,
+          "bundles": [
+            "SUB ORBIT.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

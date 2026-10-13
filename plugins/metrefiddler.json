@@ -1,0 +1,55 @@
+{
+  "id": "metrefiddler",
+  "name": "MetreFiddler",
+  "developer": "Leon Focker",
+  "description": "VST Plugin creative MIDI processing based on metre.",
+  "repo": "https://github.com/Leon-Focker/MetreFiddler",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MetreFiddler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-ubuntu-latest-x86_64.zip",
+          "sha256": "24ffa825c63d37c28cb45af794ff86c4ac8b8cbfe6be458f2f6db32a9160c188",
+          "size": 19227084,
+          "bundles": [
+            "binary-ubuntu-latest-x86_64/bundled/MetreFiddler.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-macos-latest-aarch64.zip",
+          "sha256": "86573fd38647f5af8c95e7ae1293410047b64b30d005fde1333d1d9f3408e10c",
+          "size": 157287048,
+          "bundles": [
+            "binary-macos-latest-aarch64/bundled/MetreFiddler.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-macos-15-intel-x86_64.zip",
+          "sha256": "83316d8f5991def4e45def062afc95c5881602e1262b4e6a407d360f39cbfe64",
+          "size": 18591274,
+          "bundles": [
+            "binary-macos-15-intel-x86_64/bundled/MetreFiddler.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-windows-latest-x86_64.zip",
+          "sha256": "805212ade5ad6f9c4243499b72b92fb78808844f3f9ed8caa464fb5533af8cd1",
+          "size": 18595084,
+          "bundles": [
+            "binary-windows-latest-x86_64/bundled/MetreFiddler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "qpitch",
+  "name": "QPitch",
+  "developer": "Austin A.",
+  "description": "A free autotune plugin that actually works",
+  "repo": "https://github.com/Skynse/qpitch",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "QPitch"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.0/QPitch-v2.0-linux-vst3.zip",
+          "sha256": "f967a40759145068c0874bca25c3b72a85f692c1d19653c2ea52272f0e691e8a",
+          "size": 4289696,
+          "bundles": [
+            "QPitch.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.0/QPitch-v2.0-macos-universal-vst3.zip",
+          "sha256": "ae81397689afbe0dc4dcac47d054f09a86d1b90e5fc598c290a8f655bf801c5d",
+          "size": 6841962,
+          "bundles": [
+            "QPitch.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.0/QPitch-v2.0-windows-vst3.zip",
+          "sha256": "d88a11e561d381b1cff4d247300c559fb5769897dec3d906b5312c829a864deb",
+          "size": 1675557,
+          "bundles": [
+            "QPitch.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

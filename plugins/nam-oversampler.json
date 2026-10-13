@@ -1,0 +1,47 @@
+{
+  "id": "nam-oversampler",
+  "name": "NAM On Steroids",
+  "developer": "ToneScientist",
+  "description": "Plugin for Neural Amp Modeler with oversampling",
+  "repo": "https://github.com/DLC86/NAM-Oversampler",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "NAM On Steroids"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.3.4",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.3.4/NAM.On.Steroids-v2.3.4-linux-no-GUI.zip",
+          "sha256": "5fc049a9954233f45f02cc5cb6a42cb39da815137e7e2af84cb4215ac809ecd1",
+          "size": 684483,
+          "bundles": [
+            "NAM On Steroids.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.3.4/NAM.On.Steroids-v2.3.4-mac.zip",
+          "sha256": "2a07506af6459b056d9291e3448df78fd6ebfaff482a05c846bf49606a236a9e",
+          "size": 10506044,
+          "bundles": [
+            "NAM On Steroids.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.3.4/NAM.On.Steroids-v2.3.4-win.zip",
+          "sha256": "24ded48a40fecbd378c692cf2c5a696dad79611c214c230434bbef972a76704d",
+          "size": 5175123,
+          "bundles": [
+            "NAM On Steroids.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

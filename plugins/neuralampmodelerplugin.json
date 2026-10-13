@@ -1,0 +1,32 @@
+{
+  "id": "neuralampmodelerplugin",
+  "name": "NeuralAmpModeler",
+  "developer": "Steven Atkinson",
+  "description": "Plugin for Neural Amp Modeler",
+  "repo": "https://github.com/sdatkinson/NeuralAmpModelerPlugin",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "NeuralAmpModeler"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.7.13",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.13/NeuralAmpModeler-v0.7.13-mac.dmg",
+          "sha256": "e9cea7a409fd167e05314d423a298ecb3b2c915eba2f8a514ee0c48a70f39173",
+          "size": 10743450,
+          "inner": "NeuralAmpModeler Installer.pkg",
+          "bundles": [
+            "NeuralAmpModeler_VST3.pkg/Payload/NeuralAmpModeler.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

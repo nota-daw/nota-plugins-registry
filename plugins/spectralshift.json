@@ -1,0 +1,39 @@
+{
+  "id": "spectralshift",
+  "name": "Spectral Shift",
+  "developer": "Kyle Ramsey",
+  "description": "Pitch shifter plugin made using SignalSmith Stretch Library and JUCE.",
+  "repo": "https://github.com/trencrumb/SpectralShift",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Spectral Shift"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip",
+          "sha256": "86a206ad864a1c9e3c389a19959c6ebd93b2a035af699b4da94e77dd845f203e",
+          "size": 8521431,
+          "bundles": [
+            "VST3/Spectral Shift.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-macOS.pkg",
+          "sha256": "dc04dfc74a53fee1eafb2b2d624f69fdaa9e788edbfa59275bbc06a1f3e0fc62",
+          "size": 18460439,
+          "bundles": [
+            "Spectral Shift.vst3.pkg/Payload/Spectral Shift.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

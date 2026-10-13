@@ -1,0 +1,52 @@
+{
+  "id": "six-sines",
+  "name": "six-sines",
+  "developer": "Paul",
+  "description": "That's the right number of sines, I think.",
+  "repo": "https://github.com/baconpaul/six-sines",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Six Sines"
+    },
+    {
+      "format": "VST3",
+      "name": "Six Sines, Seven Outs"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.1/six-sines-Linux-2026-07-20-18ecb36.zip",
+          "sha256": "9b5353eebfec3e462c80ed8c0f53c965e6262bb38537518159cce71de7eace41",
+          "size": 28862299,
+          "bundles": [
+            "six-sines_assets/Six Sines.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.1/six-sines-macOS-2026-07-20-18ecb36.dmg",
+          "sha256": "2da3de486551da88e06162a90ef917019c46a25c01d1ec0cdf5e0416b7394d6c",
+          "size": 63165016,
+          "inner": "six-sines-macOS-2026-07-20-18ecb36.pkg",
+          "bundles": [
+            "six-sines_VST3.pkg/Payload/Six Sines.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.1/six-sines-Windows-2026-07-20-18ecb36.zip",
+          "sha256": "9f7c7fa5cb1c5e11b53c0a9306ee443149cc7bc0a109380dbbe1578f3a7b6e5d",
+          "size": 22398434,
+          "bundles": [
+            "installer_copy/Six Sines.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

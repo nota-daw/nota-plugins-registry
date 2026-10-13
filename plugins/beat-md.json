@@ -1,0 +1,33 @@
+{
+  "id": "beat-md",
+  "name": "BeatMD",
+  "developer": "Paul Jones",
+  "description": "JUCE instrument modelling an old piece of analog gear",
+  "repo": "https://github.com/pauljonescodes/beat-md",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "instrument"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "BeatMD"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD-macos.vst3.zip",
+          "sha256": "d58071a38af6171d8e08b25805282c560f27194901fe44326ab9ea9454cc168d",
+          "size": 4282969,
+          "bundles": [
+            "BeatMD-macos.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

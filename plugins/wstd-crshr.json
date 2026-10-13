@@ -1,0 +1,67 @@
+{
+  "id": "wstd-crshr",
+  "name": "wstd-crshr",
+  "developer": "Wasted Audio",
+  "description": "Simple bit reduction plugin",
+  "repo": "https://github.com/Wasted-Audio/wstd-crshr",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "WSTD CRSHR"
+    },
+    {
+      "format": "VST3",
+      "name": "WSTD_CRSHR"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-arm64.tar.xz",
+          "sha256": "6c4c199969fb91d6fb75df33effe8c6ce8be97cfcb5fe939227b34b7165c4e9b",
+          "size": 889412,
+          "bundles": [
+            "wstd-crshr-v1.1.1/WSTD_CRSHR.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-x86_64.tar.xz",
+          "sha256": "33f11e70a1ee4e97ead0d375520163fd5c03bc4b0edaccf2c0769f6d1798a1f8",
+          "size": 968576,
+          "bundles": [
+            "wstd-crshr-v1.1.1/WSTD_CRSHR.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-universal.pkg",
+          "sha256": "328947ec9dee52cdacdb95e3c0459bfc049041c6c75f8ad128839f7e16592197",
+          "size": 5681350,
+          "bundles": [
+            "dpf-WSTD-CRSHR-vst3bundles.pkg/Payload/WSTD_CRSHR.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-intel.pkg",
+          "sha256": "6f09950e0344025b4c4b11e6a206cdc57d69f0fec63021a7f05e6cb4c22e4d16",
+          "size": 3074289,
+          "bundles": [
+            "dpf-WSTD-CRSHR-vst3bundles.pkg/Payload/WSTD_CRSHR.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win64.zip",
+          "sha256": "5fa9b2b867fa5293bb24cad84a4a4896ae20993fc1f4c46e3f5f8ffb13228e24",
+          "size": 5224569,
+          "bundles": [
+            "wstd-crshr-v1.1.1/WSTD_CRSHR.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

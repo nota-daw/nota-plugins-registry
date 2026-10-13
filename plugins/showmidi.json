@@ -1,0 +1,46 @@
+{
+  "id": "showmidi",
+  "name": "ShowMIDI",
+  "developer": "Geert Bevin",
+  "description": "Multi-platform GUI application to effortlessly visualize MIDI activity",
+  "homepage": "https://uwyn.com",
+  "repo": "https://github.com/gbevin/ShowMIDI",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "midi",
+    "midi-messages",
+    "midi-monitor",
+    "mpe"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ShowMIDI"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-Linux-Ubuntu-22.04.4-x64-1.0.1.tar.bz2",
+          "sha256": "d72e856dec30353ec612f0c8fc2fa0f60752eed7d855e9ad7b11ee15db5b2538",
+          "size": 13976560,
+          "bundles": [
+            "ShowMIDI-1.0.1/vst3/ShowMIDI.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-macOS-1.0.1.zip",
+          "sha256": "ada36b12e072a6e0a04460305bd7da03c0f051102056696b6731d6773025c886",
+          "size": 25768974,
+          "inner": "ShowMIDI-1.0.1.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/ShowMIDI.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

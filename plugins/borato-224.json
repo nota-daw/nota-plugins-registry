@@ -1,0 +1,55 @@
+{
+  "id": "borato-224",
+  "name": "Borato 224",
+  "developer": "Filipe Borato",
+  "description": "A Lexicon 224 emulation VST developed in JUCE, modeling the original 12-bit/20kHz fixed-point DSP architecture, Schroeder-Moorer filter topologies, and time-varying modulation.",
+  "repo": "https://github.com/filipeborato/borato-224",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Borato 224"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-VST3.tar.gz",
+          "sha256": "68523b9fdeffa93c160b55cc7064a3eb67635edc765bf7807325bf8c5ed2c5b8",
+          "size": 4250379,
+          "bundles": [
+            "Borato 224.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-VST3.zip",
+          "sha256": "2ea9b68c5068a4cf55e7ad3374749a9991d4e6cf273db3d3f9c5a23a97fcbf91",
+          "size": 3143819,
+          "bundles": [
+            "Borato 224.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-VST3.zip",
+          "sha256": "99a1e8a8eb7e5ac79cbd9c667783522ca0a67773e3abde55ffd3ff9575a141f8",
+          "size": 3473105,
+          "bundles": [
+            "Borato 224.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-VST3.zip",
+          "sha256": "9f71b2bb61d621906300441b39dfa888836c9fad6fc14908a82b0e313c324fbf",
+          "size": 3051591,
+          "bundles": [
+            "Borato 224.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "unravel-vst",
+  "name": "Unravel",
+  "developer": "ZQ",
+  "description": "Spectral decomposition VST3 plugin for tonal/noise separation",
+  "repo": "https://github.com/themightyzq/unravel-vst",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Unravel"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.6.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Linux.zip",
+          "sha256": "838524f642246faea8225fd17688391f4285f8709b41fec1f5082d13af406f46",
+          "size": 4561876,
+          "bundles": [
+            "Unravel-Linux/Unravel.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-macOS.zip",
+          "sha256": "6ad83e6b2689dce3fddbb0306e21a121ab1d06133f70d556402efde884b66305",
+          "size": 24778061,
+          "bundles": [
+            "Unravel-macOS/Unravel.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Windows.zip",
+          "sha256": "f3b806cd0c7f007f520162f3ce4f6e25251fd627b2178bab963ccb189a9e7b80",
+          "size": 5250849,
+          "bundles": [
+            "Unravel-Windows/Unravel.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

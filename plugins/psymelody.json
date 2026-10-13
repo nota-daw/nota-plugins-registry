@@ -1,0 +1,40 @@
+{
+  "id": "psymelody",
+  "name": "PsyMelody",
+  "developer": "efirio-git",
+  "description": "Psytrance Melody Generator - VST3/AU plugin by EDEN",
+  "repo": "https://github.com/efirio-git/PsyMelody",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PsyMelody"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.3",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/efirio-git/PsyMelody/releases/download/v0.1.3/PsyMelody_v0.1.3_Mac.dmg",
+          "sha256": "f4f3d9671fe41b6ed14b8ef4e0c5603ef62874871ca070383e88c5e264d49851",
+          "size": 9830183,
+          "inner": "PsyMelody_Installer.pkg",
+          "bundles": [
+            "PsyMelody_VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/PsyMelody.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/efirio-git/PsyMelody/releases/download/v0.1.3/PsyMelody_v0.1.3_Win.zip",
+          "sha256": "9c14ee5b59cb9438d30fcc25f56bc1be229d4f59efda42a80dacf5ef646e8658",
+          "size": 3247120,
+          "bundles": [
+            "PsyMelody_v0.1.3_Win/PsyMelody.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

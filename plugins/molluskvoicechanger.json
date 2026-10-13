@@ -1,0 +1,40 @@
+{
+  "id": "molluskvoicechanger",
+  "name": "Mollusk Voice Changer",
+  "developer": "Ito Hyakkei",
+  "description": "Real-time voice changer app and VST3 plugin",
+  "repo": "https://github.com/hyakkei/MolluskVoiceChanger",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Mollusk Voice Changer"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_mac.zip",
+          "sha256": "15cca2470f590ae86beb5321355e1bc3d2d45411e4773207b7d1597a619ddc8a",
+          "size": 12649716,
+          "inner": "Mollusk Voice Changer/MolluskVoiceChanger-1.1.0.pkg",
+          "bundles": [
+            "MolluskVST3.pkg/Payload/Mollusk Voice Changer.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_win.zip",
+          "sha256": "36405adfac1609fddcb07a735ba5a18bff696e979327f8fe73e616a6985200c4",
+          "size": 9392634,
+          "bundles": [
+            "Mollusk Voice Changer_1.1.0_win/Mollusk Voice Changer.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

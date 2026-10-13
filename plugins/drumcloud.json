@@ -1,0 +1,31 @@
+{
+  "id": "drumcloud",
+  "name": "DrumCloud",
+  "developer": "Fuimadane",
+  "description": "Granular instrument for your own samples, with a cloud reverb and a sweepable filter.",
+  "repo": "https://github.com/Chmod666music/DPF",
+  "license": "ISC",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "d_drumcloud"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.8.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Chmod666music/DPF/releases/download/v1.8.1/DrumCloud-Fuimadane-VST3-Linux-v1.8.1.zip",
+          "sha256": "55a6e34c58a08976a629858325e2e4852f36c054227842b70e68326ce28d7298",
+          "size": 309411,
+          "bundles": [
+            "DrumCloud-VST3/d_drumcloud.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

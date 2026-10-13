@@ -1,0 +1,31 @@
+{
+  "id": "zenbleed",
+  "name": "Zenbleed",
+  "developer": "DspiveyVR",
+  "description": "Zenbleed is a free and open source VST plugin designed specifically for creating Extratone and related genres. It operates both as a MIDI sequencer and sampler to generate Extratone in real time…",
+  "repo": "https://github.com/DspiveyVR/Zenbleed",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Zenbleed"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DspiveyVR/Zenbleed/releases/download/v1.0.0/Zenbleed-1.0.0-Linux.zip",
+          "sha256": "2d30de7a9a98015456be28491d74e2239decc3f36e93703a27ec7da236f5cca6",
+          "size": 5473596,
+          "bundles": [
+            "VST3/Zenbleed.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

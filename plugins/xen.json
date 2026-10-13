@@ -1,0 +1,31 @@
+{
+  "id": "xen",
+  "name": "Xen",
+  "developer": "Florian Mrugalla",
+  "description": "A VSTi that either acts as an MTS-ESP master or transforms input MIDI to MPE in xenharmonic tuning systems.",
+  "repo": "https://github.com/Mrugalla/Xen",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Xen"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2023.09.18",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Mrugalla/Xen/releases/download/vst3/Xen.pkg",
+          "sha256": "afa548cfa0e99b32c9145b2c488efebed6048dae11531aa1cf82c2a63e9ebb12",
+          "size": 6086789,
+          "bundles": [
+            "xen.vst3.pkg/Payload/Xen.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

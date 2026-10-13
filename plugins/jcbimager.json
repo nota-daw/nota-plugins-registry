@@ -1,0 +1,32 @@
+{
+  "id": "jcbimager",
+  "name": "JCBImager",
+  "developer": "cjitter",
+  "description": "Plugin procesador de imagen estéreo multibanda hecho con gen~, Plugin Export y JUCE",
+  "repo": "https://github.com/cjitter/JCBImager",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "JCBImager"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg",
+          "sha256": "c971a665c770e20df4bc029f2356b82924cf85f35869f8be5661eb2a169f15ec",
+          "size": 34029113,
+          "inner": "JCBImager-v1.0.2.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/JCBImager.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

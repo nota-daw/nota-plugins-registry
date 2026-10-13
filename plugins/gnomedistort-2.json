@@ -1,0 +1,42 @@
+{
+  "id": "gnomedistort-2",
+  "name": "GnomeDistort 2",
+  "developer": "Traxx",
+  "description": "Weird & brutal distortion VST plugin",
+  "repo": "https://github.com/crowbait/GnomeDistort-2",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "distortion-effects"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "GnomeDistort 2"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/crowbait/GnomeDistort-2/releases/download/1.0.0/GnomeDistort-2_VST3_linux-x64.zip",
+          "sha256": "7a5428fabc012debead31dcde9b9b66d389205400b33d7bf3f56727255c66961",
+          "size": 2519460,
+          "bundles": [
+            "GnomeDistort 2.vst3"
+          ]
+        },
+        "macos-x64": {
+          "url": "https://github.com/crowbait/GnomeDistort-2/releases/download/1.0.0/GnomeDistort-2_VST3_MacOS-x64.zip",
+          "sha256": "1925f1b63b0ea517b85a40fde84cef36b7687970b902a9adeb8b15c56cd22024",
+          "size": 2352779,
+          "bundles": [
+            "GnomeDistort 2.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

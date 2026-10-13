@@ -1,0 +1,57 @@
+{
+  "id": "ob-xf",
+  "name": "OB-Xf",
+  "developer": "Surge Synthesizer Team",
+  "description": "OB-Xf is a continuation and modernatization of the last open source release of OB-Xd by 2DaT and later discoDSP. It is inspired by the venerable Oberheim OB-X. Get the nightly…",
+  "homepage": "https://github.com/surge-synthesizer/OB-Xf",
+  "repo": "https://github.com/surge-synthesizer/OB-Xf",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "OB-Xf"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
+          "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
+          "size": 21867343,
+          "bundles": [
+            "obxf_products/OB-Xf.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-macOS-v1.0.3.dmg",
+          "sha256": "e6f52f453c476dfafbd3225b80c5c3ec341ec20be5748c6f70c01cef14e7e7a8",
+          "size": 60657850,
+          "inner": "ob-xf-macOS-v1.0.3.pkg",
+          "bundles": [
+            "ob-xf_VST3.pkg/Payload/OB-Xf.vst3"
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-arm64ec-v1.0.3.zip",
+          "sha256": "de209de562f5ee1eb3a12f1bf30bcf4093768fc1013739793a0379c2068e37c4",
+          "size": 8528420,
+          "bundles": [
+            "obxf_products/OB-Xf.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.zip",
+          "sha256": "149fda0649daf8a3aa0851801f92515f0dbf6203acf33c0edc7d3c445e80b1e7",
+          "size": 9222959,
+          "bundles": [
+            "obxf_products/OB-Xf.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

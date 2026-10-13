@@ -1,0 +1,51 @@
+{
+  "id": "dm-fuzz",
+  "name": "dm-Fuzz",
+  "developer": "Dave Mollen",
+  "description": "Mono fuzz effect.",
+  "repo": "https://github.com/davemollen/dm-Fuzz",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Fuzz"
+    },
+    {
+      "format": "VST3",
+      "name": "dm-Fuzz"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-ubuntu.zip",
+          "sha256": "11af8de837801358e4fb19c62f15badf5d26ef7ee2fa1a8d4bc8607abbc288f6",
+          "size": 8337608,
+          "bundles": [
+            "dm-Fuzz-ubuntu/dm-Fuzz.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-macos.zip",
+          "sha256": "d69f80d8d8fb55460ea651cb923378ba0e0f916de82518baf0ae66f405b139c5",
+          "size": 21583466,
+          "bundles": [
+            "dm-Fuzz-macos/dm-Fuzz.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-windows.zip",
+          "sha256": "ae2707cc66a10b836f1bb41a6a5f099bca6a4289047e3478fae726b3a4167a95",
+          "size": 7511618,
+          "bundles": [
+            "dm-Fuzz-windows/dm-Fuzz.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

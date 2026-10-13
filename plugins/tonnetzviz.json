@@ -1,0 +1,31 @@
+{
+  "id": "tonnetzviz",
+  "name": "TonnetzViz",
+  "developer": "Dušan Zatkovský",
+  "description": "VST3 audio plug-in that visualizes the Tonnetz grid, shows active notes, highlights chords, and keeps a history of recognized chords.",
+  "repo": "https://github.com/dusanmsk/TonnetzViz",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "TonnetzViz"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/dusanmsk/TonnetzViz/releases/download/v0.0.1/TonnetzVST-windows-VST3.zip",
+          "sha256": "c03ccacd0b7633cf800b97604ccfd7a853db743c790b5161c30f23b29f627626",
+          "size": 1577758,
+          "bundles": [
+            "TonnetzViz.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "vertex",
+  "name": "Vertex",
+  "developer": "Lluís Estapé",
+  "description": "Vertex is an audio plugin compressor (VST3/AU/Standalone) developed in C++ using JUCE framework..",
+  "repo": "https://github.com/lluisestape-upc/vertex",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Vertex"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lluisestape-upc/vertex/releases/download/v1.0.1/Vertex-1.0.1-win-x64.zip",
+          "sha256": "46d26904bc5d6705fcf66cf66650f370b267babd99aa507777645273e61dcce1",
+          "size": 2748719,
+          "bundles": [
+            "Vertex.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

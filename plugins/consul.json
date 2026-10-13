@@ -1,0 +1,51 @@
+{
+  "id": "consul",
+  "name": "consul",
+  "developer": "lucianoiam",
+  "description": "CLAP/VST plugin with mixer-like UI for remote MIDI control over the network",
+  "repo": "https://github.com/lucianoiam/consul",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Consul"
+    },
+    {
+      "format": "VST3",
+      "name": "consul"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-linux-x64-1.4.0.zip",
+          "sha256": "e27c903231761c2dd07df7271eea97e938ded07e84589c22bc8c80afb4f37717",
+          "size": 1579833,
+          "bundles": [
+            "consul.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-macos-universal-1.4.0.zip",
+          "sha256": "92b63f972fda6764fa46a06861f60169d97d49b52094a8a545b3502877f01466",
+          "size": 2091500,
+          "bundles": [
+            "consul.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-windows-x64-1.4.0.zip",
+          "sha256": "54b6f323b3d571849a00399418c66b9ecc69a7f22ba94e48d0fbaf94c240c4b6",
+          "size": 2497559,
+          "bundles": [
+            "consul.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "n5ss-chorus",
+  "name": "N5SS-CHORUS",
+  "developer": "n5ssiva",
+  "description": "🎛️ Free lofi dimension chorus plugin — Vintage BBD emulation for warm, wobbly textures. VST3/AU for macOS.",
+  "repo": "https://github.com/n5ssiva/N5SS-CHORUS",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "N5SS-CHORUS"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/n5ssiva/N5SS-CHORUS/releases/download/v1.0.0/n5ssChorus-VST3-macOS.zip",
+          "sha256": "aa439788693bbb9c05770f38de4cfc24220de58f7983d3fce6b4a0d2dd1ca9c1",
+          "size": 1416449,
+          "bundles": [
+            "n5ssChorus_vst3.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

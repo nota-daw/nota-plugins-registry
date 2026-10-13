@@ -1,0 +1,54 @@
+{
+  "id": "live-sampler",
+  "name": "live-sampler",
+  "developer": "Arunas Cesonis",
+  "description": "MIDI controlled live audio sampler plugin",
+  "repo": "https://github.com/arunas-cesonis/live-sampler",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Audio Sampler"
+    },
+    {
+      "format": "VST3",
+      "name": "PyO3 Plugin"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.6",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200530-ubuntu-24.04.zip",
+          "sha256": "c3e8a233f9d74f523741fe28cd6a592df69517ce0845ad56a6077678322f13b1",
+          "size": 15262071,
+          "bundles": [
+            "live-sampler-2025-05-24-200530-ubuntu-24.04/live-sampler-2025-05-24-200530-ubuntu-24.04/Audio Sampler.vst3",
+            "live-sampler-2025-05-24-200530-ubuntu-24.04/live-sampler-2025-05-24-200530-ubuntu-24.04/PyO3 Plugin.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200555-vizia_macos-universal.zip",
+          "sha256": "0404ee4e5580601e94950e06e5cbf99eff2a473cf6aca4d8ec27cc76c49f3b01",
+          "size": 20161892,
+          "bundles": [
+            "live-sampler-2025-05-24-200555-vizia_macos-universal/live-sampler-2025-05-24-200555-vizia_macos-universal/Audio Sampler.vst3",
+            "live-sampler-2025-05-24-200555-vizia_macos-universal/live-sampler-2025-05-24-200555-vizia_macos-universal/PyO3 Plugin.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200526-windows.zip",
+          "sha256": "f59469702bf57a7f6fa9df93f4b67d665640f27b525f20d0fc7a35b128ae18fa",
+          "size": 12174254,
+          "bundles": [
+            "live-sampler-2025-05-24-200526-windows/live-sampler-2025-05-24-200526-windows/Audio Sampler.vst3",
+            "live-sampler-2025-05-24-200526-windows/live-sampler-2025-05-24-200526-windows/PyO3 Plugin.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

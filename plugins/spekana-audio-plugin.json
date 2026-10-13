@@ -1,0 +1,31 @@
+{
+  "id": "spekana-audio-plugin",
+  "name": "SPEKANA",
+  "developer": "Yvonne Yuan",
+  "description": "A C++/JUCE audio plugin for Real-time audio-to-MIDI conversion",
+  "repo": "https://github.com/yvonneQAQ/spekana-audio-plugin",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SPEKANA"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip",
+          "sha256": "2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038",
+          "size": 5784663,
+          "bundles": [
+            "SPEKANA.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spectrumanalyzer",
+  "name": "Spectrum",
+  "developer": "Lluís Estapé",
+  "description": "A real-time Audio Spectrum Analyzer plugin (VST3/Standalone) built with C++ and JUCE.",
+  "repo": "https://github.com/lluisestape-upc/SpectrumAnalyzer",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Spectrum"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lluisestape-upc/SpectrumAnalyzer/releases/download/v2.0.0/Spectrum-2.0.0-win-x64.zip",
+          "sha256": "0088f3d1a4690bb9275e9ce05dc5d0290b31565f69e39ba8a097f430fc459738",
+          "size": 2747411,
+          "bundles": [
+            "Spectrum.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

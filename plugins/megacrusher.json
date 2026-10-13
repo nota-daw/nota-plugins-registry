@@ -1,0 +1,31 @@
+{
+  "id": "megacrusher",
+  "name": "MegaCrusher",
+  "developer": "Lluís Estapé",
+  "description": "VST3 distortion plugin — SOFT/HARD/FOLD saturation, bit-crusher, tone, animated ember UI. Built with JUCE 8.",
+  "repo": "https://github.com/lluisestape-upc/MegaCrusher",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MegaCrusher"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lluisestape-upc/MegaCrusher/releases/download/v1.0.2/MegaCrusher-1.0.2-win-x64.zip",
+          "sha256": "5f909be8d2ec8116523d5c084ed22a442a8d7526b8c6a6d2ffba7dbb0d9f768e",
+          "size": 2349374,
+          "bundles": [
+            "MegaCrusher.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

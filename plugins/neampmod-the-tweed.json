@@ -1,0 +1,31 @@
+{
+  "id": "neampmod-the-tweed",
+  "name": "the-tweed",
+  "developer": "Dan",
+  "description": "A vintage tweed amplifier plugin inspired by classic 1950s circuits",
+  "repo": "https://github.com/danielwray/neampmod-the-tweed",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "the-tweed"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.0.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v4.0.0/neampmod-the-tweed-linux-v4.0.0.vst3.tar.gz",
+          "sha256": "2995d44ee2ebc27034af19d607485d85cee92b53bcb7e0ffacf6276f8a917084",
+          "size": 26930753,
+          "bundles": [
+            "the-tweed.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sn76489",
+  "name": "SN76489",
+  "developer": "Roland Rabien",
+  "description": "Sega Master System Sound Chip VST / AU emulation",
+  "homepage": "https://www.socalabs.com",
+  "repo": "https://github.com/FigBug/SN76489",
+  "license": "LGPL-2.1",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SN76489"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.deb",
+          "sha256": "32673f57e12fa69c03fe9fb9a2bc5b3c5ec60faa608512cb5fe6b8cea999e50d",
+          "size": 30146864,
+          "bundles": [
+            "usr/lib/vst3/SN76489.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.pkg",
+          "sha256": "c380b8e1fe40edf26807e631792b81cd90d2b46b533fe4a7ca25dc4430f994e8",
+          "size": 45424887,
+          "bundles": [
+            "vst3.pkg/Payload/SN76489.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

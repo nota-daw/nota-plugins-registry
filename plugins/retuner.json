@@ -1,0 +1,43 @@
+{
+  "id": "retuner",
+  "name": "retuner",
+  "developer": "Kushview",
+  "description": "Pitch shifter that moves audio between tuning standards, such as 440 Hz and 432 Hz, using Rubber Band.",
+  "repo": "https://github.com/kushview/retuner",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "KV-reTuner"
+    },
+    {
+      "format": "VST3",
+      "name": "reTuner"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/kushview/retuner/releases/download/1.1.0/retuner-1.1.0-linux-x86_64.deb",
+          "sha256": "4553cc050129fddf9ad731c50efdfb7494ef6bf34685d5c9b303e221ac920310",
+          "size": 10750588,
+          "bundles": [
+            "usr/lib/x86_64-linux-gnu/vst3/KV-reTuner.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/kushview/retuner/releases/download/1.1.0/retuner-macos-1.1.0.pkg",
+          "sha256": "2b6e980a319b2d4a9ce5d68402626042a1f02b347bcdfe79390f1bdbd963ff24",
+          "size": 19250617,
+          "bundles": [
+            "reTuner_VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/KV-reTuner.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

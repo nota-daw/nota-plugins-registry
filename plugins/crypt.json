@@ -1,0 +1,39 @@
+{
+  "id": "crypt",
+  "name": "Crypt",
+  "developer": "David Whiting",
+  "description": "Hyper-Unison Synthesiser from Bow Church/Vitling",
+  "repo": "https://github.com/vitling/crypt",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Crypt"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/vitling/crypt/releases/download/v0.3.0/crypt-macos-vst3-0.3.0.pkg",
+          "sha256": "a4f3110f559fee5e394a7c04cc1a2020fd01c2e08094c5946d70b04303f20cb7",
+          "size": 2487960,
+          "bundles": [
+            "Payload/Crypt.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/vitling/crypt/releases/download/v0.3.0/crypt-windows-vst3-0.3.0.zip",
+          "sha256": "fe921cfd9b00120868590a8554dba65143430b88f205ae76a229ca2c91a4c052",
+          "size": 1081946,
+          "bundles": [
+            "Crypt.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

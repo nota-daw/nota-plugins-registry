@@ -1,0 +1,40 @@
+{
+  "id": "punkxros-lstm",
+  "name": "Punk Xros",
+  "developer": "Guillermo Moñino Cánovas",
+  "description": "A JUCE audio plugin that pretends to emulate the behaviour of a multiband distortion pedal effect.",
+  "repo": "https://github.com/gmoican/PunkXros_LSTM",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Punk Xros"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/gmoican/PunkXros_LSTM/releases/download/v1.0.0/Punk.Xros-1.0.0-macOS.zip",
+          "sha256": "f4dc19d33a06e67d026a4b3f1ad9ebe9129b164bb47f1fd8ec42f4e10064892a",
+          "size": 5487714,
+          "inner": "Punk Xros-1.0.0-macOS.zip",
+          "bundles": [
+            "Punk Xros.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/gmoican/PunkXros_LSTM/releases/download/v1.0.0/Punk.Xros-1.0.0-Windows.zip",
+          "sha256": "c04c0834e155f09b39fd3dd00dc98cecf08a166d8df9afa0fb3c67133d61bfae",
+          "size": 1566657,
+          "bundles": [
+            "Contents/x86_64-win/Punk Xros.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

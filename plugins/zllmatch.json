@@ -1,0 +1,31 @@
+{
+  "id": "zllmatch",
+  "name": "ZL Loudness Match",
+  "developer": "ZL Audio",
+  "description": "Loudness matching between two signals.",
+  "repo": "https://github.com/ZL-Audio/ZLLMatch",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Loudness Match"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.4",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg",
+          "sha256": "99ba712300c0164117152a33ddc612e4d40f27b9f3dae5a21af7c12c52497420",
+          "size": 5555427,
+          "bundles": [
+            "ZL Loudness Match.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

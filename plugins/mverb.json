@@ -1,0 +1,39 @@
+{
+  "id": "mverb",
+  "name": "Mverb2020",
+  "developer": "Roland Rabien",
+  "description": "Studio reverb based on Dattorro's figure-of-eight structure, an update of Martin Eastwood's MVerb.",
+  "repo": "https://github.com/FigBug/mverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Mverb2020"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.deb",
+          "sha256": "d0af0419bb157d1d10d4dc872e260204e2ba86a12ba16dd54ac35032f706eeab",
+          "size": 21745066,
+          "bundles": [
+            "usr/lib/vst3/Mverb2020.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.pkg",
+          "sha256": "b6e0154a2d78f8225ec0e245338428a69d83dd15cdc0fe9192385cac38050680",
+          "size": 30007825,
+          "bundles": [
+            "vst3.pkg/Payload/Mverb2020.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "monksynth",
+  "name": "MonkSynth",
+  "developer": "Jon Taylor",
+  "description": "A monophonic vocal synthesizer using FOF synthesis, inspired by Delay Lama",
+  "repo": "https://github.com/JonET/monksynth",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "MonkSynth"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Linux.zip",
+          "sha256": "c292decc6c6fe8c0aa9f33c2ac7bedbc002816d97c5180bc262ff0782032ea44",
+          "size": 5871487,
+          "bundles": [
+            "MonkSynth.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-macOS.zip",
+          "sha256": "4e26fe2af9f72259604d6b6cf6e5bc8a2a95dd11494ece6593b50a7c9de5d934",
+          "size": 3182608,
+          "bundles": [
+            "MonkSynth.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Windows.zip",
+          "sha256": "1c878e829eb78c0d1dea5c4add73fccb688a5b3fa31d062a16f37509eeecdd1c",
+          "size": 3433068,
+          "bundles": [
+            "MonkSynth.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "voc",
+  "name": "Voc",
+  "developer": "Roland Rabien",
+  "description": "Quirky vocal synth.",
+  "repo": "https://github.com/FigBug/Voc",
+  "license": "LGPL-2.1",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Voc"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.deb",
+          "sha256": "790dc9c0ab0a4393ff8e32a22460cb2c1db04de98ef9175df563e1c408793130",
+          "size": 30141154,
+          "bundles": [
+            "usr/lib/vst3/Voc.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.pkg",
+          "sha256": "51c8aae1bf336f9e76244c626363c50752e05a3c0cdb1f6b42e1d50d689f2e31",
+          "size": 45423498,
+          "bundles": [
+            "vst3.pkg/Payload/Voc.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

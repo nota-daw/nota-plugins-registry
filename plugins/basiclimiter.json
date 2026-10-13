@@ -1,0 +1,31 @@
+{
+  "id": "basiclimiter",
+  "name": "ESP-L1",
+  "developer": "Lluís Estapé",
+  "description": "VST plugin made with JUCE and C++, this audio limiter plugin operates entirely in the time domain to control signal dynamics and prevent digital clipping at the output stage.",
+  "repo": "https://github.com/lluisestape-upc/BasicLimiter",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ESP-L1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.1",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lluisestape-upc/BasicLimiter/releases/download/v2.0.1/ESP-L1-2.0.1-win-x64.zip",
+          "sha256": "fa16e95c6bb2e128ba2f05e3bdd7a35ce061889da1de57d636601ccae0a410f8",
+          "size": 2757128,
+          "bundles": [
+            "ESP-L1.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uberton",
+  "name": "Tesseract",
+  "developer": "Überton",
+  "description": "Source code for Überton audio plugins.",
+  "homepage": "https://uberton.github.io/",
+  "repo": "https://github.com/Uberton/Uberton",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "physics-simulation"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Tesseract"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Uberton_Tesseract_1-0-2.pkg",
+          "sha256": "ae8c588383f72f0dfe62f0bf1cb02ebff0c762607c98410eed0d09152ffb0a95",
+          "size": 8195796,
+          "bundles": [
+            "Tesseract_VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Tesseract.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

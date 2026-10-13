@@ -1,0 +1,36 @@
+{
+  "id": "plugnspectr",
+  "name": "PlugNspectr",
+  "developer": "Kevin Jenkins",
+  "description": "PlugNspectr analyzes the frequency response, harmonic distortion, dynamics of audio plugins in your DAW in real time.",
+  "repo": "https://github.com/kevin-jenkins/PlugNspectr",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PlugNspectrPost"
+    },
+    {
+      "format": "VST3",
+      "name": "PlugNspectrPre"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/kevin-jenkins/PlugNspectr/releases/download/v1.0.3/PlugNspectr-1.0.3-Windows-x64.zip",
+          "sha256": "4a8d57579f229ffaec7a3f38748ac550d9f5bd83260415e05aa01536b4124086",
+          "size": 5428494,
+          "bundles": [
+            "PlugNspectr-1.0.3-Windows-x64/PlugNspectrPost.vst3",
+            "PlugNspectr-1.0.3-Windows-x64/PlugNspectrPre.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

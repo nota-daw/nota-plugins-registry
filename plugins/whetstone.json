@@ -1,0 +1,31 @@
+{
+  "id": "whetstone",
+  "name": "Whetstone Transient Shaper (macOS)",
+  "developer": "Daniel \"unicornFurnace\" Crowley",
+  "description": "A free, open source transient shaping audio plugin that operates on a specified frequency band",
+  "repo": "https://github.com/unicornsasfuel/whetstone",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Whetstone Transient Shaper (macOS)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "assets": {
+        "macos-x64": {
+          "url": "https://github.com/unicornsasfuel/whetstone/releases/download/v1.0/Whetstone_Transient_Shaper_macOS_VST3.pkg",
+          "sha256": "052eb02354a58feddbd5fd88738bd7ee0a47622725bb6e465950638f99bd1aff",
+          "size": 4499958,
+          "bundles": [
+            "Payload/Whetstone Transient Shaper (macOS).vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

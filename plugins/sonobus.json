@@ -1,0 +1,44 @@
+{
+  "id": "sonobus",
+  "name": "sonobus",
+  "developer": "sonosaurus",
+  "description": "Source code for SonoBus, a real-time network audio streaming collaboration tool.",
+  "homepage": "https://sonobus.net",
+  "repo": "https://github.com/sonosaurus/sonobus",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "aax",
+    "low-latency",
+    "network",
+    "peer-to-peer",
+    "podcasting"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SonoBus"
+    },
+    {
+      "format": "VST3",
+      "name": "SonoBusInstrument"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.7.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
+          "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
+          "size": 140693153,
+          "inner": "SonoBus Installer.pkg",
+          "bundles": [
+            "VST3_Plugin.pkg/Payload/Library/Audio/Plug-Ins/VST3/SonoBus.vst3",
+            "VST3_Plugin.pkg/Payload/Library/Audio/Plug-Ins/VST3/SonoBusInstrument.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

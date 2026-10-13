@@ -66,6 +66,35 @@ def load_manifests() -> list[tuple[Path, dict]]:
     return out
 
 
+def repo_key(url_or_slug: str) -> str:
+    """owner/repo in lower case, from a GitHub URL or an owner/repo slug."""
+    s = re.sub(r"^https?://(www\.)?github\.com/", "", url_or_slug.strip(), flags=re.I)
+    return "/".join(s.split("/")[:2]).removesuffix(".git").lower()
+
+
+def manifest_keys(m: dict) -> tuple[set[str], set[tuple[str, str]]]:
+    """What makes two manifests the same plugin: the repos (source and binaries) and
+    the scanned plugin names, which Nota uses to offer installing a missing plugin."""
+    repos = {repo_key(m.get("repo", ""))}
+    if m.get("releases"):
+        repos.add(repo_key(m["releases"]))
+    names = {(p.get("format", ""), p.get("name", "").casefold()) for p in m.get("provides", [])}
+    return repos, names
+
+
+def owners() -> tuple[dict[str, str], dict[tuple[str, str], str]]:
+    """repo key -> id and (format, plugin name) -> id over every manifest."""
+    by_repo: dict[str, str] = {}
+    by_name: dict[tuple[str, str], str] = {}
+    for _, m in load_manifests():
+        repos, names = manifest_keys(m)
+        for r in repos:
+            by_repo.setdefault(r, m["id"])
+        for n in names:
+            by_name.setdefault(n, m["id"])
+    return by_repo, by_name
+
+
 def archive_kind(asset: dict) -> str | None:
     if "archive" in asset:
         return asset["archive"]
@@ -180,11 +209,20 @@ def cmd_validate(_args) -> int:
     manifests = load_manifests()
     errs: list[str] = []
     ids = set()
+    by_repo: dict[str, str] = {}
+    by_name: dict[tuple[str, str], str] = {}
     for path, m in manifests:
         errs += validate_manifest(path, m)
         if m.get("id") in ids:
             errs.append(f"{path.name}: duplicate id")
         ids.add(m.get("id"))
+        repos, names = manifest_keys(m)
+        for r in sorted(repos):
+            if by_repo.setdefault(r, m.get("id")) != m.get("id"):
+                errs.append(f"{path.name}: repo {r} is already listed by {by_repo[r]}")
+        for n in sorted(names):
+            if by_name.setdefault(n, m.get("id")) != m.get("id"):
+                errs.append(f"{path.name}: {n[0]} '{n[1]}' is already provided by {by_name[n]}")
     for e in errs:
         print("error:", e)
     print(f"{len(manifests)} manifest(s), {len(errs)} error(s)")

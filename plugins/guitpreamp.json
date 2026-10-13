@@ -1,0 +1,39 @@
+{
+  "id": "guitpreamp",
+  "name": "GuitPreamp v1",
+  "developer": "Guillermo Moñino Cánovas",
+  "description": "A JUCE audio plugin that combines ideas from multiple guitar effects in a single unit.",
+  "repo": "https://github.com/gmoican/GuitPreamp",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "GuitPreamp v1"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/gmoican/GuitPreamp/releases/download/v1.0.0/GuitPreamp-macOS.zip",
+          "sha256": "92b00b5b0cb5682d1d78513c76efeb9644ac5cfabee01d48999d356a08712cc4",
+          "size": 10873451,
+          "bundles": [
+            "VST3/GuitPreamp v1.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/gmoican/GuitPreamp/releases/download/v1.0.0/GuitPreamp-Windows.zip",
+          "sha256": "fb189918863e3852efbdda8b6c508e93ffe5b5ea088b3482ac1f24754ef3a49d",
+          "size": 4051123,
+          "bundles": [
+            "GuitPreamp v1.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

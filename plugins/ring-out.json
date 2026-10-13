@@ -1,0 +1,59 @@
+{
+  "id": "ring-out",
+  "name": "Ring Out",
+  "developer": "Dusk Audio",
+  "description": "Feedback eliminator for ringing out stage monitors and PA: finds ringing tones and notches them, up to 20 filters.",
+  "repo": "https://github.com/dusk-audio/dusk-audio-plugins",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Ring Out"
+    },
+    {
+      "format": "VST3",
+      "name": "ring-out"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "assets": {
+        "linux-arm64": {
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/ring-out-v1.1.0/ring-out-linux-arm64.zip",
+          "sha256": "665180d5b9fb866ad1e37159ad355bc020041aec49d0cc2e351a8c1c1b2a5b3d",
+          "size": 4370082,
+          "bundles": [
+            "ring-out-linux-arm64/VST3/ring-out.vst3"
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/ring-out-v1.1.0/ring-out-linux.zip",
+          "sha256": "b228ab9e1f62511f0ef4c7eca69bd678df44ca304e8082a5aa6cb648bd07c01c",
+          "size": 4537585,
+          "bundles": [
+            "ring-out-linux/VST3/ring-out.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/ring-out-v1.1.0/ring-out-macos.zip",
+          "sha256": "aafafd8672d1500167878a53b5f24cb5a960405c0191cc13949537a52d3f7e01",
+          "size": 10846795,
+          "bundles": [
+            "ring-out-macos/VST3/ring-out.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/ring-out-v1.1.0/ring-out-windows.zip",
+          "sha256": "3619b458fde4e07180c13a32354cdfdd6e04e1050f32224e58607d7d17f7e53a",
+          "size": 1838810,
+          "bundles": [
+            "ring-out-windows/VST3/ring-out.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

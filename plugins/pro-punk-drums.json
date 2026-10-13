@@ -1,0 +1,40 @@
+{
+  "id": "pro-punk-drums",
+  "name": "Pro Punk Drums",
+  "developer": "Paul Jones",
+  "description": "JUCE simulation of my drum kit with mixing tools",
+  "homepage": "https://www.propunkstudio.com/product/pro-punk-drums/",
+  "repo": "https://github.com/pauljonescodes/pro-punk-drums",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Pro Punk Drums"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-Linux-VST3.zip",
+          "sha256": "b9b2683cd1e2b0d170c9ee20498751c272230c6b301605844c289b4d0563f8c9",
+          "size": 96790102,
+          "bundles": [
+            "Pro Punk Drums.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-macOS-VST3.pkg",
+          "sha256": "48a18b1b88cb4d19d883acbd70e983adf90191547ce7a0218fdeda58fae73d35",
+          "size": 187874906,
+          "bundles": [
+            "Payload/Library/Audio/Plug-Ins/VST3/Pro Punk Drums.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

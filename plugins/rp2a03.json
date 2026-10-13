@@ -1,0 +1,39 @@
+{
+  "id": "rp2a03",
+  "name": "RP2A03",
+  "developer": "Roland Rabien",
+  "description": "Synth modelled on the NES sound chip (Ricoh 2A03).",
+  "repo": "https://github.com/FigBug/RP2A03",
+  "license": "LGPL-2.1",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "RP2A03"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.10",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.deb",
+          "sha256": "1cb56e45c420cefec89fba4d170e6661604ed5ec59dfb05ea459b241ef4608b8",
+          "size": 30195512,
+          "bundles": [
+            "usr/lib/vst3/RP2A03.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.pkg",
+          "sha256": "5ff5059785a038200f2012dbaf19cf3e7ee00f7a6e7a95834e4de03ceb93a950",
+          "size": 45504935,
+          "bundles": [
+            "vst3.pkg/Payload/RP2A03.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

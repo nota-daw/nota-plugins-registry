@@ -1,0 +1,31 @@
+{
+  "id": "banana-split",
+  "name": "Banana Split",
+  "developer": "Jesús Valdez",
+  "description": "Banana Split is a JUCE-based FM synthesizer with built-in effects, paired with a custom MIDI controller made from Arduino, Makey Makey, and conductive gummies for playful interaction",
+  "repo": "https://github.com/jsvaldezv/banana-split",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Banana Split"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/jsvaldezv/banana-split/releases/download/1.0.0/Banana.Split_1_0_0.pkg",
+          "sha256": "ed21fde5b2c0526740429655d9c2b8bafa4ecf95c9b5e4bbf7446735ed0c1628",
+          "size": 4502896,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/Banana Split.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

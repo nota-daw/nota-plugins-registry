@@ -1,0 +1,31 @@
+{
+  "id": "macro-oscillator",
+  "name": "Macro OSC",
+  "developer": "Reece Mitchell",
+  "description": "Synth built on the Mutable Instruments Braids macro oscillator and its digital oscillator models.",
+  "repo": "https://github.com/Reece4000/macro_oscillator",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Macro OSC"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Reece4000/macro_oscillator/releases/download/v0.1.1/MacroOSC-macOS-arm64-v0.1.1-vst3.zip",
+          "sha256": "4ea8388aba20f610a67ee155c6060158c4cf947c60cb013d2b63350b0b37c9c7",
+          "size": 2629681,
+          "bundles": [
+            "Macro OSC.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

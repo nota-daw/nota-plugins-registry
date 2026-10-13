@@ -1,0 +1,31 @@
+{
+  "id": "zlinflator",
+  "name": "ZL Inflator",
+  "developer": "ZL Audio",
+  "description": "distortion/saturation plugin",
+  "repo": "https://github.com/ZL-Audio/ZLInflator",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Inflator"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.3.0",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg",
+          "sha256": "2b58fb846a1fe2354a3ce51be4ce21bfcad6cb6e142dd41ebef4a234dfc702f3",
+          "size": 5745863,
+          "bundles": [
+            "ZL Inflator.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

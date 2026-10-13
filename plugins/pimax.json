@@ -1,0 +1,33 @@
+{
+  "id": "pimax",
+  "name": "PiMax",
+  "developer": "ArborealAudio",
+  "description": "Loudness maximizer & multiband saturation plugin",
+  "homepage": "https://arborealaudio.com/plugins/pimax",
+  "repo": "https://github.com/ArborealAudio/PiMax",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PiMax"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.2",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ArborealAudio/PiMax/releases/download/v1.1.2/PiMax-mac.dmg",
+          "sha256": "22ab13fa9787e5ce051e005c38f3e16603abbea78065959757f74a0913691e1b",
+          "size": 12551769,
+          "inner": "PiMax.pkg",
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/PiMax.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

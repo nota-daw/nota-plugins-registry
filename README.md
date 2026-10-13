@@ -81,6 +81,21 @@ Descriptions are copied from the repo, so give them an edit before the PR. Keep 
 sentence case, with no format lists and no "free!". Repos that were checked and left out, and why, are in
 [CANDIDATES.md](CANDIDATES.md).
 
+**No duplicates.** One plugin has one manifest. `add.py` updates the existing manifest when the repo is already
+listed, as `repo` or as `releases`, also under its old name after a rename or transfer. It skips a fork of a listed
+repo, and a repo whose scanned VST3 names another manifest already provides (a mirror, or a second implementation
+under the same name), since Nota offers to install a missing plugin by that name. `validate` fails on a repo or a
+VST3 name listed twice.
+
+**From Open Audio Stack.** `import_oas.py` lists the GitHub repos in the
+[Open Audio Stack registry](https://github.com/open-audio-stack/open-audio-stack-registry) that are not here yet,
+nor in CANDIDATES.md, and that have a VST3 file. `add.py` then checks them as usual:
+
+```sh
+python3 scripts/import_oas.py > oas-repos.txt
+python3 scripts/add.py --from-file oas-repos.txt --jobs 6 --report oas-report.jsonl
+```
+
 By hand: `inspect` downloads an asset and prints its size, sha256 and the `.vst3` bundles inside. If it finds
 none, it lists nested archives to retry with `--inner`:
 

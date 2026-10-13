@@ -1,0 +1,47 @@
+{
+  "id": "open-mbc",
+  "name": "Open Mbc",
+  "developer": "maor1993",
+  "description": "Multiband compressor.",
+  "repo": "https://github.com/maor1993/open_mbc",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Open Mbc"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.2",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-ubuntu-22.04.zip",
+          "sha256": "560fed1cc11fb48509c871f2212e1db0c363071652917cb667c4bd24bb170811",
+          "size": 6224109,
+          "bundles": [
+            "open_mbc-v0.2.2-ubuntu-22.04/Open Mbc.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-macos-universal.zip",
+          "sha256": "b0b408c81e48f862e329e58fe041ea37915b47f5472f0c6aca2eb32ae2bee75f",
+          "size": 11084184,
+          "bundles": [
+            "open_mbc-v0.2.2-macos-universal/Open Mbc.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-windows.zip",
+          "sha256": "0f6b5f225cd75c666bff262c94cb6ba74bb49ad1875176f89c38ca8e04efd46d",
+          "size": 5460566,
+          "bundles": [
+            "open_mbc-v0.2.2-windows/Open Mbc.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "absorbiere",
+  "name": "Absorbiere",
+  "developer": "Florian Mrugalla",
+  "description": "Autogain Sidechain Ringmod",
+  "repo": "https://github.com/Mrugalla/Absorbiere",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Absorbiere"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2025.06.04",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Mrugalla/Absorbiere/releases/download/vst/2025-08-24_absorbiere.dmg",
+          "sha256": "988eb81f2d103e26e2eacd444d0833251c68adfa764432bd9d9a978462ed48d2",
+          "size": 3728284,
+          "bundles": [
+            "Absorbiere.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

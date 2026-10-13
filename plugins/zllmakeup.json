@@ -1,0 +1,31 @@
+{
+  "id": "zllmakeup",
+  "name": "ZL Loudness Makeup",
+  "developer": "ZL Audio",
+  "description": "Loudness make-up gain.",
+  "repo": "https://github.com/ZL-Audio/ZLLMakeup",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "ZL Loudness Makeup"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.7",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg",
+          "sha256": "a868df21bf7cb5b7316afead0ecd525968267cd80a4fa80acc3050b06cb8cc9d",
+          "size": 5618707,
+          "bundles": [
+            "ZL Loudness Makeup.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

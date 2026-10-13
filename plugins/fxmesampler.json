@@ -1,0 +1,45 @@
+{
+  "id": "fxmesampler",
+  "name": "FxmeSampler",
+  "developer": "Olivier Doaré",
+  "description": "Sampler with a multi-channel mixer, convolution reverb and velocity mapping, set up by a mapping file.",
+  "repo": "https://github.com/odoare/FxmeSampler",
+  "license": "LGPL-3.0",
+  "kind": "instrument",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "Black Widow Drums"
+    },
+    {
+      "format": "VST3",
+      "name": "CenturyDrums"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-Linux-x86_64.zip",
+          "sha256": "8b12df45d9f507b4aa4283fdea4b4e2425731467713ad894279428f3de562419",
+          "size": 278788137,
+          "bundles": [
+            "vst3_staging/Black Widow Drums.vst3",
+            "vst3_staging/CenturyDrums.vst3"
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-macOS-universal.zip",
+          "sha256": "535840459302e627c4273c2a67b9c0f3d89deab76da3c05740cff4ce2a6ab2d7",
+          "size": 280452907,
+          "bundles": [
+            "vst3_staging/Black Widow Drums.vst3",
+            "vst3_staging/CenturyDrums.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

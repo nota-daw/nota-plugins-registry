@@ -1,0 +1,31 @@
+{
+  "id": "mucap",
+  "name": "mucap",
+  "developer": "polygon",
+  "description": "Retrospective MIDI Recording Plugin",
+  "repo": "https://github.com/polygon/mucap",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "mucap"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.9.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/polygon/mucap/releases/download/v0.9.0/mucap-0.9.0-amd64.deb",
+          "sha256": "b33788ecb1d98a8e0b6ba5df1739928661606052609c61193cdb9fea904e9c33",
+          "size": 13809702,
+          "bundles": [
+            "usr/lib/vst3/mucap.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}
