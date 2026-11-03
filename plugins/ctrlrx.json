@@ -20,22 +20,20 @@
   ],
   "versions": [
     {
-      "version": "5.6.35",
+      "version": "5.6.36",
       "assets": {
         "linux-x64": {
-          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.36-beta-20260917-1427-Linux.zip",
-          "sha256": "19c9851f47427481391e8fe86fac5bae4c28f1ac732f81e7a355beaf16be4745",
-          "size": 22644533,
-          "inner": "CtrlrX-5.6.36-Linux.zip",
+          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.36/ctrlrx-5.6.36-linux-x86_64.tar.gz",
+          "sha256": "022cd5076aed57ddf67b96de7ed84176f6ce8b44ab068fe25c14bf28bc8c2215",
+          "size": 24586455,
           "bundles": [
-            "CtrlrX-5.6.36-Linux-Signed/CtrlrX.vst3"
+            "ctrlrx-5.6.36-linux-x86_64/vst3/CtrlrX.vst3"
           ]
         },
         "macos-universal": {
-          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.36-beta-20260916-macOS.zip",
-          "sha256": "f1e189ddf4cd9376093d5db1a00b2a9438bd88fdfb2ae0a4eac1887bebf6513d",
-          "size": 45322734,
-          "inner": "CtrlrX-5.6.36-macOS.pkg",
+          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.36/CtrlrX-5.6.36-macOS.pkg",
+          "sha256": "1368fcbf7600f6429373d4d23248941e648ffb8ebee67749646f6ea278edaa4f",
+          "size": 47287072,
           "bundles": [
             "CtrlrX.vst3.pkg/Payload/CtrlrX.vst3"
           ]

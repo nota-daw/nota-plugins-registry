@@ -327,6 +327,15 @@ Templates, games, hardware-specific editors, and plugins that need an external a
 - [valeriorlandini/theinformer](https://github.com/valeriorlandini/theinformer) — framework, needs its broadcast app
 - [tone-3000/tone3000-plugin](https://github.com/tone-3000/tone3000-plugin) — loads tones from a TONE3000 account
 
+## Removed: upstream repository gone (3)
+
+Listed once, dropped when the source repository disappeared (deleted, or the source went private) and
+its release assets started returning 404.
+
+- [DatanoiseTV/doobie](https://github.com/DatanoiseTV/doobie) — repository deleted (2026-11)
+- [DatanoiseTV/epi](https://github.com/DatanoiseTV/epi) — repository deleted (2026-11)
+- [ovniaudio/ovni](https://github.com/ovniaudio/ovni) — source gone; installers now in ovniaudio/downloads, no license
+
 ## Duplicates (2)
 
 The same plugin is listed already: its VST3 name or its repo.
