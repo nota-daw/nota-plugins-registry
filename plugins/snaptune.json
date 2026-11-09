@@ -1,0 +1,52 @@
+{
+  "id": "snaptune",
+  "name": "SnapTune",
+  "developer": "Nicolas Fernandez",
+  "description": "Real-time pitch correction (autotune) for vocals, from hard tune to natural, with a 2.7 ms live mode.",
+  "homepage": "https://getsnaptune.com",
+  "repo": "https://github.com/NicoFerni/snaptune",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "autotune",
+    "pitch-correction",
+    "vocal-processing"
+  ],
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "SnapTune"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.2.0",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/NicoFerni/snaptune/releases/download/v2.2.0/SnapTune-2.2.0-Linux.tar.gz",
+          "sha256": "5c88b3c8fc06ce9c2c276c72f25e4d5a85ef62dfc1dad5180e456454abaed9e0",
+          "size": 12485333,
+          "bundles": [
+            "SnapTune-2.2.0-Linux/SnapTune.vst3"
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/NicoFerni/snaptune/releases/download/v2.2.0/SnapTune-2.2.0-macOS.zip",
+          "sha256": "38e476b602cdd7cfe97f29cf86d8d010e8ae28532ef36c0ea53e1e2c056a2f23",
+          "size": 17556685,
+          "bundles": [
+            "SnapTune-2.2.0/SnapTune.vst3"
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/NicoFerni/snaptune/releases/download/v2.2.0/SnapTune-2.2.0-Windows.zip",
+          "sha256": "a6fe50d3f76862a7e3965c3113c5112fd2f69b0148555b8f88d034bed6445a16",
+          "size": 8762277,
+          "bundles": [
+            "SnapTune-2.2.0-Windows/SnapTune.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}
