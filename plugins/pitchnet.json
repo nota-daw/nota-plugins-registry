@@ -1,0 +1,35 @@
+{
+  "id": "pitchnet",
+  "name": "PitchNet",
+  "developer": "Session Loops",
+  "description": "Neural pitch editor: detects vocal notes, lets you edit them in a piano roll and resynthesizes the edits through a vocoder.",
+  "repo": "https://github.com/SessionLoops/PitchNet",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "pitch",
+    "vocals"
+  ],
+  "notes": "The VST3 bundle ships without the neural models; run the official installer once so PitchNet can analyze and resynthesize (models land in /Library/Application Support).",
+  "provides": [
+    {
+      "format": "VST3",
+      "name": "PitchNet"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.7.5",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/SessionLoops/PitchNet/releases/download/v0.7.5/PitchNet_Installer.pkg",
+          "sha256": "1a20d74758fe0fec69bcfaa99d6cbecc8c7e12184c7a3fdbb5ead6cd3dc9df81",
+          "size": 228664024,
+          "bundles": [
+            "VST3.pkg/Payload/Library/Audio/Plug-Ins/VST3/PitchNet.vst3"
+          ]
+        }
+      }
+    }
+  ]
+}

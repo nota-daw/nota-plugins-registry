@@ -292,7 +292,7 @@ Repositories checked for the registry that are **not** listed yet, and why. Re-c
 - [Kanebos9/BASAMAK](https://github.com/Kanebos9/BASAMAK) — BASAMAK-1.6.0-Linux.zip, BASAMAK-1.6.0-macOS.zip, BASAMAK-1.6.0-Windows.zip
 - [VASTDynamics/Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) — Vaporizer2_installer_OSX64_3.5.0.zip, Vaporizer2_installer_win_3.5.0.zip
 
-## Curated out (31)
+## Curated out (30)
 
 Templates, games, hardware-specific editors, and plugins that need an external app, server or API.
 
@@ -316,7 +316,6 @@ Templates, games, hardware-specific editors, and plugins that need an external a
 - [rclement/meeblip-controller](https://github.com/rclement/meeblip-controller) — editor for one hardware synth
 - [RitaAndAurora/kijimi-babu-frik](https://github.com/RitaAndAurora/kijimi-babu-frik) — editor for one hardware synth
 - [rolandzwaga/krate-audio](https://github.com/rolandzwaga/krate-audio) — tags contain "/" (monorepo)
-- [SessionLoops/PitchNet](https://github.com/SessionLoops/PitchNet) — VST3 bundle ships without the neural models; the pkg installer puts them in /Library/Application Support, so the plugin cannot analyze audio when installed from the archive alone
 - [satiricalguru/Beatrice-voicechanger-windows](https://github.com/satiricalguru/Beatrice-voicechanger-windows) — pre-release; voice-changer app
 - [shirohata/vc-rs](https://github.com/shirohata/vc-rs) — needs ONNX models on Windows ML
 - [steveseguin/Ninja-VST3-Plugin](https://github.com/steveseguin/Ninja-VST3-Plugin) — needs VDO.Ninja
